@@ -36,10 +36,10 @@
         <div class="space-y-4 mx-auto text-center">
 
           <div class="space-x-4 pt-4">
-            <a href="https://www.facebook.com/4dollaressay/" class="text-4xl"><i class="fa fa-facebook-f text-white"></i></a>
-            <a href="https://www.instagram.com/4dollaressay/" class="text-4xl"><i class="fa fa-instagram text-white"></i></a>
-            <a href="https://twitter.com/4dollaressay" class="text-4xl"><i class="fa fa-twitter text-white"></i></a>
-            <a href="https://api.whatsapp.com/send/?phone=0012243385225" class="text-4xl"><i class="fa fa-whatsapp text-white"></i></a>
+            <a href="{{ $web_setting->facebook_link }}" class="text-4xl"><i class="fa fa-facebook-f text-white"></i></a>
+            <a href="{{ $web_setting->instagram_link }}" class="text-4xl"><i class="fa fa-instagram text-white"></i></a>
+            <a href="{{ $web_setting->twitter_link }}" class="text-4xl"><i class="fa fa-twitter text-white"></i></a>
+            <a href="{{ $web_setting->whatsapp_no }}" class="text-4xl"><i class="fa fa-whatsapp text-white"></i></a>
           </div>
         </div>
 
@@ -48,10 +48,10 @@
           <div class=" flex flex-col justify-center md:gap-4 sm:flex-row ">
 
             {{-- <a href="{{ route('ca.flag') }}" > --}}
-                <a href="https://ca.4dollaressay.com/">
+                <a href="#">
             <img src="{{asset('imgs/canada.png')}}" class="h-16">
             </a>
-           <a href="https://au.4dollaressay.com/">
+           <a href="#">
             <img src="{{asset('imgs/australia.png')}}" class="h-16">
             </a>
           </div>
@@ -61,9 +61,9 @@
         <div class="space-y-4 mx-auto text-center my-4 md:my-0">
 
           <div class="text-center">
-            <a href="tel:(001)224-338-5225" class="text-base lg:text-xl text-white font-semibold">
-                <i class="fa fa-phone mr-2"></i>(001)224-338-5225</a><br>
-            <a href="mailto:info@4dollaressay.com" class="text-base lg:text-xl text-white font-semibold"><i class="fa fa-envelope mr-2"></i>info@4dollaressay.com</a>
+            <a href="tel:{{ $web_setting->contact }}" class="text-base lg:text-xl text-white font-semibold">
+                <i class="fa fa-phone mr-2"></i>{{ $web_setting->contact }}</a><br>
+            <a href="mailto:{{ $web_setting->email }}" class="text-base lg:text-xl text-white font-semibold"><i class="fa fa-envelope mr-2"></i>{{ $web_setting->email }}</a>
          </div>
         </div>
 
@@ -116,7 +116,7 @@
     <div class="bg-primary-one ">
       <div class="container mx-auto flex flex-col lg:flex-row items-center space-y-4 md:space-y-0 justify-between py-4 md:px-20">
           <p class="mx-6 text-base text-center sm:mx-0 sm:text-left text-white">
-            ©{{ now()->year }} All Rights Reserved. 4dollaressay.com
+            ©{{ now()->year }} All Rights Reserved. {{config('app.name')}}
           </p>
           <a href="https://www.dmca.com/Protection/Status.aspx?ID=bfad670d-608f-4b5b-8574-0c1f15f94dcd&refurl=https://www.4dollaressay.com/services/">
           <img src="{{asset('imgs/dmca_protected_sml_120c.png')}}" class="h-7">
@@ -140,7 +140,7 @@
             }
         </style>
         <div title="WhatsApp us" style="display:flex;justify-content:center;align-items:center;">
-            <a href="https://api.whatsapp.com/send/?phone=0012243385225"  target="_blank">
+            <a href="{{ $web_setting->whatsapp_no }}"  target="_blank">
                 <div class="ctc-analytics ht_ctc_padding" style="background-color: #25D366;padding: 6px;border-radius: 50%;box-shadow: 0px 0px 11px rgba(0,0,0,.5);">
                     <svg style="pointer-events:none; display:block; height:40px; width:40px;" width="40px" height="40px" viewBox="0 0 1219.547 1225.016">
                         <path fill="#E0E0E0" d="M1041.858 178.02C927.206 63.289 774.753.07 612.325 0 277.617 0 5.232 272.298 5.098 606.991c-.039 106.986 27.915 211.42 81.048 303.476L0 1225.016l321.898-84.406c88.689 48.368 188.547 73.855 290.166 73.896h.258.003c334.654 0 607.08-272.346 607.222-607.023.056-162.208-63.052-314.724-177.689-429.463zm-429.533 933.963h-.197c-90.578-.048-179.402-24.366-256.878-70.339l-18.438-10.93-191.021 50.083 51-186.176-12.013-19.087c-50.525-80.336-77.198-173.175-77.16-268.504.111-278.186 226.507-504.503 504.898-504.503 134.812.056 261.519 52.604 356.814 147.965 95.289 95.36 147.728 222.128 147.688 356.948-.118 278.195-226.522 504.543-504.693 504.543z">

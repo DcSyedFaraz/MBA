@@ -329,11 +329,11 @@
                             <ul class="my-2 space-y-2 ">
 
                                 <li class="space-x-3 bg-primary-one text-base text-white p-2"><label>Per Page Price:<span
-                                            class=" float-right ">$<span id="per_page_price" class=" float-right">
-                                                0</span></span></li></label>
+                                            class=" float-right "><span id="per_page_price" class=" ">
+                                                0</span> AED</span></li></label>
                                 <li class="space-x-3 bg-primary-one text-base text-white p-2"><label>Total Price:<span
-                                            class=" float-right ">$<span id="cost" class=" float-right">
-                                                0</span></span></li></label>
+                                            class=" float-right "><span id="cost" class=" ">
+                                                0</span> AED</span></li></label>
                             </ul>
                         </div>
                         <div class=" px-4 my-2 space-x-1 overflow-hidden ">

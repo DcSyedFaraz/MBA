@@ -97,7 +97,7 @@
         </div>
         <nav :class="{'flex': open, 'hidden': !open}" class="flex-col flex-grow pb-4 lg:pb-0 hidden lg:flex lg:justify-center lg:flex-row">
             <a href="{{route('home')}}" class="block font-semibold text-base hover:text-primary-two py-2 px-1 lg:px-2 xl:px-2">Home</a>
-            <ul class="flex toggleable hidden md:block">
+            <ul class="flex toggleable  md:block">
                 <li  class=" group dropdown mt-[0.5rem] text-black hover:text-green-500  cursor-pointer font-bold text-base  tracking-wide">
                       <a href="{{route('services')}}" class="  md:mx-2 lg:mx-0 xl:mx-2 " for="toggle-one">Services</a>
                       <div class="group-hover:block dropdown-menu  hidden bg-green-500  ">
@@ -198,8 +198,8 @@
                 </a>
 
 
-                <a href="https://api.whatsapp.com/send/?phone=0012243385225" class="flex flex-row justify-center items-center text-center hover:text-primary-one text-sm md:text-lg py-3 lg:px-4 xl:px-5 btn xl:py-3 xl:text-sm font-semibold text-white rounded-full  lg:text-xs  bg-primary-two ">
-                    <img src="{{asset('imgs/whatsap.png')}}" alt="Logo" class=" h-6 lg:h-5 xl:h-5 mx-2 lg:mr-2 xl:mx-3 text-center">  (001)224-338-5225
+                <a href="{{ $web_setting->whatsap_no }}" class="flex flex-row justify-center items-center text-center hover:text-primary-one text-sm md:text-lg py-3 lg:px-4 xl:px-5 btn xl:py-3 xl:text-sm font-semibold text-white rounded-full  lg:text-xs  bg-primary-two ">
+                    <img src="{{asset('imgs/whatsap.png')}}" alt="Logo" class=" h-6 lg:h-5 xl:h-5 mx-2 lg:mr-2 xl:mx-3 text-center">  {{ $web_setting->contact }}
                 </a>
             </div>
         </nav>

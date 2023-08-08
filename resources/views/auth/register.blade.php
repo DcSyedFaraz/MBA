@@ -91,7 +91,7 @@
 
         // initialise plugin
         const phoneInput = window.intlTelInput(phone, {
-            preferredCountries: ["us"],
+            preferredCountries: ["ae"],
             separateDialCode : true,
             dropdownContainer : document.body,
             customPlaceholder: function(selectedCountryPlaceholder, selectedCountryData) {

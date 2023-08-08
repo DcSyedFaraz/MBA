@@ -377,12 +377,12 @@
                                 <div
                                     class="bg-primary-one p-3  h-[4.5rem] leading-5 text-white rounded w-full  text-center text-sm  font-semibold">
                                     Per Page Price: <br>
-                                    $ <span id="per_page_price">0</span>
+                                    <span id="per_page_price">0</span> AED
                                 </div>
                                 <div
                                     class="bg-primary-one p-3 h-[4.5rem] md:h-[4.5rem] leading-5 text-white rounded w-full text-center text-sm  font-semibold">
                                     Total Price: <br>
-                                    $ <span id="cost">0</span>
+                                    <span id="cost">0</span> AED
                                 </div>
                             </div>
                             <div class="flex justify-center items-center">
