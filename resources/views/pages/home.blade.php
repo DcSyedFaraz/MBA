@@ -1,6 +1,6 @@
 @extends('layouts.web')
 
-@section('title', 'Cheap Essay Writing Service at $4- Quality Papers Online')
+@section('title', 'Cheap Essay Writing Service at {{ addCurrency(4) }}- Quality Papers Online')
 @section('description',
     'MBA Assignments Help is the cheapest essay writing service in the UAE, which provides expert essay
     writers help for the UAE students at 20% discount rates.')
@@ -309,7 +309,7 @@
             </div>
             {{-- //sm:max-w-sm md:maxd-w-m --}}
             <div class="flex justify-center lg:w-[35%] xl:w-[40%]  px-2 lg:px-0 xl:mt-10 ">
-                <div class="mx-auto lg:mx-0 md:w-full lg:px-4 relative text-white rounded-[3rem] ">
+                <div class="mx-auto lg:mx-0 md:w-full lg:px-4 relative text-black rounded-[3rem] ">
                     <div class=" text-center ">
                         <span
                             class="relative top-3 lg:text-xl text-white text-sm font-semibold bg-primary-one p-4 md:p-2 rounded px-4 md:px-6 xl:px-10 ">
@@ -372,7 +372,7 @@
                                 @enderror
                             </div>
                             <div
-                                class="flex flex-col space-y-4 xl:flex-row lg:space-y-2 xl:space-y-0 xl:space-x-4 justify-center items-center text-black ">
+                                class="flex flex-col space-y-4 xl:flex-row lg:space-y-2 xl:space-y-0 xl:space-x-4 justify-center items-center text-white ">
 
                                 <div
                                     class="bg-primary-one p-3  h-[4.5rem] leading-5 text-white rounded w-full  text-center text-sm  font-semibold">
@@ -387,7 +387,7 @@
                             </div>
                             <div class="flex justify-center items-center">
                                 <a href="{{ route('order') }}"
-                                    class="p-2 rounded-md text-center text-lg bg-primary-two w-full">
+                                    class="p-2 rounded-md text-white text-center text-lg bg-primary-two w-full">
                                     Proceed To Order
                                 </a>
                             </div>
@@ -406,30 +406,30 @@
 
         <div
             class="mt-16 sm:mt-5 grid grid-cols-1 md:grid-cols-2 md:gap-x-10 lg:gap-x-32 gap-y-8 mx-[2rem] lg:mx-[6rem] xl:mx-[2rem] ">
-            <div class="bg-primary-one px-[0.5rem] md:px-8 py-[2rem] md:py-[2rem] lg:py-14 rounded-xl">
+            <div class="bg-primary-three px-[0.5rem] md:px-8 py-[2rem] md:py-[2rem] lg:py-14 rounded-xl">
                 <img alt="img" src="../imgs/Submit-Your-Requirements.png"
                     class=" bg-gradient-to-r from-[#cfe1f1] to-[#6ba5d3] rounded-xl h-[6rem] sm:h-[3.5rem] sm:mt-4 -mt-20 ml-[1rem] sm:-ml-[2rem] lg:h-28   md:mt-2   md:h-24 md:-ml-[4rem] lg:-ml-24 p-[0.5rem] md:p-6 absolute ">
-                <h4 class="text-white text-xl lg:text-2xl mb-2 mx-4 sm:ml-11 mt-10 sm:mt-0 ">Submit Your Requirements</h4>
-                <p class="text-white  text-sm xl:text-lg space-y-2 ml-11">In the first step, you only need to enter your
+                <h4 class="text-black text-xl lg:text-2xl mb-2 mx-4 sm:ml-11 mt-10 sm:mt-0 ">Submit Your Requirements</h4>
+                <p class="text-black  text-sm xl:text-lg space-y-2 ml-11">In the first step, you only need to enter your
                     details and proceed
                     to order. Make sure to send in all requirements to make the most of your order.</p>
             </div>
             {{-- .-ml-12 {
         margin-left: -3rem;
       } --}}
-            <div class="mt-10 sm:mt-0 bg-primary-two px-[0.5rem] md:px-8 py-[2rem]  md:py-[2rem] lg:py-14  rounded-xl">
+            <div class="mt-10 sm:mt-0 bg-primary-three px-[0.5rem] md:px-8 py-[2rem]  md:py-[2rem] lg:py-14  rounded-xl">
                 <img alt="img" src="../imgs/Confirm-Order.png"
                     class=" bg-gradient-to-r from-[#d5ead7] to-[#76bd7e] rounded-xl h-[6rem] sm:h-[3.5rem] md:h-24 lg:h-28 -mt-16 sm:mt-4 md:mt-2 ml-[1rem] sm:-ml-[2rem] md:-ml-[4rem] lg:-ml-24 p-[0.5rem] md:p-6 absolute ">
-                <h4 class="text-white text-xl lg:text-2xl  mb-2  mx-4 sm:ml-11 mt-12 sm:mt-0">Confirm Order</h4>
-                <p class="text-white  text-sm xl:text-lg space-y-2  mx-4  sm:ml-11">Once you’ve entered the details,
+                <h4 class="text-black text-xl lg:text-2xl  mb-2  mx-4 sm:ml-11 mt-12 sm:mt-0">Confirm Order</h4>
+                <p class="text-black  text-sm xl:text-lg space-y-2  mx-4  sm:ml-11">Once you’ve entered the details,
                     confirm the order and wait till we get it done by the finest writers of our team.</p>
             </div>
 
             <div class="mt-10 sm:mt-0 bg-primary-three px-[0.5rem] md:px-8 py-[2rem]  md:py-[2rem] lg:py-14  rounded-xl">
                 <img alt="img" src="../imgs/Proceed-To-Payment.png"
                     class=" bg-gradient-to-r from-[#fbd4bf] to-[#f4935f] rounded-xl h-[6rem] sm:h-[3.5rem] md:h-24 lg:h-28 -mt-16 sm:mt-4 md:mt-2 ml-[1rem] sm:-ml-[2rem] md:-ml-[4rem] lg:-ml-24 p-[0.5rem] md:p-6 absolute  ">
-                <h4 class="text-white text-xl lg:text-2xl mb-2 mx-4 sm:ml-11 mt-12 sm:mt-0">Proceed To Payment </h4>
-                <p class="text-white  text-sm xl:text-lg space-y-2  mx-4  sm:ml-11">Go to the payment methods and choose
+                <h4 class="text-black text-xl lg:text-2xl mb-2 mx-4 sm:ml-11 mt-12 sm:mt-0">Proceed To Payment </h4>
+                <p class="text-black  text-sm xl:text-lg space-y-2  mx-4  sm:ml-11">Go to the payment methods and choose
                     the one that suits you, either Paypal, stripe Payoneer or online banking and proceed to payment.
                 </p>
             </div>
@@ -437,8 +437,8 @@
             <div class="mt-10 sm:mt-0 bg-primary-four px-[0.5rem] md:px-8 py-[2rem]  md:py-[2rem] lg:py-14  rounded-xl">
                 <img alt="img" src="../imgs/Wait-For-Submission.png"
                     class=" bg-gradient-to-r from-[#eed1e6] to-[#ce7cb7] rounded-xl h-[6rem] sm:h-[3.5rem] md:h-24 lg:h-28 -mt-16 sm:mt-4 md:mt-2 ml-[1rem] sm:-ml-[2rem] md:-ml-[4rem] lg:-ml-24 p-[0.5rem] md:p-6 absolute  ">
-                <h4 class="text-white text-xl lg:text-2xl  mx-4 sm:ml-11 mt-12 sm:mt-0">Wait For Submission </h4>
-                <p class="text-white text-sm xl:text-lg space-y-2  mx-4  sm:ml-11">After the three step process, sit back
+                <h4 class="text-black text-xl lg:text-2xl  mx-4 sm:ml-11 mt-12 sm:mt-0">Wait For Submission </h4>
+                <p class="text-black text-sm xl:text-lg space-y-2  mx-4  sm:ml-11">After the three step process, sit back
                     and relax until we deliver you your essay before the deadline. Don’t worry about the quality as it’s the
                     top priority for us.
                 </p>
@@ -456,7 +456,7 @@
                 </h3>
                 <p class="text-primary pb-4  primary-para">
                     Hey, wait! Are you thinking that we compromise quality while giving you cheapest essay writing help? The
-                    answer is NO. Our essay writing charges start as low as $4 topped with quality.
+                    answer is NO. Our essay writing charges start as low as {{ addCurrency(4) }} topped with quality.
                 </p>
                 <p class="text-primary pb-4  primary-para">
                     So, if you’re a student in Chicago, NewYork, Los Angeles, Houston, Dallas, Miami, or anywhere in the
@@ -485,66 +485,66 @@
 
             <div class=" w-full sm:w-[75%] md:w-[50%] lg:w-[45%] xl:w-[35%] ">
                 <div class="py-2 px-9 border-4 rounded-xl border-primary-three bg-primary-box  md:p-4 ">
-                    <p class="text-white text-2xl font-semibold text-center">Free Features</p>
+                    <p class="text-black text-2xl font-semibold text-center">Free Features</p>
 
                     <ul class="my-3 space-y-1 ">
                         <li
-                            class="space-x-3 border-b pb-2 text-sm border-white border-dashed text-white flex justify-between">
+                            class="space-x-3 border-b pb-2 text-sm border-white border-dashed text-black flex justify-between">
                             <p class="w-[48%] lg:my-1 ">Plagiarism Report</p>
-                            <span class="text-center lg:my-1  ">for <del>$4</del></span>
+                            <span class="text-center lg:my-1  ">for <del>{{ addCurrency(4) }}</del></span>
                             <strong class="float-right lg:my-1 ">Free</strong>
                         </li>
 
                         <li
-                            class="space-x-3  border-b text-sm pb-2 border-white border-dashed text-white text-lg flex justify-between">
+                            class="space-x-3  border-b text-sm pb-2 border-white border-dashed text-black text-lg flex justify-between">
                             <p class="w-[48%] lg:my-1 ">Formatting</p>
-                            <span class="text-center lg:my-1">for <del>$4</del></span>
+                            <span class="text-center lg:my-1">for <del>{{ addCurrency(4) }}</del></span>
                             <strong class="float-right lg:my-1 ">Free</strong>
                         </li>
 
                         <li
-                            class="space-x-3 border-b pb-2 text-sm border-white border-dashed text-white text-lg flex justify-between">
+                            class="space-x-3 border-b pb-2 text-sm border-white border-dashed text-black text-lg flex justify-between">
                             <p class="w-[48%] lg:my-1 ">Title page</p>
-                            <span class="text-center lg:my-1">for <del>$4</del></span>
+                            <span class="text-center lg:my-1">for <del>{{ addCurrency(4) }}</del></span>
                             <strong class="float-right lg:my-1">Free</strong>
                         </li>
 
                         <li
-                            class="space-x-3 border-b pb-2 text-sm border-white border-dashed text-white text-lg flex justify-between">
+                            class="space-x-3 border-b pb-2 text-sm border-white border-dashed text-black text-lg flex justify-between">
                             <p class="w-[48%] lg:my-1">Bibliography</p>
-                            <span class="text-center lg:my-1">for <del>$4</del></span>
+                            <span class="text-center lg:my-1">for <del>{{ addCurrency(4) }}</del></span>
                             <strong class="float-right lg:my-1">Free</strong>
                         </li>
 
                         <li
-                            class="space-x-3 border-b pb-2 text-sm border-white border-dashed text-white text-lg flex justify-between">
+                            class="space-x-3 border-b pb-2 text-sm border-white border-dashed text-black text-lg flex justify-between">
                             <p class="w-[48%] lg:my-1 ">Outline</p>
-                            <span class="text-center lg:my-1">for <del>$4</del></span>
+                            <span class="text-center lg:my-1">for <del>{{ addCurrency(4) }}</del></span>
                             <strong class="float-right lg:my-1">Free</strong>
                         </li>
 
                         <li
-                            class="space-x-3 border-b pb-2 text-sm border-white border-dashed text-white text-lg flex justify-between">
+                            class="space-x-3 border-b pb-2 text-sm border-white border-dashed text-black text-lg flex justify-between">
                             <span class="w-[49%] lg:my-1">Limitless Amendments</span>
-                            <span class="text-center lg:my-1">for <del>$4</del></span>
+                            <span class="text-center lg:my-1">for <del>{{ addCurrency(4) }}</del></span>
                             <strong class="float-right lg:my-1 ">Free</strong>
                         </li>
                     </ul>
 
-                    <p class="text-white text-base lg:text-xl font-semibold py-2 lg:py-0 text-center">Get all these
+                    <p class="text-black text-base lg:text-xl font-semibold py-2 lg:py-0 text-center">Get all these
                         features for</p>
                     <div class="grid grid-cols-2 w-3/5 mx-auto">
                         <div class="mx-auto">
-                            <span class="font-semibold text:lg sm:text-xl text-white"><del>$24</del></span>
+                            <span class="font-semibold text:lg sm:text-xl text-black"><del>{{ addCurrency(24) }}</del></span>
                         </div>
                         <div class="mx-auto">
-                            <span class="font-semibold text:lg sm:text-xl text-white">FREE</span>
+                            <span class="font-semibold text:lg sm:text-xl text-black">FREE</span>
                         </div>
                     </div>
 
                     <div class="flex justify-center items-center ">
                         <a href="{{ route('order') }}"
-                            class="py-2 px-4 primary-para rounded-full bg-white text-black mt-4">
+                            class="py-2 px-4 primary-para  border-black border rounded-full bg-white text-black mt-4">
                             Order Now
                         </a>
                     </div>
@@ -562,7 +562,7 @@
         <p class="text-left md:text-center my-6  mx-10 primary-para">If you’re continuously missing the deadlines, there’s
             something you’re doing wrong
             and you need to find it. It’s best to take consultation from those who have already travelled the path.
-            Here at 4$ essay we provide you a wide range of writing services that includes</p>
+            Here at {{ addCurrency(4) }} essay we provide you a wide range of writing services that includes</p>
 
         <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 xl:grid-cols-3 gap-0 mt-5">
             <div class=" border-0 px-9 md:border-r-4 pr-2 border-b-4  border-primary-one md:p-4">
@@ -696,32 +696,32 @@
 
                 <div class="flex flex-col md:space-x-8 items-center md:flex-row space-y-4 md:space-y-0">
                     <div target-data="0"
-                        class="divbutton cursor-pointer bg-primary-next5 w-[95%] md:w-[50%] xl:w-full px-8 lg:px-4 py-4 rounded-xl flex flex-row space-x-4">
+                        class="divbutton cursor-pointer border-black border-2 bg-primary-next5 w-[95%] md:w-[50%] xl:w-full px-8 lg:px-4 py-4 rounded-xl flex flex-row space-x-4">
                         <img alt="img" src="../imgs/pie-chart.png" class="h-14">
-                        <p id='' class="text-white text-sm md:text-primary mt-2 xl:mt-0  font-semibold ">
+                        <p id='' class="text-black text-sm md:text-primary mt-2 xl:mt-0  font-semibold ">
                             Budget-Friendly Cost</p>
                     </div>
 
                     <div target-data="1"
-                        class="divbutton   cursor-pointer bg-primary-next w-[95%] md:w-[50%] xl:w-full px-8 py-4 rounded-xl flex flex-row space-x-4">
+                        class="divbutton   cursor-pointer border-black border-2 bg-primary-next w-[95%] md:w-[50%] xl:w-full px-8 py-4 rounded-xl flex flex-row space-x-4">
                         <img alt="img" src="../imgs/equalizer.png" class="h-14">
-                        <p class="text-white text-sm md:text-primary mt-2 md:mt-0 font-semibold">Perfectly Customized</p>
+                        <p class="text-black text-sm md:text-primary mt-2 md:mt-0 font-semibold">Perfectly Customized</p>
                     </div>
                 </div>
 
                 <div class="flex flex-col md:space-x-8 items-center md:flex-row space-y-4 md:space-y-0">
 
                     <div target-data="2"
-                        class="divbutton  cursor-pointer bg-primary-next1 w-[95%] md:w-[50%]  px-8 lg:px-4 py-4 rounded-xl flex flex-row space-x-4">
+                        class="divbutton  cursor-pointer border-black border-2 bg-primary-next1 w-[95%] md:w-[50%]  px-8 lg:px-4 py-4 rounded-xl flex flex-row space-x-4">
                         <img alt="img" src="../imgs/ribbon.png" class="h-14">
-                        <p class="text-white text-sm md:text-primary mt-2 xl:mt-0 font-semibold ">Highly-Skilled Writers
+                        <p class="text-black text-sm md:text-primary mt-2 xl:mt-0 font-semibold ">Highly-Skilled Writers
                         </p>
                     </div>
 
                     <div target-data="3"
-                        class="divbutton cursor-pointer bg-primary-next2 w-[95%] md:w-[50%] px-8 lg:px-4 py-4 rounded-xl flex flex-row space-x-4">
+                        class="divbutton cursor-pointer border-black border-2 bg-primary-next2 w-[95%] md:w-[50%] px-8 lg:px-4 py-4 rounded-xl flex flex-row space-x-4">
                         <img alt="img" src="../imgs/checklist.png" class="h-14">
-                        <p class="text-white text-sm md:text-primary mt-4 font-semibold xl:mt-3">Top Quality Papers</p>
+                        <p class="text-black text-sm md:text-primary mt-4 font-semibold xl:mt-3">Top Quality Papers</p>
                     </div>
 
                 </div>
@@ -729,27 +729,27 @@
                 <div class="flex flex-col md:space-x-8 items-center md:flex-row space-y-4 md:space-y-0">
 
                     <div target-data="4"
-                        class="divbutton cursor-pointer bg-primary-next3 w-[95%] md:w-[50%]  px-8 py-4 rounded-xl flex flex-row space-x-4">
+                        class="divbutton cursor-pointer border-black border-2 bg-primary-next3 w-[95%] md:w-[50%]  px-8 py-4 rounded-xl flex flex-row space-x-4">
                         <img alt="img" src="../imgs/clock.png" class="h-14">
-                        <p class="text-white text-sm md:text-primary mt-4 xl:mt-0 font-semibold cursor-pointer">On TIme
+                        <p class="text-black text-sm md:text-primary mt-4 xl:mt-0 font-semibold cursor-pointer">On TIme
                             Delivery</p>
                     </div>
 
                     <div target-data="5"
-                        class="divbutton cursor-pointer bg-primary-next4 w-[95%] md:w-[50%]  px-8 lg:px-2 py-4 rounded-xl flex flex-row space-x-4">
+                        class="divbutton cursor-pointer border-black border-2 bg-primary-next4 w-[95%] md:w-[50%]  px-8 lg:px-2 py-4 rounded-xl flex flex-row space-x-4">
                         <img alt="img" src="../imgs/settings.png" class="h-14">
-                        <p class="text-white text-sm md:text-primary mt-2 font-semibold  cursor-pointer">24/7 Customer
+                        <p class="text-black text-sm md:text-primary mt-2 font-semibold  cursor-pointer">24/7 Customer
                             Support</p>
                     </div>
                 </div>
             </div>
             <div id='colors'
-                class="px-8 py-2 h-[100%] rounded-xl my-auto w-[87%] sm:w-[75%] md:w-[75%] lg:w-[50%] xl:w-full mx-auto ">
-                <h4 id='title' class="text-white text-center text-xl lg:text-3xl font-semibold py-4">
+                class="px-8 py-2 border-black border-2 h-[100%] rounded-xl my-auto w-[87%] sm:w-[75%] md:w-[75%] lg:w-[50%] xl:w-full mx-auto ">
+                <h4 id='title' class="text-black text-center text-xl lg:text-3xl font-semibold py-4">
                 </h4>
-                <p id='content' class="text-white text-center md:text-primary text-base xl:text-lg"></p>
+                <p id='content' class="text-black text-center md:text-primary text-base xl:text-lg"></p>
                 <div class="flex justify-center items-center ">
-                    <button id="button" class=" bg-white text-lg text-black rounded-full py-1  mt-4 w-2/3 md:w-1/4">
+                    <button id="button" class=" bg-white text-lg border-black border-2 text-black rounded-full py-1  mt-4 w-2/3 md:w-1/4">
                         Next
                     </button>
                 </div>
@@ -773,7 +773,7 @@
                     <div class=" px-3 md:px-1 w-full md:w-1/2 lg:w-1/4  mb-3">
                         <label class="text-red-500 text-sm lg:text-base ml-3 block">I Need</label>
                         <select name="paper_type"
-                            class="@error('paper_type') border-red-500 @enderror  placeholder-black w-full text-gray-700 shadow-xl rounded-full border-2 border-blue-800 bg-white  focus:border-blue-600 focus:ring-2 focus:ring-purple-200 text-base h-10 outline-none  px-3 leading-8 transition-colors duration-200 ease-in-out"
+                            class="@error('paper_type') border-red-500 @enderror  placeholder-black w-full text-gray-700 shadow-xl rounded-full border-2 border-primary-three bg-white  focus:border-blue-600 focus:ring-2 focus:ring-purple-200 text-base h-10 outline-none  px-3 leading-8 transition-colors duration-200 ease-in-out"
                             value="{{ old('paper_type', '') }}">
                             @foreach ($paper_types as $paper_type)
                                 <option {{ old('paper_type') == $paper_type->id ? 'selected' : '' }}
@@ -786,27 +786,27 @@
                     <div class="px-3 md:px-1 w-full md:w-1/2 lg:w-1/4  mb-3">
                         <label class="text-red-500 text-sm lg:text-base ml-3  block">My Email</label>
                         <input type="text"
-                            class=" @error('email') border-red-500 @enderror placeholder-black w-full text-gray-700 shadow-xl rounded-full border-2 border-blue-800 bg-white  focus:border-blue-600 focus:ring-2 focus:ring-purple-200 text-base h-10 outline-none py-2 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                            class=" @error('email') border-red-500 @enderror placeholder-black w-full text-gray-700 shadow-xl rounded-full border-2 border-primary-three bg-white  focus:border-blue-600 focus:ring-2 focus:ring-purple-200 text-base h-10 outline-none py-2 px-3 leading-8 transition-colors duration-200 ease-in-out"
                             name="email" placeholder="Example@gmail.com" value="{{ old('email') }}">
                     </div>
 
                     <div class="px-3 md:px-1 w-full md:w-1/2 lg:w-1/4  mb-3">
                         <label class="text-red-500 text-sm lg:text-base ml-3  block">My Number</label>
                         <input type="tel" name="Phone" id="phone" type="tel"
-                            class="@error('phone') border-red-500 @enderror  placeholder-black w-full text-gray-700 shadow-xl rounded-full border-2 border-blue-800 bg-white focus:border-blue-600
+                            class="@error('phone') border-red-500 @enderror  placeholder-black w-full text-gray-700 shadow-xl rounded-full border-2 border-primary-three bg-white focus:border-blue-600
                             focus:ring-2 focus:ring-purple-200 text-base h-10 outline-none py-2 px-3 leading-8 transition-colors duration-200 ease-in-out"
                             placeholder="Contact Number" value="{{ old('phone') }}"
                             oninput="this.value=this.value.replace(/[^0-9\+]/g,'');" autocomplete="off"
                             data-intl-tel-input-id="0">
                         <input type="hidden" name="phone" id="phone2" />
                         @error('phone')
-                            <p class="text-red-600 text-sm">{{ $message }}</p>
+                            <p class="text-primary-three text-sm">{{ $message }}</p>
                         @enderror
                     </div>
 
                     <div class="w-full px-3 md:px-1 md:w-1/2 lg:w-1/4  mb-3 mt-5 lg:mt-6 ">
                         <button id="btn-submit" type="submit"
-                            class="text-white shadow-xl bg-blue-800 border-0 h-10 outline-none  px-6 py-2 focus:outline-none hover:bg-blue-900 rounded-full text-lg w-full">Send</button>
+                            class="text-white shadow-xl bg-primary-one border-0 h-10 outline-none  px-6 py-2 focus:outline-none hover:bg-blue-900 rounded-full text-lg w-full">Send</button>
                     </div>
                 </div>
             </form>
@@ -850,13 +850,13 @@
         <div class="w-[85%]  container mx-auto mt-2 swiper mySwiper">
             <div class="mb-5 swiper-wrapper ">
                 <div class="swiper-slide ">
-                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-red-600 ">
+                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three ">
                         <div class="mb-2">
-                            <ul class="my-6 space-y-5 text-sm text-white ">
+                            <ul class="my-6 space-y-5 text-sm text-black ">
                                 <li class="space-x-3"><span>Order: #17770851</span> <span class=" float-right">Pages:
                                         12</span></li>
                             </ul>
-                            <p class="mb-2 text-center text-sm text-white italic">
+                            <p class="mb-2 text-center text-sm text-black italic">
                                 "They helped me when I was running short of time and had no access to any essay writer.
                                 Splendid job I must say."
                             </p>
@@ -864,125 +864,125 @@
                                 {{-- <div class="w-12 h-12 overflow-hidden bg-white border-2 border-indigo-100 rounded-full">
                     <img src="https://cdn.pixabay.com/photo/2017/05/19/12/38/entrepreneur-2326419__340.jpg" alt="img" class="object-cover object-center w-full h-full" />
                   </div> --}}
-                                <p class="my-3 text-center text-sm text-white ">Discipline: Dissertation</p>
+                                <p class="my-3 text-center text-sm text-black ">Discipline: Dissertation</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide ">
-                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-red-600 ">
+                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three ">
                         <div class="mb-2">
-                            <ul class="my-6 space-y-5 text-sm text-white ">
+                            <ul class="my-6 space-y-5 text-sm text-black ">
                                 <li class="space-x-3"><span>Order: #17550851</span> <span class=" float-right">Pages:
                                         60</span></li>
                             </ul>
-                            <p class="mb-2 text-center text-sm text-white italic ">
+                            <p class="mb-2 text-center text-sm text-black italic ">
                                 "If you’re looking for the cheapest essay service in Chicago then talk to them, they are
                                 easily
                                 reachable." </p>
                             <div class="flex flex-col items-center justify-center ">
-                                <p class="my-3 text-center text-sm text-white ">Discipline: Dissertation</p>
+                                <p class="my-3 text-center text-sm text-black ">Discipline: Dissertation</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide ">
-                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-red-600 ">
+                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three ">
                         <div class="mb-2">
-                            <ul class="my-6 space-y-5 text-sm text-white ">
+                            <ul class="my-6 space-y-5 text-sm text-black ">
                                 <li class="space-x-3"><span>Order: #17770951</span> <span class=" float-right">Pages:
                                         3</span></li>
                             </ul>
-                            <p class="mb-2 text-center text-sm text-white italic ">
+                            <p class="mb-2 text-center text-sm text-black italic ">
                                 "I hired them for a short essay. At first I wasn’t sure about the quality because of the
                                 cheap
                                 prices they offer but later their work amazed me." </p>
                             <div class="flex flex-col items-center justify-center ">
-                                <p class="my-1 text-center text-sm text-white ">Discipline: Essay</p>
+                                <p class="my-1 text-center text-sm text-black ">Discipline: Essay</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide ">
-                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-red-600 ">
+                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three ">
                         <div class="mb-2">
-                            <ul class="my-6 space-y-5 text-sm text-white ">
+                            <ul class="my-6 space-y-5 text-sm text-black ">
                                 <li class="space-x-3"><span>Order: #96770851</span> <span class=" float-right">Pages:
                                         5</span></li>
                             </ul>
-                            <p class="mb-2 text-center text-sm text-white italic">
+                            <p class="mb-2 text-center text-sm text-black italic">
                                 "I’d love to hire them again for online essay writing. They have very creative writers."
                             </p>
                             <div class="flex flex-col items-center justify-center ">
 
-                                <p class="my-6 text-center text-sm text-white ">Discipline: Essay</p>
+                                <p class="my-6 text-center text-sm text-black ">Discipline: Essay</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide ">
-                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-red-600 ">
+                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three ">
                         <div class="mb-2">
-                            <ul class="my-6 space-y-5 text-sm text-white ">
+                            <ul class="my-6 space-y-5 text-sm text-black ">
                                 <li class="space-x-3"><span>Order: #17770851</span> <span class=" float-right">Pages:
                                         12</span></li>
                             </ul>
-                            <p class="mb-2 text-center text-sm text-white italic ">
+                            <p class="mb-2 text-center text-sm text-black italic ">
                                 "They helped me when I was running short of time and had no access to
                                 any essay writer. Splendid job I must say."
                             </p>
                             <div class="flex flex-col items-center justify-center ">
-                                <p class="my-4 text-center text-sm text-white ">Discipline: Essay writing</p>
+                                <p class="my-4 text-center text-sm text-black ">Discipline: Essay writing</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide ">
-                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-red-600 ">
+                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three ">
                         <div class="mb-2">
-                            <ul class="my-6 space-y-5 text-sm text-white ">
+                            <ul class="my-6 space-y-5 text-sm text-black ">
                                 <li class="space-x-3"><span>Order: #17550851</span> <span class=" float-right">Pages:
                                         60</span></li>
                             </ul>
-                            <p class="mb-2 text-center text-sm text-white italic ">
+                            <p class="mb-2 text-center text-sm text-black italic ">
                                 "I’d love to hire them again for online essay writing. They have very creative writers."
                             </p>
                             <div class="flex flex-col items-center justify-center ">
-                                <p class="my-6 text-center text-sm text-white ">Discipline: Dissertation</p>
+                                <p class="my-6 text-center text-sm text-black ">Discipline: Dissertation</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide ">
-                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-red-600 ">
+                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three ">
                         <div class="mb-2">
-                            <ul class="my-6 space-y-5 text-sm text-white ">
+                            <ul class="my-6 space-y-5 text-sm text-black ">
                                 <li class="space-x-3"><span>Order: #17770951</span> <span class=" float-right">Pages:
                                         3</span></li>
                             </ul>
-                            <p class="mb-2 text-center text-sm text-white ">
+                            <p class="mb-2 text-center text-sm text-black ">
                                 "I hired them for a short essay. At first I wasn’t sure about the quality because of the
                                 cheap
                                 prices they offer but later their work amazed me."
                             </p>
                             <div class="flex flex-col items-center justify-center ">
-                                <p class="my-1 text-center text-sm text-white ">Discipline: Essay</p>
+                                <p class="my-1 text-center text-sm text-black ">Discipline: Essay</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide ">
-                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-red-600 ">
+                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three ">
                         <div class="mb-2">
-                            <ul class="my-6 space-y-5 text-sm text-white ">
+                            <ul class="my-6 space-y-5 text-sm text-black ">
                                 <li class="space-x-3"><span>Order: #96770851</span> <span class=" float-right">Pages:
                                         5</span></li>
                             </ul>
-                            <p class="mb-2 text-center text-sm text-white ">
+                            <p class="mb-2 text-center text-sm text-black ">
                                 "I’d love to hire them again for online essay writing. They have very creative writers."
                             </p>
                             <div class="flex flex-col items-center justify-center ">
-                                <p class="my-6 text-center text-sm text-white ">Discipline: Essay</p>
+                                <p class="my-6 text-center text-sm text-black ">Discipline: Essay</p>
                             </div>
                         </div>
                     </div>
@@ -1031,7 +1031,7 @@
                 </div>
                 <p class="openSlide primary-para pb-3 px-4" id="openSlide1" style="display: none;">We don’t sell general
                     essays to everyone. Instead, we collect your order and create an essay from scratch tailored to your
-                    specific requirements. The lowest price of buying an essay from us is $4 and the price varies according
+                    specific requirements. The lowest price of buying an essay from us is {{ addCurrency(4) }} and the price varies according
                     to the additions in the order. So, definitely you can buy a cheap service or ask us to ‘write my paper’
                     from us.</p>
             </div>
@@ -1107,7 +1107,7 @@
             <a href="javascript:void(Tawk_API.toggle())" class="btn bg-primary-two ">
                 Live Chat
             </a>
-            <a href="{{ route('order') }}" class="btn bg-primary-one ">
+            <a href="{{ route('order') }}" class="btn border-black border-2 bg-primary-one ">
                 Order Now
             </a>
         </div>
@@ -1171,7 +1171,7 @@
         $(document).ready(function() {
             const phoneInputField = document.querySelector("#phone");
             const phoneInput = window.intlTelInput(phoneInputField, {
-                preferredCountries: ["us"],
+                preferredCountries: ["ae"],
                 utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
             });
 
@@ -1232,7 +1232,7 @@
                             $('#msg-bag').append(msg);
                             $.each(err.responseJSON.errors, function(i, error) {
                                 var el = $('#query-form').find('[name="' + i + '"]');
-                                el.after($('<span class="query-form-error text-red-600">' +
+                                el.after($('<span class="query-form-error text-primary-three">' +
                                     error[0] + '</span>'));
                             });
                             $('.query-form-error').delay(8000).fadeOut();
@@ -1301,43 +1301,43 @@
 
         var guarantee = [{
                 'title': 'Cheapest Essay Online',
-                'content': 'Being a student it’s not easy to spend a heavy amount on professional assistance but when you have $4 essay around you, you can relax and free your time. We guarantee the best paper writing service in the UAE to keep you winning the grades.',
+                'content': 'Being a student it’s not easy to spend a heavy amount on professional assistance but when you have {{ addCurrency(4) }} essay around you, you can relax and free your time. We guarantee the best paper writing service in the UAE to keep you winning the grades.',
                 'color': 'bg-primary-next5',
-                'colordiv': '#F06A22'
+                'colordiv': '#f8fafc'
             },
             {
                 'title': 'Essays Written for You Only',
                 'content': 'Get a customized essay by letting the creative writer work on your draft. If you have an idea let us know. If you want us to brainstorm then don’t hesitate as we have great thinkers who can work to boost your academic success with cheap custom writing service.',
                 'color': 'bg-primary-next',
-                'colordiv': '#BA4B9C'
+                'colordiv': '#f8fafc'
 
             },
             {
                 'title': 'Quality Writers',
-                'content': 'It’s easy to find cheap essay writers but everyone isn’t capable of delivering quality papers. But here at $4 essay we provide quality with affordability. Our writers know how to put in the best work to make you shine in the crowd.',
+                'content': 'It’s easy to find cheap essay writers but everyone isn’t capable of delivering quality papers. But here at {{ addCurrency(4) }} essay we provide quality with affordability. Our writers know how to put in the best work to make you shine in the crowd.',
                 'color': 'bg-primary-next1',
-                'colordiv': '#5CD3CB'
+                'colordiv': '#f8fafc'
 
             },
             {
                 'title': 'Authentic Papers',
                 'content': 'With a team of researchers, thinkers, and adept writers who search and validate the facts before including it in our papers. So, with us you don’t need to worry about the facts as we write what is authentic and engaging.',
                 'color': 'bg-primary-next2',
-                'colordiv': '#71B243'
+                'colordiv': '#f8fafc'
 
             },
             {
                 'title': 'Committed to Deadlines',
                 'content': 'When you order your essays, we assign you a deadline. And once assigned, we never miss it. We’re committed to delivering quality papers before the deadlines. So, with us you can be at ease as we take your acaderesponsbility on',
                 'color': 'bg-primary-next3',
-                'colordiv': '#2A7DC0'
+                'colordiv': '#f8fafc'
 
             },
             {
                 'title': 'Responsive Customer Support',
                 'content': 'Do you have any questions before assigning us the order? Feel free to get in touch with us. We have the fastest customer services who take pride in resolving your cheap essay writing 24/7 queries. Clear your doubts before you hire us anytime.',
                 'color': 'bg-primary-next4',
-                'colordiv': '#FFA949'
+                'colordiv': '#f8fafc'
 
             },
         ]

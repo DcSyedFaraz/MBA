@@ -450,10 +450,10 @@
                     <div class="flex flex-col space-y-4 xl:flex-row lg:space-y-2 xl:space-y-0 xl:space-x-4 justify-center items-center text-black ">
 
                         <div class="bg-primary-one p-3  h-[4.5rem] leading-5 text-white rounded w-full  text-center text-sm  font-semibold">Per Page Price: <br>
-                            $ <span id="per_page_price">0</span>
+                            <span id="per_page_price">0</span> AED
                         </div>
                         <div class="bg-primary-one p-3 h-[4.5rem] leading-5 text-white rounded w-full text-center text-sm  font-semibold">Total Price: <br>
-                           $ <span id="cost">0</span>
+                           <span id="cost">0</span> AED
                         </div>
                     </div>
                     <div class="flex justify-center items-center">
@@ -471,17 +471,17 @@
    <section class="mx-auto container mt-5 ">
         <div class=" mx-[2rem] sm:mx-4">
         <div class="flex flex-col lg:flex-row md:space-x-2 lg:space-x-8 items-center  md:flex-row space-y-4 md:space-y-0  ">
-            <div target-data="3" class="divbutton cursor-pointer bg-primary-next5 w-full md:w-[60%]  px-8 lg:px-3 py-3 rounded-xl flex flex-row space-x-4">
+            <div target-data="3" class="divbutton cursor-pointer border-black border-2 bg-primary-next5 w-full md:w-[60%]  px-8 lg:px-3 py-3 rounded-xl flex flex-row space-x-4">
                 <img alt="profil" src="../imgs/checklist.png" class="h-14 block ">
-                <p class="text-white text-primary md:text-sm lg:text-primary font-semibold mt-3  md:mt-3">Top Quality Papers</p>
+                <p class="text-black text-primary md:text-sm lg:text-primary font-semibold mt-3  md:mt-3">Top Quality Papers</p>
             </div>
-            <div target-data="4" class="divbutton cursor-pointer bg-primary-next w-full md:w-[60%]  px-8 lg:px-3 py-3 rounded-xl flex flex-row space-x-4">
+            <div target-data="4" class="divbutton cursor-pointer border-black border-2 bg-primary-next w-full md:w-[60%]  px-8 lg:px-3 py-3 rounded-xl flex flex-row space-x-4">
                 <img alt="profil" src="../imgs/clock.png" class="h-14 block ">
-                <p class="text-white text-primary md:text-sm lg:text-primary font-semibold cursor-pointer mt-3 md:mt-3">On TIme Delivery</p>
+                <p class="text-black text-primary md:text-sm lg:text-primary font-semibold cursor-pointer mt-3 md:mt-3">On TIme Delivery</p>
             </div>
-            <div target-data="5" class="divbutton cursor-pointer bg-primary-next1  w-full md:w-[60%]  px-8 lg:px-3 py-3 rounded-xl flex flex-row space-x-4">
+            <div target-data="5" class="divbutton cursor-pointer border-black border-2 bg-primary-next1  w-full md:w-[60%]  px-8 lg:px-3 py-3 rounded-xl flex flex-row space-x-4">
                 <img alt="profil" src="../imgs/settings.png" class="h-14">
-                <p class="text-white text-primary md:text-xs lg:text-primary font-semibold  cursor-pointer md:mt-3">24/7 Customer Support</p>
+                <p class="text-black text-primary md:text-xs lg:text-primary font-semibold  cursor-pointer md:mt-3">24/7 Customer Support</p>
             </div>
         </div>
     </div>

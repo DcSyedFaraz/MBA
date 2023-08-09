@@ -21,7 +21,7 @@
 <section class="container mx-auto grid grid-cols-1 md:grid-cols-2 py-14 px-4">
 
     <div>
-          
+
         <div class="mx-auto border-8 rounded-full w-52 h-52 md:w-44 md:h-44 lg:w-52 lg:h-52 border-primary-one mt-8 md:mt-0">
             <a href="https://goo.gl/maps/2pLdA5c3XPqidEXP6">
             <img src="../imgs/4dollaressay-google-reviews.png" class="h-16 mx-auto mt-14 md:mt-10 lg:mt-14">
@@ -29,9 +29,9 @@
             <p class="font-semibold text-blue-600 text-sm text-center mx-4 "> 4.8</p>
              </a>
         </div>
-       
 
-        
+
+
         <div class="flex flex-col md:flex-row space-y-4 md:space-y-0">
           <div class="mx-auto border-8 rounded-full w-52 h-52 md:w-44 md:h-44 lg:w-52 lg:h-52 border-primary-one mt-8 md:mt-0">
               <a href="https://www.trustpilot.com/review/4dollaressay.com">
@@ -40,7 +40,7 @@
             <p class="font-semibold text-blue-600 text-sm text-center mx-4 "> 4.8</p>
             </a>
           </div>
-          
+
 
         <div class=" mx-auto border-8 rounded-full w-52 h-52 md:w-44 md:h-44 lg:w-52 lg:h-52 border-primary-one mt-8 md:mt-0 ">
             <a href="https://www.sitejabber.com/reviews/4dollaressay.com">
@@ -70,7 +70,7 @@
 
         <div class="flex justify-center items-center " >
 
-            <button class="btn bg-primary-three mt-10" onclick="window.scrollBy(0, 900)">
+            <button class="btn bg-primary-one mt-10" onclick="window.scrollBy(0, 900)">
                     View all Reviews
             </button>
 
@@ -91,7 +91,7 @@
             </a>
             <div class="">
                 <span class="text-xl md:text-2xl">
-                    User Id: 4de0519
+                    User Id: MBA0519
                 </span>
                 <ul class="flex my-2">
 
@@ -150,7 +150,7 @@
             </a>
             <div class="">
                 <span class="text-xl md:text-2xl">
-                    User Id: 4de0529
+                    User Id: MBA0529
                 </span>
                 <ul class="flex my-2">
 
@@ -211,7 +211,7 @@
             </a>
             <div class="">
                 <span class="text-xl md:text-2xl">
-                    User Id: 4de0429
+                    User Id: MBA0429
                 </span>
                 <ul class="flex my-2">
 
@@ -273,7 +273,7 @@
             </a>
             <div class="">
                 <span class="text-xl md:text-2xl">
-                    User Id: 4de5429
+                    User Id: MBA5429
                 </span>
                 <ul class="flex my-2">
 
@@ -335,7 +335,7 @@
             </a>
             <div class="">
                 <span class="text-xl md:text-2xl">
-                    User Id: 4de0459
+                    User Id: MBA0459
                 </span>
                 <ul class="flex my-2">
 
@@ -397,7 +397,7 @@
             </a>
             <div class="">
                 <span class="text-xl md:text-2xl">
-                    User Id: 4de0489
+                    User Id: MBA0489
                 </span>
                 <ul class="flex my-2">
 
@@ -459,7 +459,7 @@
             </a>
             <div class="">
                 <span class="text-xl md:text-2xl">
-                    User Id: 4de0789
+                    User Id: MBA0789
                 </span>
                 <ul class="flex my-2">
 
@@ -519,7 +519,7 @@
             </a>
             <div class="">
                 <span class="text-xl md:text-2xl">
-                    User Id: 4de4789
+                    User Id: MBA4789
                 </span>
                 <ul class="flex my-2">
 
@@ -579,7 +579,7 @@
             </a>
             <div class="">
                 <span class="text-xl md:text-2xl">
-                    User Id: 4de4459
+                    User Id: MBA4459
                 </span>
                 <ul class="flex my-2">
 
@@ -638,7 +638,7 @@
             </a>
             <div class="">
                 <span class="text-xl md:text-2xl">
-                    User Id: 4de2359
+                    User Id: MBA2359
                 </span>
                 <ul class="flex my-2">
 
@@ -700,7 +700,7 @@
             </a>
             <div class="">
                 <span class="text-xl md:text-2xl">
-                    User Id: 4de9359
+                    User Id: MBA9359
                 </span>
                 <ul class="flex my-2">
 
@@ -762,7 +762,7 @@
             </a>
             <div class="">
                 <span class="text-xl md:text-2xl">
-                    User Id: 4de7159
+                    User Id: MBA7159
                 </span>
                 <ul class="flex my-2">
 
@@ -824,7 +824,7 @@
             </a>
             <div class="">
                 <span class="text-xl md:text-2xl">
-                    User Id: 4de1159
+                    User Id: MBA1159
                 </span>
                 <ul class="flex my-2">
 
@@ -886,7 +886,7 @@
             </a>
             <div class="">
                 <span class="text-xl md:text-2xl">
-                    User Id: 4de1100
+                    User Id: MBA1100
                 </span>
                 <ul class="flex my-2">
 
@@ -948,7 +948,7 @@
             </a>
             <div class="">
                 <span class="text-xl md:text-2xl">
-                    User Id: 4de1190
+                    User Id: MBA1190
                 </span>
                 <ul class="flex my-2">
 

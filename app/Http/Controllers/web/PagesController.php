@@ -108,6 +108,15 @@ class PagesController extends Controller
     }
     public function pricing()
     {
-        return view('pages.pricing');
+        $college = Fare::where(['academic_level_id' => 1])->get();
+        $under = Fare::where(['academic_level_id' => 2])->get();
+        $master = Fare::where(['academic_level_id' => 3])->get();
+        $deadlines = Deadline::orderBy('id', 'ASC')->get();
+
+// dd($college);
+        //  Artisan::call('cache:clear');
+       //  Artisan::call('config:cache');
+       //  dd("Cache is cleared");
+       return view('pages.pricing',compact('deadlines','master','under','college'));
     }
 }

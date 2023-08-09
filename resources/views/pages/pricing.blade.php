@@ -9,39 +9,71 @@
 <section class="container py-6 px-4 mx-auto" x-data="datatables()" x-cloak>
     <h1 class="text-3xl font-semibold py-8 text-primary-one text-center">Pricing</h1>
 
-    <div class="overflow-x-auto lg:overflow-x-hidden bg-white border border-primary-one shadow-lg overflow-y-auto relative"
+    <div class="bg-white border border-black shadow-lg"
         style="">
-        <table class="border-collapse table-auto w-full whitespace-no-wrap table-striped relative">
+        <table class="border-collapse table-auto w-full whitespace-no-wrap table-striped ">
             <thead>
                 <tr class="text-center">
 
-                    <template x-for="heading in headings">
-                        <th class="bg-primary-one sticky top-0 px-6 py-4 text-white font-bold tracking-wider  text-sm"
-                            x-text="heading.value" :x-ref="heading.key" :class="{ [heading.key]: true }"></th>
-                    </template>
+                        <th class="bg-primary-one sticky top-0 px-6 py-4 text-white font-bold tracking-wider  text-sm">
+                            Days
+                        </th>
+                        <th class="bg-primary-one sticky top-0 px-6 py-4 text-white font-bold tracking-wider  text-sm">
+                            High School
+                        </th>
+                        <th class="bg-primary-one sticky top-0 px-6 py-4 text-white font-bold tracking-wider  text-sm">
+                            UnderGraduate
+                        </th>
+                        <th class="bg-primary-one sticky top-0 px-6 py-4 text-white font-bold tracking-wider  text-sm">
+                            Masters
+                        </th>
                 </tr>
             </thead>
             <tbody>
-                <template x-for="user in users" :key="user.userId">
-                    <tr class="hover:bg-primary-two hover:text-white text-base">
+                    <tr class=" hover:text-white text-base">
 
-                        <td class="border border-t border-primary-one urgency">
-                            <span class="px-6 py-3 flex justify-center items-center text-gray-800 hover:text-white" x-text="user.urgency"></span>
+                        <td class="  text-black border-black days">
+                            @foreach ($deadlines as $deadline)
+                                <span class="table-td">
+
+                                    {{ $deadline->name }}
+                                </span>
+                            @endforeach
                         </td>
-                        <td class="border border-t border-primary-one highschool">
-                            <span class=" px-6 py-3 flex justify-center items-center" x-text="user.highschool"></span>
+
+
+                        <td class="  text-black border-black days">
+                            @foreach ($college as $college)
+                                <span class="table-td">
+
+                                    {{addCurrency(  $college->per_page_price )}}
+                                </span>
+                            @endforeach
                         </td>
-                        <td class="border border-t border-primary-one undergraduate">
-                            <span class=" px-6 py-3 flex justify-center items-center"
-                                x-text="user.undergraduate"></span>
+
+
+                        <td class="  text-black border-black days">
+                            @foreach ($under as $under)
+                                <span class="table-td">
+
+                                    {{addCurrency(  $under->per_page_price )}}
+                                </span>
+                            @endforeach
                         </td>
-                        <td class="border border-t border-primary-one master">
-                            <span class=" px-6 py-3 flex justify-center items-center"
-                                x-text="user.master"></span>
+
+
+                        <td class="  text-black border-black days">
+                            @foreach ($master as $college)
+                                <span class="table-td">
+
+                                    {{addCurrency(  $college->per_page_price )}}
+                                </span>
+                            @endforeach
                         </td>
+
+
 
                     </tr>
-                </template>
             </tbody>
         </table>
 
@@ -58,145 +90,145 @@
 </section>
 
 <script>
-    function datatables() {
-        return {
-            headings: [
+    // function datatables() {
+    //     return {
+    //         headings: [
 
-                {
-                    'key': 'urgency',
-                    'value': 'URGENCY'
-                },
-                {
-                    'key': 'highschool',
-                    'value': 'High School (STANDARD)'
-                },
-                {
-                    'key': 'undergraduate',
-                    'value': 'Undergraduate (PREMIUM)'
-                },
-                {
-                    'key': 'master',
-                    'value': 'Master (PLATINUM)'
-                }
+    //             {
+    //                 'key': 'urgency',
+    //                 'value': 'URGENCY'
+    //             },
+    //             {
+    //                 'key': 'highschool',
+    //                 'value': 'High School (STANDARD)'
+    //             },
+    //             {
+    //                 'key': 'undergraduate',
+    //                 'value': 'Undergraduate (PREMIUM)'
+    //             },
+    //             {
+    //                 'key': 'master',
+    //                 'value': 'Master (PLATINUM)'
+    //             }
 
-            ],
-            users: [{
-                "userId": 1,
-                "urgency": "15 Days+",
-                "highschool": "$ 4",
-                "undergraduate": "$ 6",
-                "master": "$ 8"
+    //         ],
+    //         users: [{
+    //             "userId": 1,
+    //             "urgency": "15 Days+",
+    //             "highschool": "AED 4",
+    //             "undergraduate": "AED 6",
+    //             "master": "AED 8"
 
-            }, {
-                "userId": 2,
-                "urgency": "10 Days",
-                "highschool": "$ 7",
-                "undergraduate": "$ 8",
-                "master": "$ 9"
-            }, {
-                "userId": 3,
-                "urgency": "8 Days",
-                "highschool": "$ 9",
-                "undergraduate": "$ 10",
-                "master": "$ 11"
-            }, {
-                "userId": 4,
-                "urgency": "6 Days",
-                "highschool": "$ 11",
-                "undergraduate": "$ 12",
-                "master": "$ 13"
-            }, {
-                "userId": 5,
-                "urgency": "5 Days",
-                "highschool": "$ 13",
-                "undergraduate": "$ 14",
-                "master": "$ 15"
-            }, {
-                "userId": 6,
-                "urgency": "4 Days",
-                "highschool": "$ 15",
-                "undergraduate": "$ 16",
-                "master": "$ 17"
-            }, {
-                "userId": 7,
-                "urgency": "3 Days",
-                "highschool": "$ 17",
-                "undergraduate": "$ 18",
-                "master": "$ 19"
-            }, {
-                "userId": 8,
-                "urgency": "48Hours",
-                "highschool": "$ 19",
-                "undergraduate": "$ 20",
-                "master": "$ 21"
-            }, {
-                "userId": 9,
-                "urgency": "24Hours",
-                "highschool": "$ 21",
-                "undergraduate": "$ 22",
-                "master": "$ 23"
-            }, {
-                "userId": 10,
-                "urgency": "12 Hours",
-                "highschool": "$ 23",
-                "undergraduate": "$ 24",
-                "master": "$ 25"
-            }, {
-                "userId": 11,
-                "urgency": "6 Hours",
-                "highschool": "$ 25",
-                "undergraduate": "$ 26",
-                "master": "$ 27"
-            }],
-            selectedRows: [],
+    //         }, {
+    //             "userId": 2,
+    //             "urgency": "10 Days",
+    //             "highschool": "AED 7",
+    //             "undergraduate": "AED 8",
+    //             "master": "AED 9"
+    //         }, {
+    //             "userId": 3,
+    //             "urgency": "8 Days",
+    //             "highschool": "AED 9",
+    //             "undergraduate": "AED 10",
+    //             "master": "AED 11"
+    //         }, {
+    //             "userId": 4,
+    //             "urgency": "6 Days",
+    //             "highschool": "AED 11",
+    //             "undergraduate": "AED 12",
+    //             "master": "AED 13"
+    //         }, {
+    //             "userId": 5,
+    //             "urgency": "5 Days",
+    //             "highschool": "AED 13",
+    //             "undergraduate": "AED 14",
+    //             "master": "AED 15"
+    //         }, {
+    //             "userId": 6,
+    //             "urgency": "4 Days",
+    //             "highschool": "AED 15",
+    //             "undergraduate": "AED 16",
+    //             "master": "AED 17"
+    //         }, {
+    //             "userId": 7,
+    //             "urgency": "3 Days",
+    //             "highschool": "AED 17",
+    //             "undergraduate": "AED 18",
+    //             "master": "AED 19"
+    //         }, {
+    //             "userId": 8,
+    //             "urgency": "48Hours",
+    //             "highschool": "AED 19",
+    //             "undergraduate": "AED 20",
+    //             "master": "AED 21"
+    //         }, {
+    //             "userId": 9,
+    //             "urgency": "24Hours",
+    //             "highschool": "AED 21",
+    //             "undergraduate": "AED 22",
+    //             "master": "AED 23"
+    //         }, {
+    //             "userId": 10,
+    //             "urgency": "12 Hours",
+    //             "highschool": "AED 23",
+    //             "undergraduate": "AED 24",
+    //             "master": "AED 25"
+    //         }, {
+    //             "userId": 11,
+    //             "urgency": "6 Hours",
+    //             "highschool": "AED 25",
+    //             "undergraduate": "AED 26",
+    //             "master": "AED 27"
+    //         }],
+    //         selectedRows: [],
 
-            open: false,
+    //         open: false,
 
-            toggleColumn(key) {
-                // Note: All td must have the same class name as the headings key!
-                let columns = document.querySelectorAll('.' + key);
+    //         toggleColumn(key) {
+    //             // Note: All td must have the same class name as the headings key!
+    //             let columns = document.querySelectorAll('.' + key);
 
-                if (this.$refs[key].classList.contains('hidden') && this.$refs[key].classList.contains(key)) {
-                    columns.forEach(column => {
-                        column.classList.remove('hidden');
-                    });
-                } else {
-                    columns.forEach(column => {
-                        column.classList.add('hidden');
-                    });
-                }
-            },
+    //             if (this.$refs[key].classList.contains('hidden') && this.$refs[key].classList.contains(key)) {
+    //                 columns.forEach(column => {
+    //                     column.classList.remove('hidden');
+    //                 });
+    //             } else {
+    //                 columns.forEach(column => {
+    //                     column.classList.add('hidden');
+    //                 });
+    //             }
+    //         },
 
-            getRowDetail($event, id) {
-                let rows = this.selectedRows;
+    //         getRowDetail($event, id) {
+    //             let rows = this.selectedRows;
 
-                if (rows.includes(id)) {
-                    let index = rows.indexOf(id);
-                    rows.splice(index, 1);
-                } else {
-                    rows.push(id);
-                }
-            },
+    //             if (rows.includes(id)) {
+    //                 let index = rows.indexOf(id);
+    //                 rows.splice(index, 1);
+    //             } else {
+    //                 rows.push(id);
+    //             }
+    //         },
 
-            selectAllCheckbox($event) {
-                let columns = document.querySelectorAll('.rowCheckbox');
+    //         selectAllCheckbox($event) {
+    //             let columns = document.querySelectorAll('.rowCheckbox');
 
-                this.selectedRows = [];
+    //             this.selectedRows = [];
 
-                if ($event.target.checked == true) {
-                    columns.forEach(column => {
-                        column.checked = true
-                        this.selectedRows.push(parseInt(column.name))
-                    });
-                } else {
-                    columns.forEach(column => {
-                        column.checked = false
-                    });
-                    this.selectedRows = [];
-                }
-            }
-        }
-    }
+    //             if ($event.target.checked == true) {
+    //                 columns.forEach(column => {
+    //                     column.checked = true
+    //                     this.selectedRows.push(parseInt(column.name))
+    //                 });
+    //             } else {
+    //                 columns.forEach(column => {
+    //                     column.checked = false
+    //                 });
+    //                 this.selectedRows = [];
+    //             }
+    //         }
+    //     }
+    // }
 </script>
 
 @endsection

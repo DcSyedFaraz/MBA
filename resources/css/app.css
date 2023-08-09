@@ -51,5 +51,8 @@
     .primary-para{
         @apply text-gray-700 text-sm xl:text-base font-semibold space-y-2 ;
     }
+    .table-td{
+        @apply border hover:text-white border-t px-2 md:px-6 py-3 flex hover:bg-primary-one justify-center items-center text-xs sm:text-sm md:text-lg;
+    }
 
 }

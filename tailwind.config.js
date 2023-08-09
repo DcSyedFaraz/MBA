@@ -50,22 +50,22 @@ module.exports = {
 
                 'primary-one': '#262626', //sea green
                 'primary-two': '#007691', //black
-                'primary-three': '#f06a22', //orange
-                'primary-four': '#bb4a9c', //purple
-                'primary-five':'#EB6821', //orange drk
-                'primary-six':'#BA4B9C', //purple light
-                'primary-seven':'#5CD3CB', //sky blue
-                'primary-Eight':'#71B243', //kai green
-                'primary-nine':'#2A7DC0', //drk blue
-                'primary-ten':'#FFA949', //skin
-                'primary-box':'#F1592A',
-                'primary-next':'#BA4B9C', //purple
-                'primary-next1':'#5CD3CB', //sky blue
-                'primary-next2':'#71B243', //green
-                'primary-next3':'#2A7DC0', //drkblue
-                'primary-next4':'#FFA949', //skin
-                'primary-next5':'#F06A22', //orange
-                'footer-color':'#ff0000', //red
+                'primary-three': '#f8fafc', //orange
+                'primary-four': '#f8fafc', //purple
+                'primary-five':'#f8fafc', //orange drk
+                'primary-six':'#f8fafc', //purple light
+                'primary-seven':'#f8fafc', //sky blue
+                'primary-Eight':'#f8fafc', //kai green
+                'primary-nine':'#f8fafc', //drk blue
+                'primary-ten':'#f8fafc', //skin
+                'primary-box':'#f8fafc',
+                'primary-next':'#f8fafc', //purple
+                'primary-next1':'#f8fafc', //sky blue
+                'primary-next2':'#f8fafc', //green
+                'primary-next3':'#f8fafc', //drkblue
+                'primary-next4':'#f8fafc', //skin
+                'primary-next5':'#f8fafc', //orange
+                'footer-color':'#262626', //red
 
 
 

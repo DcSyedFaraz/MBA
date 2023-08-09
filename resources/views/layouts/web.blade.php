@@ -93,7 +93,7 @@ href="https://unpkg.com/swiper/swiper-bundle.min.css"
     @include('partials.frontend.footer')
 
 
-   {{ TawkTo::widgetCode("https://embed.tawk.to/5bdb5fdd2ba6b31341712205/default")}}
+   {{-- {{ TawkTo::widgetCode("https://embed.tawk.to/5bdb5fdd2ba6b31341712205/default")}} --}}
     {{-- scripts --}}
     {{-- jQuery cdn --}}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

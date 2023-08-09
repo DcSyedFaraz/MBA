@@ -252,7 +252,7 @@
 
                             <div class="justify-end text-center mt-4">
                                 <button class="mt-4">
-                                    <span class=" px-6 py-3 text-lg  text-white rounded-lg bg-primary-two ">
+                                    <span id="btn-submit" class=" px-6 py-3 text-lg  text-white rounded-lg bg-primary-two ">
                                         Order Submit
                                     </span>
                                 </button>

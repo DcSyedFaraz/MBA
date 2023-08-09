@@ -1,7 +1,7 @@
 <footer>
 
 
-    <div class="bg-blue-900 ">
+    <div class="bg-primary-one ">
       <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-auto py-8 ">
 
         <div class="space-y-4 mx-auto text-center">
@@ -61,9 +61,9 @@
         <div class="space-y-4 mx-auto text-center my-4 md:my-0">
 
           <div class="text-center">
-            <a href="tel:{{ $web_setting->contact }}" class="text-base lg:text-xl text-white font-semibold">
+            <a href="tel:{{ $web_setting->contact }}" class="text-base text-white font-semibold">
                 <i class="fa fa-phone mr-2"></i>{{ $web_setting->contact }}</a><br>
-            <a href="mailto:{{ $web_setting->email }}" class="text-base lg:text-xl text-white font-semibold"><i class="fa fa-envelope mr-2"></i>{{ $web_setting->email }}</a>
+            <a href="mailto:{{ $web_setting->email }}" class="text-base text-white font-semibold"><i class="fa fa-envelope mr-2"></i>{{ $web_setting->email }}</a>
          </div>
         </div>
 

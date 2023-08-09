@@ -72,6 +72,10 @@ class Order extends Model
     {
         return $this->belongsTo(PaperType::class, 'paper_type', 'id');
     }
+    public function package()
+    {
+        return $this->belongsTo(PaperType::class, 'paper_type', 'id');
+    }
 
 
 }

@@ -1430,10 +1430,6 @@ video {
   overflow-x: auto;
 }
 
-.overflow-y-auto {
-  overflow-y: auto;
-}
-
 .rounded {
   border-radius: 0.25rem;
 }
@@ -1539,10 +1535,6 @@ video {
   border-left-width: 1px;
 }
 
-.border-t {
-  border-top-width: 1px;
-}
-
 .border-t-4 {
   border-top-width: 4px;
 }
@@ -1617,7 +1609,7 @@ video {
 
 .border-primary-three {
   --tw-border-opacity: 1;
-  border-color: rgb(240 106 34 / var(--tw-border-opacity));
+  border-color: rgb(248 250 252 / var(--tw-border-opacity));
 }
 
 .border-primary-two {
@@ -1678,11 +1670,6 @@ video {
   background-color: rgb(30 64 175 / var(--tw-bg-opacity));
 }
 
-.bg-blue-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(30 58 138 / var(--tw-bg-opacity));
-}
-
 .bg-cyan-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(22 78 99 / var(--tw-bg-opacity));
@@ -1705,42 +1692,42 @@ video {
 
 .bg-primary-box {
   --tw-bg-opacity: 1;
-  background-color: rgb(241 89 42 / var(--tw-bg-opacity));
+  background-color: rgb(248 250 252 / var(--tw-bg-opacity));
 }
 
 .bg-primary-four {
   --tw-bg-opacity: 1;
-  background-color: rgb(187 74 156 / var(--tw-bg-opacity));
+  background-color: rgb(248 250 252 / var(--tw-bg-opacity));
 }
 
 .bg-primary-next {
   --tw-bg-opacity: 1;
-  background-color: rgb(186 75 156 / var(--tw-bg-opacity));
+  background-color: rgb(248 250 252 / var(--tw-bg-opacity));
 }
 
 .bg-primary-next1 {
   --tw-bg-opacity: 1;
-  background-color: rgb(92 211 203 / var(--tw-bg-opacity));
+  background-color: rgb(248 250 252 / var(--tw-bg-opacity));
 }
 
 .bg-primary-next2 {
   --tw-bg-opacity: 1;
-  background-color: rgb(113 178 67 / var(--tw-bg-opacity));
+  background-color: rgb(248 250 252 / var(--tw-bg-opacity));
 }
 
 .bg-primary-next3 {
   --tw-bg-opacity: 1;
-  background-color: rgb(42 125 192 / var(--tw-bg-opacity));
+  background-color: rgb(248 250 252 / var(--tw-bg-opacity));
 }
 
 .bg-primary-next4 {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 169 73 / var(--tw-bg-opacity));
+  background-color: rgb(248 250 252 / var(--tw-bg-opacity));
 }
 
 .bg-primary-next5 {
   --tw-bg-opacity: 1;
-  background-color: rgb(240 106 34 / var(--tw-bg-opacity));
+  background-color: rgb(248 250 252 / var(--tw-bg-opacity));
 }
 
 .bg-primary-one {
@@ -1750,7 +1737,7 @@ video {
 
 .bg-primary-three {
   --tw-bg-opacity: 1;
-  background-color: rgb(240 106 34 / var(--tw-bg-opacity));
+  background-color: rgb(248 250 252 / var(--tw-bg-opacity));
 }
 
 .bg-primary-two {
@@ -2148,6 +2135,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -2209,7 +2201,7 @@ video {
 
 .text-footer-color {
   --tw-text-opacity: 1;
-  color: rgb(255 0 0 / var(--tw-text-opacity));
+  color: rgb(38 38 38 / var(--tw-text-opacity));
 }
 
 .text-gray-500 {
@@ -2245,6 +2237,11 @@ video {
 .text-primary-one {
   --tw-text-opacity: 1;
   color: rgb(38 38 38 / var(--tw-text-opacity));
+}
+
+.text-primary-three {
+  --tw-text-opacity: 1;
+  color: rgb(248 250 252 / var(--tw-text-opacity));
 }
 
 .text-primary-two {
@@ -2712,6 +2709,43 @@ video {
   .primary-para {
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+}
+
+.table-td {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 1px;
+  border-top-width: 1px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.table-td:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(38 38 38 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 640px) {
+  .table-td {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .table-td {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
 
@@ -3723,10 +3757,6 @@ video {
     --tw-space-y-reverse: 0;
     margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
-  }
-
-  .lg\:overflow-x-hidden {
-    overflow-x: hidden;
   }
 
   .lg\:p-6 {

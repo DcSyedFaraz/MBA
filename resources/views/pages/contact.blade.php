@@ -10,20 +10,20 @@
     <div class="grid grid-col-1 sm:grid-cols-4 my-4 gap-y-4 mx-4 mt-10  ">
         <div class="col-span-4 md:col-start-2 md:col-span-2 xl:col-span-1 flex flex-col space-y-8 mt-8 ">
             <a href="mailto:{{ $web_setting->email }}">
-            <div class="bg-primary-three px-2 xl:px-4 py-4 rounded-xl flex flex-row space-x-4 xl:space-x-1 ">
+            <div class="bg-primary-one px-2  py-4 rounded-xl flex flex-row space-x-4 xl:space-x-1 ">
                 <img src="../imgs/email.png" class="h-14 ">
-                <span href="mailto:{{ $web_setting->email }}" class="text-white text-base font-semibold my-auto xl:px-4 ">{{ $web_setting->email }}</span>
+                <span href="mailto:{{ $web_setting->email }}" class="text-white text-sm font-semibold my-auto xl:px-4 ">{{ $web_setting->email }}</span>
             </div>
         </a>
         <a href="{{ $web_setting->contact }}">
-            <div class="bg-primary-four px-2 py-4 rounded-xl flex flex-row space-x-3">
+            <div class="bg-primary-one px-2 py-4 rounded-xl flex flex-row space-x-3">
                 <img src="../imgs/telephone.png" class="h-14 px-2">
                 <span href="{{ $web_setting->contact }}" class="text-white text-base font-semibold my-auto">{{ $web_setting->contact }}</span>
             </div>
         </a>
 
         <a href="{{ $web_setting->whatsapp_no }}">
-            <div class="bg-primary-two px-2 py-4 rounded-xl flex flex-row space-x-3">
+            <div class="bg-primary-one px-2 py-4 rounded-xl flex flex-row space-x-3">
                 <img src="../imgs/whatsapp.png" class="h-14 px-2">
                 <span href="{{ $web_setting->whatsapp_no }}" class="text-white text-base font-semibold my-auto">{{ $web_setting->contact }}</span>
             </div>
