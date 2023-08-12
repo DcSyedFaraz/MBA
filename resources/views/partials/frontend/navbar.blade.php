@@ -80,6 +80,29 @@
 
     </style>
  <!-- Header -->
+ <div class="bg-primary-one text-white ">
+    <div class="container flex flex-col items-center mx-auto md:flex-row sm:justify-between py-3 px-10">
+        <div class=" space-x-3 flex flex-col md:flex-row  font-medium text-center">
+            <a href="https://api.whatsapp.com/send/?phone={{ $web_setting->whatsapp_no }}"><i class="fa fa-whatsapp "></i>{{ '+'.$web_setting->whatsapp_no }}</a>
+        <div class="md:hidden block" >
+              <a href="tel:{{ $web_setting->contact }}"><i class="fa fa-phone "></i>+{{ $web_setting->contact }}</a>
+              </div>
+              <p class=" flex">
+              <a href="tel:{{ $web_setting->contact }}" class="hidden md:block md:flex-row  "><i class="fa fa-phone"></i>+{{ $web_setting->contact }}</a>
+              </p>
+                        <!--<a href="tel:(001)224-338-5225"><i class="fa fa-phone mr-2"></i>(001)224-338-5225</a>-->
+            {{-- <span class="whitespace-nowrap overflow-hidden"><a href="mailto:{{ $web_setting->email }}">
+                <i class="fa fa-envelope-o mr-2 "></i>{{ $web_setting->email }}</a></span> --}}
+        </div>
+
+        <div class=" space-x-3">
+            <a href="{{ $web_setting->whatsapp_no }}"><i class="fa fa-whatsapp"></i></a>
+            <a href="{{ $web_setting->facebook_link }}"><i class="fa fa-facebook"></i></a>
+            <a href="{{ $web_setting->twitter_link }}"><i class="fa fa-twitter"></i></a>
+            <a href="{{ $web_setting->instagram_link }}"><i class="fa fa-instagram"></i></a>
+        </div>
+    </div>
+</div>
  <div class="w-full  text-gray-700 dark-mode:text-gray-200 dark-mode:bg-gray-800 shadow-md">
     {{-- <div x-data="{ open: false }" class="flex flex-col max-w-screen-xl px-2 mx-auto md:items-center md:justify-center lg:flex-row "> --}}
       <div x-data="{ open: false }" class=" flex flex-col max-w-screen-xl px-2 mx-auto lg:items-center lg:justify-between lg:flex-row ">
@@ -198,9 +221,9 @@
                 </a>
 
 
-                <a href="{{ $web_setting->whatsap_no }}" class="flex flex-row justify-center items-center text-center hover:text-primary-one text-sm md:text-lg py-3 lg:px-4 xl:px-5 btn xl:py-3 xl:text-sm font-semibold text-white rounded-full  lg:text-xs  bg-primary-two ">
+                {{-- <a href="{{ $web_setting->whatsap_no }}" class="flex flex-row justify-center items-center text-center hover:text-primary-one text-sm md:text-lg py-3 lg:px-4 xl:px-5 btn xl:py-3 xl:text-sm font-semibold text-white rounded-full  lg:text-xs  bg-primary-two ">
                     <img src="{{asset('imgs/whatsap.png')}}" alt="Logo" class=" h-6 lg:h-5 xl:h-5 mx-2 lg:mr-2 xl:mx-3 text-center">  {{ $web_setting->contact }}
-                </a>
+                </a> --}}
             </div>
         </nav>
     </div>

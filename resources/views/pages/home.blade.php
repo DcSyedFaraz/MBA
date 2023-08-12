@@ -11,14 +11,15 @@
     <section class="container mx-auto mt-10 xl:mt-5">
         <div class="flex flex-col md:flex-row mx-auto xl:space-x-2">
             <div class="text-left flex flex-col w-[80%] sm:w-[75%] md:w-[60%]  lg:w-[60%] xl:w-3/4 xl:mx-0 mx-auto">
-                <h1 class="heading-primary md:mt-8 lg:mt-5">Are You Looking for a Cheap Essay Writing Service with
-                    Quality on Top? </h1>
+                <h1 class="heading-primary md:mt-8 lg:mt-5">Are You Looking for a Reliable Source for MBA Assignment Help
+                    Dubai?</h1>
                 <div class="mt-3 md:mt-6">
                     <p class="primary-para">
-                        Learn about us! We started our online services after settling the chaos of the students
-                        who don’t have the budget to hire professional services. The idea behind 4DollarEssay is
-                        to provide a cheapest essay writing platform to relieve the academic burden and make
-                        students stress-free.
+                        No worries! A golden opportunity for MBA assignment writing services is waiting for you now. So,
+                        delve into our online platform and explore the benefits of hiring an MBA assignment helper who will
+                        take charge of completing your assignments to help you overcome your burden of overwhelming tasks.
+                        Meanwhile, you can sit back and give yourself some rest because the responsibility of uplifting your
+                        academic scores is now in our hands, and our MBA project writing experts always succeed at it.
                     </p>
                 </div>
                 <div class="mt-6 flex flex-row md:justify-start xl:pl-5 items-center gap-4 sm:flex-row md:mt-8 lg:mt-10">
@@ -34,13 +35,13 @@
                     class="mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 sm:gap-x-[11rem] md:gap-x-[1rem] xl:gap-x-4 gap-y-5  my-8 w-full md:w-full  ">
                     <div
                         class="shadow-md shadow-primary-one md:mx-auto rounded-xl pr-[2rem] pl-2 md:pl-3 md:pr-3 lg:pr-[1rem]   2xl:pr-[1rem]  xl:pl-2">
-                        <a href="https://www.sitejabber.com/reviews/4dollaressay.com ">
+                        <a href="#">
                             <div class="flex items-center mt-2 sm:mt-4">
                                 <img alt="profile" src="../imgs/sitejabbarimg.svg"
                                     class="mx-2 sm:mx-auto rounded-full w-10 sm:w-8 md:w-10 mb-2 2xl:w-10 ">
                                 <div class="flex flex-col sm:ml-2 justify-between">
                                     <span
-                                        class="text-primary-one text-sky-400 font-semibold text-base sm:text-lg lg:text-sm 2xl:text-lg">
+                                        class="text-primary-one font-semibold text-base sm:text-lg lg:text-sm 2xl:text-lg">
                                         Sitejabber
                                     </span>
 
@@ -102,14 +103,14 @@
 
                     <div
                         class="shadow-md shadow-primary-one md:mx-auto rounded-xl pr-[3rem] pl-2 md:pl-3 md:pr-3 lg:pr-[1rem]  2xl:pr-[1rem] xl:pl-2 gap-5">
-                        <a href="https://www.trustpilot.com/review/4dollaressay.com">
+                        <a href="#">
                             <div class="flex items-center mt-4">
                                 <img alt="profil" src="../imgs/trustpilot.png"
                                     class="mx-2 sm:mx-auto rounded-full w-10 sm:w-8 md:w-10 mb-2 2xl:w-10">
 
                                 <div class="flex flex-col sm:ml-2 justify-between">
                                     <span
-                                        class="text-primary-one text-sky-400 font-semibold text-base sm:text-lg lg:text-sm 2xl:text-lg">
+                                        class="text-primary-one font-semibold text-base sm:text-lg lg:text-sm 2xl:text-lg">
                                         Trustpilot
                                     </span>
 
@@ -171,15 +172,14 @@
 
                     <div
                         class="shadow-md shadow-primary-one md:mx-auto rounded-xl pr-[3rem] pl-2 md:pl-3 md:pr-3 lg:pr-[1rem]  2xl:pr-[1rem] xl:pl-2 gap-5">
-                        <a
-                            href="https://www.google.com/maps/place/4+Dollar+Essay/@29.7599004,-95.3661581,15z/data=!4m5!3m4!1s0x0:0xcfd30e0665a87a88!8m2!3d29.7599962!4d-95.3660717 ">
+                        <a href="#">
                             <div class="flex items-center mt-4">
                                 <img alt="profil" src="../imgs/google.png"
                                     class="mx-2 sm:mx-auto rounded-full w-10 sm:w-8 md:w-10 mb-2 2xl:w-10">
 
                                 <div class="flex flex-col sm:ml-2 justify-between">
                                     <span
-                                        class="text-primary-one text-sky-400 font-semibold text-base sm:text-lg lg:text-sm 2xl:text-lg">
+                                        class="text-primary-one font-semibold text-base sm:text-lg lg:text-sm 2xl:text-lg">
                                         Google
                                     </span>
 
@@ -241,13 +241,13 @@
 
                     <div
                         class="shadow-md shadow-primary-one md:mx-auto rounded-xl pr-[2rem] pl-2 md:pl-3 md:pr-3 lg:pl-2 lg:pr-2   2xl:pr-[1rem] xl:pl-2">
-                        <a href="https://reviewsbank.org/cheap-essay-writing-services/ ">
+                        <a href="#">
                             <div class="flex items-center mt-4 lg:mt-2">
                                 <img alt="profil" src="../imgs/bnkpic2.png"
                                     class="mx-2 sm:mx-auto rounded-full w-12 sm:w-14 xl:w-16 2xl:w-16">
                                 <div class="flex flex-col sm:ml-2 justify-between">
                                     <span
-                                        class="text-primary-one text-base text-sky-400 font-semibold sm:text-sm lg:text-sm xl:text-sm   ">
+                                        class="text-primary-one text-basefont-semibold sm:text-sm lg:text-sm xl:text-sm   ">
                                         Reviews Bank
                                     </span>
 
@@ -400,19 +400,19 @@
     <!-- Service Work -->
     <section class="container mx-auto my-10">
 
-        <h2 class=" heading-primary text-center mx-5">How Our Cheapest Essay Writing Service Works?</h2>
-        <p class="text-center my-6  mx-8 primary-para">Getting your papers done through our platform is only a 4-step
-            process.</p>
+        <h2 class=" heading-primary text-center mx-5">How to Avail Our MBA Project Writing Help in Dubai?</h2>
+        <p class="text-center my-6  mx-8 primary-para">All you need to do is follow these four easy step to avail MBA
+            project help in Dubai.</p>
 
         <div
             class="mt-16 sm:mt-5 grid grid-cols-1 md:grid-cols-2 md:gap-x-10 lg:gap-x-32 gap-y-8 mx-[2rem] lg:mx-[6rem] xl:mx-[2rem] ">
             <div class="bg-primary-three px-[0.5rem] md:px-8 py-[2rem] md:py-[2rem] lg:py-14 rounded-xl">
                 <img alt="img" src="../imgs/Submit-Your-Requirements.png"
                     class=" bg-gradient-to-r from-[#cfe1f1] to-[#6ba5d3] rounded-xl h-[6rem] sm:h-[3.5rem] sm:mt-4 -mt-20 ml-[1rem] sm:-ml-[2rem] lg:h-28   md:mt-2   md:h-24 md:-ml-[4rem] lg:-ml-24 p-[0.5rem] md:p-6 absolute ">
-                <h4 class="text-black text-xl lg:text-2xl mb-2 mx-4 sm:ml-11 mt-10 sm:mt-0 ">Submit Your Requirements</h4>
-                <p class="text-black  text-sm xl:text-lg space-y-2 ml-11">In the first step, you only need to enter your
-                    details and proceed
-                    to order. Make sure to send in all requirements to make the most of your order.</p>
+                <h4 class="text-black text-xl lg:text-2xl mb-2 mx-4 sm:ml-11 mt-10 sm:mt-0 ">Step # 1: Enter the Guidelines
+                </h4>
+                <p class="text-black  text-sm xl:text-lg space-y-2 ml-11">To order an MBA assignment writing help, you must
+                    fill out the form first, entering all the information about your assignments.</p>
             </div>
             {{-- .-ml-12 {
         margin-left: -3rem;
@@ -420,27 +420,29 @@
             <div class="mt-10 sm:mt-0 bg-primary-three px-[0.5rem] md:px-8 py-[2rem]  md:py-[2rem] lg:py-14  rounded-xl">
                 <img alt="img" src="../imgs/Confirm-Order.png"
                     class=" bg-gradient-to-r from-[#d5ead7] to-[#76bd7e] rounded-xl h-[6rem] sm:h-[3.5rem] md:h-24 lg:h-28 -mt-16 sm:mt-4 md:mt-2 ml-[1rem] sm:-ml-[2rem] md:-ml-[4rem] lg:-ml-24 p-[0.5rem] md:p-6 absolute ">
-                <h4 class="text-black text-xl lg:text-2xl  mb-2  mx-4 sm:ml-11 mt-12 sm:mt-0">Confirm Order</h4>
-                <p class="text-black  text-sm xl:text-lg space-y-2  mx-4  sm:ml-11">Once you’ve entered the details,
-                    confirm the order and wait till we get it done by the finest writers of our team.</p>
+                <h4 class="text-black text-xl lg:text-2xl  mb-2  mx-4 sm:ml-11 mt-12 sm:mt-0">Step # 2: Click to Next</h4>
+                <p class="text-black  text-sm xl:text-lg space-y-2  mx-4  sm:ml-11">After filling out the form, confirm
+                    your order by clicking on “Next”. Your entered data will be explored, and an expert will be chosen.</p>
             </div>
 
             <div class="mt-10 sm:mt-0 bg-primary-three px-[0.5rem] md:px-8 py-[2rem]  md:py-[2rem] lg:py-14  rounded-xl">
                 <img alt="img" src="../imgs/Proceed-To-Payment.png"
                     class=" bg-gradient-to-r from-[#fbd4bf] to-[#f4935f] rounded-xl h-[6rem] sm:h-[3.5rem] md:h-24 lg:h-28 -mt-16 sm:mt-4 md:mt-2 ml-[1rem] sm:-ml-[2rem] md:-ml-[4rem] lg:-ml-24 p-[0.5rem] md:p-6 absolute  ">
-                <h4 class="text-black text-xl lg:text-2xl mb-2 mx-4 sm:ml-11 mt-12 sm:mt-0">Proceed To Payment </h4>
-                <p class="text-black  text-sm xl:text-lg space-y-2  mx-4  sm:ml-11">Go to the payment methods and choose
-                    the one that suits you, either Paypal, stripe Payoneer or online banking and proceed to payment.
+                <h4 class="text-black text-xl lg:text-2xl mb-2 mx-4 sm:ml-11 mt-12 sm:mt-0">Step # 3: Proceed to Payment
+                </h4>
+                <p class="text-black  text-sm xl:text-lg space-y-2  mx-4  sm:ml-11">Once your MBA project writer is hired,
+                    you will proceed to the next step which is “payment”. You can choose any payment method from the given
+                    options
                 </p>
             </div>
 
             <div class="mt-10 sm:mt-0 bg-primary-four px-[0.5rem] md:px-8 py-[2rem]  md:py-[2rem] lg:py-14  rounded-xl">
                 <img alt="img" src="../imgs/Wait-For-Submission.png"
                     class=" bg-gradient-to-r from-[#eed1e6] to-[#ce7cb7] rounded-xl h-[6rem] sm:h-[3.5rem] md:h-24 lg:h-28 -mt-16 sm:mt-4 md:mt-2 ml-[1rem] sm:-ml-[2rem] md:-ml-[4rem] lg:-ml-24 p-[0.5rem] md:p-6 absolute  ">
-                <h4 class="text-black text-xl lg:text-2xl  mx-4 sm:ml-11 mt-12 sm:mt-0">Wait For Submission </h4>
-                <p class="text-black text-sm xl:text-lg space-y-2  mx-4  sm:ml-11">After the three step process, sit back
-                    and relax until we deliver you your essay before the deadline. Don’t worry about the quality as it’s the
-                    top priority for us.
+                <h4 class="text-black text-xl lg:text-2xl  mx-4 sm:ml-11 mt-12 sm:mt-0">Step # 4: Work in Process</h4>
+                <p class="text-black text-sm xl:text-lg space-y-2  mx-4  sm:ml-11">Now, your job is done. All you have to
+                    do is wait in the final step until our expert MBA assignment writer delivers the complete assignment
+                    within the given deadline.
                 </p>
             </div>
         </div>
@@ -452,23 +454,27 @@
             <div class="mx-6 py-6 w-full lg:px-0 xl:w-3/4 lg:w-3/4">
 
                 <h3 class="heading-primary pb-4 ">
-                    Hire Our Cheap Essay Writer to Get on Top of Your Academics
+                    Enhance Your Academic Grades by Ordering the Best MBA Papers Writers in UAE
                 </h3>
                 <p class="text-primary pb-4  primary-para">
-                    Hey, wait! Are you thinking that we compromise quality while giving you cheapest essay writing help? The
-                    answer is NO. Our essay writing charges start as low as {{ addCurrency(4) }} topped with quality.
+                    With highly skilled MBA project helpers, you are ensured with a satisfying MBA paper writing service.
+                    Our MBA paper writing experts are proficient enough to deal with all kinds of subject areas, offering a
+                    brilliant quality in their craft. So, if you are stuck with your complicated and time consuming
+                    assignments, then look no further as the best MBA project assignment help in Dubai has arrived.
                 </p>
                 <p class="text-primary pb-4  primary-para">
-                    So, if you’re a student in Chicago, NewYork, Los Angeles, Houston, Dallas, Miami, or anywhere in the
-                    UAE, the cheap essay writer service is a click away. From academic papers to personalized essays or
-                    guidance, our platform can provide you with quality writing services. The aim is to keep you going amid
-                    the academic stress. We believe students should share their burden so they can focus more on their
-                    grades and less on worries.
+                    Whether you need MBA finance assignment help, MBA case study assignment help, or MBA project writing
+                    services in Dubai, our extremely talented MBA project writers are there to provide you with any kind of
+                    MBA homework writing service of top quality. It will be a mind-blowing opportunity for every student to
+                    receive their work all done as per the guidelines by the qualified MBA paper writing experts while they
+                    can rest in the meantime.
                 </p>
                 <p class="text-primary pb-4  primary-para">
-                    Our writers are maestros in their profession. From provoking thoughts in the readers to make you win the
-                    grades, they know how to lead the crowd through the art of creative writing. Hire today to get excellent
-                    results tomorrow.
+                    No matter whether you are from Sharjah, Al Madam, Abu Dhabi, Dubai, or any other corner of the UAE, a
+                    high-quality MBA project writing service is guaranteed to deliver to your doorsteps before your
+                    submission deadline. So, what are you waiting for? Let us know your requirements and get the leverage of
+                    having an already done assignment in your hand. Now is the time for you to give some rest to your mind
+                    and body.
                 </p>
 
                 <div class="mt-6 flex flex-row md:justify-start items-center gap-4 sm:flex-row md:mt-8 lg:mt-10">
@@ -496,35 +502,35 @@
                         </li>
 
                         <li
-                            class="space-x-3  border-b text-sm pb-2 border-white border-dashed text-black text-lg flex justify-between">
+                            class="space-x-3  border-b text-sm pb-2 border-white border-dashed text-black  flex justify-between">
                             <p class="w-[48%] lg:my-1 ">Formatting</p>
                             <span class="text-center lg:my-1">for <del>{{ addCurrency(4) }}</del></span>
                             <strong class="float-right lg:my-1 ">Free</strong>
                         </li>
 
                         <li
-                            class="space-x-3 border-b pb-2 text-sm border-white border-dashed text-black text-lg flex justify-between">
+                            class="space-x-3 border-b pb-2 text-sm border-white border-dashed text-black  flex justify-between">
                             <p class="w-[48%] lg:my-1 ">Title page</p>
                             <span class="text-center lg:my-1">for <del>{{ addCurrency(4) }}</del></span>
                             <strong class="float-right lg:my-1">Free</strong>
                         </li>
 
                         <li
-                            class="space-x-3 border-b pb-2 text-sm border-white border-dashed text-black text-lg flex justify-between">
+                            class="space-x-3 border-b pb-2 text-sm border-white border-dashed text-black  flex justify-between">
                             <p class="w-[48%] lg:my-1">Bibliography</p>
                             <span class="text-center lg:my-1">for <del>{{ addCurrency(4) }}</del></span>
                             <strong class="float-right lg:my-1">Free</strong>
                         </li>
 
                         <li
-                            class="space-x-3 border-b pb-2 text-sm border-white border-dashed text-black text-lg flex justify-between">
+                            class="space-x-3 border-b pb-2 text-sm border-white border-dashed text-black  flex justify-between">
                             <p class="w-[48%] lg:my-1 ">Outline</p>
                             <span class="text-center lg:my-1">for <del>{{ addCurrency(4) }}</del></span>
                             <strong class="float-right lg:my-1">Free</strong>
                         </li>
 
                         <li
-                            class="space-x-3 border-b pb-2 text-sm border-white border-dashed text-black text-lg flex justify-between">
+                            class="space-x-3 border-b pb-2 text-sm border-white border-dashed text-black flex justify-between">
                             <span class="w-[49%] lg:my-1">Limitless Amendments</span>
                             <span class="text-center lg:my-1">for <del>{{ addCurrency(4) }}</del></span>
                             <strong class="float-right lg:my-1 ">Free</strong>
@@ -535,7 +541,8 @@
                         features for</p>
                     <div class="grid grid-cols-2 w-3/5 mx-auto">
                         <div class="mx-auto">
-                            <span class="font-semibold text:lg sm:text-xl text-black"><del>{{ addCurrency(24) }}</del></span>
+                            <span
+                                class="font-semibold text:lg sm:text-xl text-black"><del>{{ addCurrency(24) }}</del></span>
                         </div>
                         <div class="mx-auto">
                             <span class="font-semibold text:lg sm:text-xl text-black">FREE</span>
@@ -554,15 +561,111 @@
         </div>
     </section>
 
+    <section class="px-4 space-y-4 grid bg-white">
+        <div class="">
+            <h4 class="text-center mb-5 font-extrabold text-2xl bg-primary-two text-white py-3 rounded-t-lg">
+                An Incredible, Cost-Effective MBA Homework Help is Knocking at Your Door
+            </h4>
+            <p class="text-lg p-5">
+                Are you wondering about the cost you might have to invest to avail an excellent MBA assignment help? It is
+                entirely understandable to have thoughts about the prices in this increasing inflation. But do not worry! We
+                understand that most students are not financially independent and are helpless to complete their stressful
+                assignments all on their own. Therefore, it is our guarantee that you will be offered the best MBA project
+                writing service starting from as minimum price as one can imagine.
+
+            </p>
+            <p class="text-lg p-5">
+                In addition to this, you are offered a special discount of 10% on your first order. So, it is your time to
+                reap this brilliant award along with an outstanding completion of your assignment from the professionals.
+                Consider it a remarkable opportunity of improving your grades with top-notch MBA assignment help within your
+                financial range and time. It is always a pleasure for us to help our customers release their academic stress
+                and garner their heartwarming praises in return.
+            </p>
+            <hr class="border-black my-5 border-2">
+        </div>
+
+        <div class="">
+            <h4 class="text-center mb-5 font-extrabold text-2xl bg-primary-two text-white py-3 rounded-t-lg">
+                Discover our Expertise in a Wide Range of Disciplines and Rely on Us for Your MBA Paper Writing
+            </h4>
+            <p class="text-lg p-5">
+                Delivering the right work in the right discipline with the MBA assignment help experts is our promise and we
+                do not back down from our promises. Moreover, our well-trained MBA paper writing experts have mastered
+                different domains, due to which they are capable enough to confidently deal with all kinds of assignment
+                requirements customers enter in their respective fields. So, here is the variety of areas offered by us that
+                you can choose for your MBA assignment, project, or case study help:
+                <ul class="list-disc px-9">
+                    <li class="text-sm md:text-lg">
+                        Business Intelligence
+                    </li>
+                    <li class="text-sm md:text-lg">
+                        Business Management
+                    </li>
+                    <li class="text-sm md:text-lg">
+                        Business Environment
+                    </li>
+                    <li class="text-sm md:text-lg">
+                        Business Communication
+                    </li>
+                    <li class="text-sm md:text-lg">
+                        Business Administration
+                    </li>
+                    <li class="text-sm md:text-lg">
+                        Business Law
+                    </li>
+                    <li class="text-sm md:text-lg">
+                        Marketing
+                    </li>
+                    <li class="text-sm md:text-lg">
+                        Finance
+                    </li>
+                    <li class="text-sm md:text-lg">
+                        Business Analytics
+                    </li>
+                    <li class="text-sm md:text-lg">
+                        Human Resource Management
+                    </li>
+                    <li class="text-sm md:text-lg">
+                        Economics
+                    </li>
+                    <li class="text-sm md:text-lg">
+                        Content Management System
+                    </li>
+                    <li class="text-sm md:text-lg">
+                        Business Ethics
+                    </li>
+                    <li class="text-sm md:text-lg">
+                        Customer Relationship Management
+                    </li>
+                    <li class="text-sm md:text-lg">
+                        Capital Budgeting
+                    </li>
+                    <li class="text-sm md:text-lg">
+                        Business Analytics
+                    </li>
+                    <li class="text-sm md:text-lg">
+                        And many others
+                    </li>
+                </ul>
+
+            </p>
+            <hr class="border-black my-5 border-2">
+
+        </div>
+
+    </section>
+
 
     <section class="container  mx-auto px-2 relative">
 
-        <h3 class="heading-primary text-left md:text-center  mx-10 sm:mx-5"> The Only Cheap Reliable Essay Writing Service
-            in UAE who Works for Your Growth</h3>
-        <p class="text-left md:text-center my-6  mx-10 primary-para">If you’re continuously missing the deadlines, there’s
-            something you’re doing wrong
-            and you need to find it. It’s best to take consultation from those who have already travelled the path.
-            Here at {{ addCurrency(4) }} essay we provide you a wide range of writing services that includes</p>
+        <h3 class="heading-primary text-left md:text-center  mx-10 sm:mx-5">Enjoy the Perks of Hiring an Online MBA
+            Assignment Service for Impeccable Results</h3>
+        <p class="text-left md:text-center my-6  mx-10 primary-para">You know you are already packed with a lot of stuff,
+            including academic assignments and projects that bind you and resist you from resting. However, leveraging an
+            MBA assignment help in this situation would be an excellent idea as your brain also needs some rest to function
+            correctly. It is not possible to attempt to complete all the tasks at the same time, so take a bold step and
+            approach an expert’s help. At this platform, you are ensured to be given an astounding experience that you will
+            never forget. So, here are the perks of hiring our qualified assignment writers:</p>
 
         <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 xl:grid-cols-3 gap-0 mt-5">
             <div class=" border-0 px-9 md:border-r-4 pr-2 border-b-4  border-primary-one md:p-4">
@@ -696,32 +799,35 @@
 
                 <div class="flex flex-col md:space-x-8 items-center md:flex-row space-y-4 md:space-y-0">
                     <div target-data="0"
-                        class="divbutton cursor-pointer border-black border-2 bg-primary-next5 w-[95%] md:w-[50%] xl:w-full px-8 lg:px-4 py-4 rounded-xl flex flex-row space-x-4">
+                        class="divbutton cursor-pointer border-black border-2 bg-primary-next5 w-[95%] md:w-[50%] xl:w-full px-8 lg:px-4 py-4 rounded-xl flex flex-row ">
                         <img alt="img" src="../imgs/pie-chart.png" class="h-14">
-                        <p id='' class="text-black text-sm md:text-primary mt-2 xl:mt-0  font-semibold ">
-                            Budget-Friendly Cost</p>
+                        <p id='' class="text-black text-sm md:text-[15px]  ml-2 mt-2 xl:mt-0  font-semibold ">
+                            Budget-Friendly Service</p>
                     </div>
 
                     <div target-data="1"
-                        class="divbutton   cursor-pointer border-black border-2 bg-primary-next w-[95%] md:w-[50%] xl:w-full px-8 py-4 rounded-xl flex flex-row space-x-4">
+                        class="divbutton   cursor-pointer border-black border-2 bg-primary-next w-[95%] md:w-[50%] xl:w-full px-8 py-4 rounded-xl flex flex-row ">
                         <img alt="img" src="../imgs/equalizer.png" class="h-14">
-                        <p class="text-black text-sm md:text-primary mt-2 md:mt-0 font-semibold">Perfectly Customized</p>
+                        <p class="text-black text-sm md:text-[15px]  ml-2 mt-2 md:mt-0 font-semibold">Talented
+                            Professionals</p>
                     </div>
                 </div>
 
                 <div class="flex flex-col md:space-x-8 items-center md:flex-row space-y-4 md:space-y-0">
 
                     <div target-data="2"
-                        class="divbutton  cursor-pointer border-black border-2 bg-primary-next1 w-[95%] md:w-[50%]  px-8 lg:px-4 py-4 rounded-xl flex flex-row space-x-4">
+                        class="divbutton  cursor-pointer border-black border-2 bg-primary-next1 w-[95%] md:w-[50%]  px-8 lg:px-4 py-4 rounded-xl flex flex-row ">
                         <img alt="img" src="../imgs/ribbon.png" class="h-14">
-                        <p class="text-black text-sm md:text-primary mt-2 xl:mt-0 font-semibold ">Highly-Skilled Writers
+                        <p class="text-black text-sm md:text-[15px]  ml-2 mt-2 xl:mt-0 font-semibold ">Assignment
+                            Customization and Revisions
                         </p>
                     </div>
 
                     <div target-data="3"
-                        class="divbutton cursor-pointer border-black border-2 bg-primary-next2 w-[95%] md:w-[50%] px-8 lg:px-4 py-4 rounded-xl flex flex-row space-x-4">
+                        class="divbutton cursor-pointer border-black border-2 bg-primary-next2 w-[95%] md:w-[50%] px-8 lg:px-4 py-4 rounded-xl flex flex-row ">
                         <img alt="img" src="../imgs/checklist.png" class="h-14">
-                        <p class="text-black text-sm md:text-primary mt-4 font-semibold xl:mt-3">Top Quality Papers</p>
+                        <p class="text-black text-sm md:text-[15px]  ml-2 font-semibold ">Dedication to a Friendly
+                            Environment</p>
                     </div>
 
                 </div>
@@ -729,17 +835,17 @@
                 <div class="flex flex-col md:space-x-8 items-center md:flex-row space-y-4 md:space-y-0">
 
                     <div target-data="4"
-                        class="divbutton cursor-pointer border-black border-2 bg-primary-next3 w-[95%] md:w-[50%]  px-8 py-4 rounded-xl flex flex-row space-x-4">
+                        class="divbutton cursor-pointer border-black border-2 bg-primary-next3 w-[95%] md:w-[50%]  px-8 py-4 rounded-xl flex flex-row ">
                         <img alt="img" src="../imgs/clock.png" class="h-14">
-                        <p class="text-black text-sm md:text-primary mt-4 xl:mt-0 font-semibold cursor-pointer">On TIme
-                            Delivery</p>
+                        <p class="text-black text-sm md:text-[15px]  ml-2 mt-4 xl:mt-0 font-semibold cursor-pointer">
+                            Commitment to Timely Submission</p>
                     </div>
 
                     <div target-data="5"
-                        class="divbutton cursor-pointer border-black border-2 bg-primary-next4 w-[95%] md:w-[50%]  px-8 lg:px-2 py-4 rounded-xl flex flex-row space-x-4">
+                        class="divbutton cursor-pointer border-black border-2 bg-primary-next4 w-[95%] md:w-[50%]  px-8 lg:px-2 py-4 rounded-xl flex flex-row ">
                         <img alt="img" src="../imgs/settings.png" class="h-14">
-                        <p class="text-black text-sm md:text-primary mt-2 font-semibold  cursor-pointer">24/7 Customer
-                            Support</p>
+                        <p class="text-black text-sm md:text-[15px] ml-2 font-semibold  cursor-pointer">24/7 Customer
+                            Assistance</p>
                     </div>
                 </div>
             </div>
@@ -749,7 +855,8 @@
                 </h4>
                 <p id='content' class="text-black text-center md:text-primary text-base xl:text-lg"></p>
                 <div class="flex justify-center items-center ">
-                    <button id="button" class=" bg-white text-lg border-black border-2 text-black rounded-full py-1  mt-4 w-2/3 md:w-1/4">
+                    <button id="button"
+                        class=" bg-white text-lg border-black border-2 text-black rounded-full py-1  mt-4 w-2/3 md:w-1/4">
                         Next
                     </button>
                 </div>
@@ -773,7 +880,7 @@
                     <div class=" px-3 md:px-1 w-full md:w-1/2 lg:w-1/4  mb-3">
                         <label class="text-red-500 text-sm lg:text-base ml-3 block">I Need</label>
                         <select name="paper_type"
-                            class="@error('paper_type') border-red-500 @enderror  placeholder-black w-full text-gray-700 shadow-xl rounded-full border-2 border-primary-three bg-white  focus:border-blue-600 focus:ring-2 focus:ring-purple-200 text-base h-10 outline-none  px-3 leading-8 transition-colors duration-200 ease-in-out"
+                            class="@error('paper_type')  @enderror  placeholder-black w-full text-gray-700 shadow-xl rounded-full border-2 border-primary-three bg-white  focus:border-blue-600 focus:ring-2 focus:ring-purple-200 text-base h-10 outline-none  px-3 leading-8 transition-colors duration-200 ease-in-out"
                             value="{{ old('paper_type', '') }}">
                             @foreach ($paper_types as $paper_type)
                                 <option {{ old('paper_type') == $paper_type->id ? 'selected' : '' }}
@@ -786,14 +893,14 @@
                     <div class="px-3 md:px-1 w-full md:w-1/2 lg:w-1/4  mb-3">
                         <label class="text-red-500 text-sm lg:text-base ml-3  block">My Email</label>
                         <input type="text"
-                            class=" @error('email') border-red-500 @enderror placeholder-black w-full text-gray-700 shadow-xl rounded-full border-2 border-primary-three bg-white  focus:border-blue-600 focus:ring-2 focus:ring-purple-200 text-base h-10 outline-none py-2 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                            class=" @error('email')  @enderror placeholder-black w-full text-gray-700 shadow-xl rounded-full border-2 border-primary-three bg-white  focus:border-blue-600 focus:ring-2 focus:ring-purple-200 text-base h-10 outline-none py-2 px-3 leading-8 transition-colors duration-200 ease-in-out"
                             name="email" placeholder="Example@gmail.com" value="{{ old('email') }}">
                     </div>
 
                     <div class="px-3 md:px-1 w-full md:w-1/2 lg:w-1/4  mb-3">
                         <label class="text-red-500 text-sm lg:text-base ml-3  block">My Number</label>
                         <input type="tel" name="Phone" id="phone" type="tel"
-                            class="@error('phone') border-red-500 @enderror  placeholder-black w-full text-gray-700 shadow-xl rounded-full border-2 border-primary-three bg-white focus:border-blue-600
+                            class="@error('phone')  @enderror  placeholder-black w-full text-gray-700 shadow-xl rounded-full border-2 border-primary-three bg-white focus:border-blue-600
                             focus:ring-2 focus:ring-purple-200 text-base h-10 outline-none py-2 px-3 leading-8 transition-colors duration-200 ease-in-out"
                             placeholder="Contact Number" value="{{ old('phone') }}"
                             oninput="this.value=this.value.replace(/[^0-9\+]/g,'');" autocomplete="off"
@@ -1031,7 +1138,8 @@
                 </div>
                 <p class="openSlide primary-para pb-3 px-4" id="openSlide1" style="display: none;">We don’t sell general
                     essays to everyone. Instead, we collect your order and create an essay from scratch tailored to your
-                    specific requirements. The lowest price of buying an essay from us is {{ addCurrency(4) }} and the price varies according
+                    specific requirements. The lowest price of buying an essay from us is {{ addCurrency(4) }} and the
+                    price varies according
                     to the additions in the order. So, definitely you can buy a cheap service or ask us to ‘write my paper’
                     from us.</p>
             </div>
@@ -1045,7 +1153,8 @@
                         <i class="fa fa-plus-square text-2xl"></i>
                     </div>
                 </div>
-                <p class="openSlide primary-para pb-3 px-4" id="openSlide2" style="display: none;">At MBA Assignments Help, we
+                <p class="openSlide primary-para pb-3 px-4" id="openSlide2" style="display: none;">At MBA Assignments
+                    Help, we
                     already offer services at the cheapest cost. We have fixed rates for everyone and we don’t compare it
                     with any other company. However, if you’re ordering papers in bulk from our website, we can think about
                     the discount. But in general, we offer fixed and cheapest rates so every student can take benefit of our
@@ -1300,42 +1409,42 @@
         })();
 
         var guarantee = [{
-                'title': 'Cheapest Essay Online',
-                'content': 'Being a student it’s not easy to spend a heavy amount on professional assistance but when you have {{ addCurrency(4) }} essay around you, you can relax and free your time. We guarantee the best paper writing service in the UAE to keep you winning the grades.',
+                'title': 'Budget-Friendly Service',
+                'content': 'The demand of students for a cost-efficient service in this expensive era makes perfect sense to us, due to which our dedication to offering a phenomenal MBA assignment help service at a cost that is affordable for all remains constant. Our priorities are unmatchable, and customers’ financial satisfaction is one of them. So, gain the benefit of these services that are friendly to your wallet. ',
                 'color': 'bg-primary-next5',
                 'colordiv': '#f8fafc'
             },
             {
-                'title': 'Essays Written for You Only',
-                'content': 'Get a customized essay by letting the creative writer work on your draft. If you have an idea let us know. If you want us to brainstorm then don’t hesitate as we have great thinkers who can work to boost your academic success with cheap custom writing service.',
+                'title': 'Talented Professionals',
+                'content': 'Suppose you have doubts about whether the professionals can complete your tasks as per the requirements or not. There is no need to be troubled in that case as the experts are exceptionally skilled in their domains and have tremendous years of experience in this field. Therefore, consider it our promise to deliver you quality work on time by following the exact details you mentioned while filling out the form. ',
                 'color': 'bg-primary-next',
                 'colordiv': '#f8fafc'
 
             },
             {
-                'title': 'Quality Writers',
-                'content': 'It’s easy to find cheap essay writers but everyone isn’t capable of delivering quality papers. But here at {{ addCurrency(4) }} essay we provide quality with affordability. Our writers know how to put in the best work to make you shine in the crowd.',
+                'title': 'Assignment Customization and Revisions',
+                'content': "The MBA assignment experts always ensure their work's originality by constantly checking for plagiarism. In this way, you receive your work 100% plagiarism free. Also, you can enjoy the leverage of assignment customization by keeping the expert in the loop. Apart from that, you are offered unlimited revisions, meaning you can ask the writers as many times as possible to make changes to the work they do for you. So, even if you are not satisfied with the assignments done by professionals, you can still garner the benefit of unlimited free revisions.",
                 'color': 'bg-primary-next1',
                 'colordiv': '#f8fafc'
 
             },
             {
-                'title': 'Authentic Papers',
-                'content': 'With a team of researchers, thinkers, and adept writers who search and validate the facts before including it in our papers. So, with us you don’t need to worry about the facts as we write what is authentic and engaging.',
+                'title': 'Dedication to a Friendly Environment',
+                'content': 'With a range of highly-skilled experts, a friendly environment is ensured to be maintained here. Every worker from the crew deals with the customer respectively and professionally. The reason for encouraging a healthy environment is to make sure the experts are doing their work in peace. MBA assignment writing is challenging work that needs a lot of mental work. Therefore, a serene environment is necessary for the experts in order to deliver quality work on time.',
                 'color': 'bg-primary-next2',
                 'colordiv': '#f8fafc'
 
             },
             {
-                'title': 'Committed to Deadlines',
-                'content': 'When you order your essays, we assign you a deadline. And once assigned, we never miss it. We’re committed to delivering quality papers before the deadlines. So, with us you can be at ease as we take your acaderesponsbility on',
+                'title': 'Commitment to Timely Submission',
+                'content': 'Stay calm about the time once you have ordered an assignment expert because time is our central focus. When you submit the details and guidelines of your assignment in the form, the assignment writing experts go through that information and thoroughly understand every detail. One of the most prominent parts of our forms is the deadline by which the assignment has to be submitted. The experts make sure to quickly draw a picture of the completed assignment and calculate the hours it might take to be completed. After that, you are given a deadline within which the writers complete your assignment and deliver it to your inbox.',
                 'color': 'bg-primary-next3',
                 'colordiv': '#f8fafc'
 
             },
             {
-                'title': 'Responsive Customer Support',
-                'content': 'Do you have any questions before assigning us the order? Feel free to get in touch with us. We have the fastest customer services who take pride in resolving your cheap essay writing 24/7 queries. Clear your doubts before you hire us anytime.',
+                'title': '24/7 Customer Assistance',
+                'content': 'Customer satisfaction is our first priority, for which we make sure to be responsive to their queries all the time. Due to this reason, we stay active 24/7 to assist our customers and provide them with a memorable experience. So, if you have any doubts, questions, or queries, do not hesitate to leave a text or make a call. Our customer service department will make sure to clear all your queries and guide you about our platform and its services, ensuring you have a satisfactory experience.',
                 'color': 'bg-primary-next4',
                 'colordiv': '#f8fafc'
 
