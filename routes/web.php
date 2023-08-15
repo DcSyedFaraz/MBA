@@ -118,9 +118,12 @@ Route::group(['namespace' => 'web'], function () {
     // Blogs
     Route::get('/blogs', 'BlogsController@create')->name('blogs');
     Route::get('/blogs/{slug}', 'BlogsController@show')->name('blogs.show');
+    
+    Route::get('/mba-essay', 'PagesController@essay')->name('essay');
     // Service
     Route::get('/services',             "ServiceController@create")->name('services');
     Route::get('/{slug}', 'ServiceController@show')->name('services.show');
+
 });
 
 

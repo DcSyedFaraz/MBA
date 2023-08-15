@@ -160,6 +160,9 @@
                                       <li>
                                         <a href="{{route('services.show','speech-writing')}}" class="block p-2 text-base hover:bg-primary-one text-white">Speech Writing</a>
                                       </li>
+                                      <li>
+                                        <a href="{{route('essay')}}" class="block p-2 text-base hover:bg-primary-one text-white">MBA Essay</a>
+                                      </li>
                                     </ul>
                                     <ul class="px-4 w-full   xl:px-[2rem] border-solid   border-gray-600 border-b  py-2 ">
                                       <li>

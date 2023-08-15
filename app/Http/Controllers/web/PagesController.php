@@ -119,4 +119,12 @@ class PagesController extends Controller
        //  dd("Cache is cleared");
        return view('pages.pricing',compact('deadlines','master','under','college'));
     }
+    public function essay(){
+        $paper_types = PaperType::all();
+        $academic_levels = AcademicLevel::orderBy('id', 'asc')->get();
+        $deadlines = Deadline::all();
+        $fares = Fare::all();
+
+        return view('pages.mbaessay', compact('fares', 'paper_types', 'academic_levels', 'deadlines'));
+    }
 }
