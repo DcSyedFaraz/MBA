@@ -1,9 +1,9 @@
 @extends('layouts.web')
 
-@section('title', 'Cheap Essay Writing Service at {{ addCurrency(4) }}- Quality Papers Online')
+@section('title', 'MBA Assignment Help UAE: MBA Project Writing Services Dubai')
 @section('description',
-    'MBA Assignments Help is the cheapest essay writing service in the UAE, which provides expert essay
-    writers help for the UAE students at 20% discount rates.')
+    'Need MBA assignment Writing help in UAE? We offer the best MBA assignment writing services in
+    Dubai by professional MBA Assignment writers.')
 @section('canonical', config('app.app_url'))
 @section('content')
 
@@ -16,10 +16,10 @@
                 <div class="mt-3 md:mt-6">
                     <p class="primary-para">
                         No worries! A golden opportunity for MBA assignment writing services is waiting for you now. So,
-                        delve into our online platform and explore the benefits of hiring an MBA assignment helper who will
-                        take charge of completing your assignments to help you overcome your burden of overwhelming tasks.
-                        Meanwhile, you can sit back and give yourself some rest because the responsibility of uplifting your
-                        academic scores is now in our hands, and our MBA project writing experts always succeed at it.
+                        delve into our online platform and explore the benefits of hiring an MBA assignment help expert who
+                        will take charge of completing your assignments to help you overcome your burden of overwhelming
+                        tasks. Meanwhile, you can sit back and give yourself some rest because the responsibility of
+                        uplifting your academic scores is now in our hands, and our experts always succeed at it.
                     </p>
                 </div>
                 <div class="mt-6 flex flex-row md:justify-start xl:pl-5 items-center gap-4 sm:flex-row md:mt-8 lg:mt-10">
@@ -458,9 +458,9 @@
                 </h3>
                 <p class="text-primary pb-4  primary-para">
                     With highly skilled MBA project helpers, you are ensured with a satisfying MBA paper writing service.
-                    Our MBA paper writing experts are proficient enough to deal with all kinds of subject areas, offering a
-                    brilliant quality in their craft. So, if you are stuck with your complicated and time consuming
-                    assignments, then look no further as the best MBA project assignment help in Dubai has arrived.
+                    Our experts are proficient enough to deal with all kinds of subject areas, offering a brilliant quality
+                    in their craft. So, if you are stuck with your complicated and time consuming assignments, then look no
+                    further as the best MBA project assignment help in Dubai is arrived.
                 </p>
                 <p class="text-primary pb-4  primary-para">
                     Whether you need MBA finance assignment help, MBA case study assignment help, or MBA project writing
@@ -469,12 +469,11 @@
                     receive their work all done as per the guidelines by the qualified MBA paper writing experts while they
                     can rest in the meantime.
                 </p>
-                <p class="text-primary pb-4  primary-para">
-                    No matter whether you are from Sharjah, Al Madam, Abu Dhabi, Dubai, or any other corner of the UAE, a
-                    high-quality MBA project writing service is guaranteed to deliver to your doorsteps before your
-                    submission deadline. So, what are you waiting for? Let us know your requirements and get the leverage of
-                    having an already done assignment in your hand. Now is the time for you to give some rest to your mind
-                    and body.
+                <p class="text-primary pb-4  primary-para">No matter whether you are from Sharjah, Al Madam, Abu Dhabi,
+                    Dubai, or any other corner of the UAE, a high-quality MBA project writing service is guaranteed to
+                    deliver to your doorsteps before your submission deadline. So, what are you waiting for? Let us know
+                    your requirements and get the leverage of having an already done assignment in your hand. Now is the
+                    time for you to give some rest to your mind and body.
                 </p>
 
                 <div class="mt-6 flex flex-row md:justify-start items-center gap-4 sm:flex-row md:mt-8 lg:mt-10">
@@ -561,7 +560,7 @@
         </div>
     </section>
 
-    <section class="px-4 space-y-4 grid bg-white">
+    {{-- <section class="px-4 space-y-4 grid bg-white">
         <div class="">
             <h4 class="text-center mb-5 font-extrabold text-2xl bg-primary-two text-white py-3 rounded-t-lg">
                 An Incredible, Cost-Effective MBA Homework Help is Knocking at Your Door
@@ -594,112 +593,115 @@
                 different domains, due to which they are capable enough to confidently deal with all kinds of assignment
                 requirements customers enter in their respective fields. So, here is the variety of areas offered by us that
                 you can choose for your MBA assignment, project, or case study help:
-                <ul class="list-disc px-9">
-                    <li class="text-sm md:text-lg">
-                        Business Intelligence
-                    </li>
-                    <li class="text-sm md:text-lg">
-                        Business Management
-                    </li>
-                    <li class="text-sm md:text-lg">
-                        Business Environment
-                    </li>
-                    <li class="text-sm md:text-lg">
-                        Business Communication
-                    </li>
-                    <li class="text-sm md:text-lg">
-                        Business Administration
-                    </li>
-                    <li class="text-sm md:text-lg">
-                        Business Law
-                    </li>
-                    <li class="text-sm md:text-lg">
-                        Marketing
-                    </li>
-                    <li class="text-sm md:text-lg">
-                        Finance
-                    </li>
-                    <li class="text-sm md:text-lg">
-                        Business Analytics
-                    </li>
-                    <li class="text-sm md:text-lg">
-                        Human Resource Management
-                    </li>
-                    <li class="text-sm md:text-lg">
-                        Economics
-                    </li>
-                    <li class="text-sm md:text-lg">
-                        Content Management System
-                    </li>
-                    <li class="text-sm md:text-lg">
-                        Business Ethics
-                    </li>
-                    <li class="text-sm md:text-lg">
-                        Customer Relationship Management
-                    </li>
-                    <li class="text-sm md:text-lg">
-                        Capital Budgeting
-                    </li>
-                    <li class="text-sm md:text-lg">
-                        Business Analytics
-                    </li>
-                    <li class="text-sm md:text-lg">
-                        And many others
-                    </li>
-                </ul>
+            <ul class="list-disc px-9">
+                <li class="text-sm md:text-lg">
+                    Business Intelligence
+                </li>
+                <li class="text-sm md:text-lg">
+                    Business Management
+                </li>
+                <li class="text-sm md:text-lg">
+                    Business Environment
+                </li>
+                <li class="text-sm md:text-lg">
+                    Business Communication
+                </li>
+                <li class="text-sm md:text-lg">
+                    Business Administration
+                </li>
+                <li class="text-sm md:text-lg">
+                    Business Law
+                </li>
+                <li class="text-sm md:text-lg">
+                    Marketing
+                </li>
+                <li class="text-sm md:text-lg">
+                    Finance
+                </li>
+                <li class="text-sm md:text-lg">
+                    Business Analytics
+                </li>
+                <li class="text-sm md:text-lg">
+                    Human Resource Management
+                </li>
+                <li class="text-sm md:text-lg">
+                    Economics
+                </li>
+                <li class="text-sm md:text-lg">
+                    Content Management System
+                </li>
+                <li class="text-sm md:text-lg">
+                    Business Ethics
+                </li>
+                <li class="text-sm md:text-lg">
+                    Customer Relationship Management
+                </li>
+                <li class="text-sm md:text-lg">
+                    Capital Budgeting
+                </li>
+                <li class="text-sm md:text-lg">
+                    Business Analytics
+                </li>
+                <li class="text-sm md:text-lg">
+                    And many others
+                </li>
+            </ul>
 
             </p>
             <hr class="border-black my-5 border-2">
 
         </div>
 
-    </section>
+    </section> --}}
 
 
     <section class="container  mx-auto px-2 relative">
 
-        <h3 class="heading-primary text-left md:text-center  mx-10 sm:mx-5">Enjoy the Perks of Hiring an Online MBA
-            Assignment Service for Impeccable Results</h3>
-        <p class="text-left md:text-center my-6  mx-10 primary-para">You know you are already packed with a lot of stuff,
-            including academic assignments and projects that bind you and resist you from resting. However, leveraging an
-            MBA assignment help in this situation would be an excellent idea as your brain also needs some rest to function
-            correctly. It is not possible to attempt to complete all the tasks at the same time, so take a bold step and
-            approach an expert’s help. At this platform, you are ensured to be given an astounding experience that you will
-            never forget. So, here are the perks of hiring our qualified assignment writers:</p>
+        <h3 class="heading-primary text-left md:text-center  mx-10 sm:mx-5">Discover our Expertise in a Wide Range of
+            Disciplines and Rely on Us for Your MBA Homework Help</h3>
+        <p class="text-left md:text-center my-6  mx-10 primary-para">Delivering the right work in the right discipline with
+            the help of MBA paper writing experts is our promise and we do not back down from our promises. Moreover, our
+            well-trained MBA assignment help experts have mastered different domains, due to which they are capable enough
+            to confidently deal with all kinds of assignment requirements customers enter in their respective fields. So,
+            here is the variety of areas offered by us that you can choose for your MBA assignment, project, or case study
+            help:</p>
 
         <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 xl:grid-cols-3 gap-0 mt-5">
             <div class=" border-0 px-9 md:border-r-4 pr-2 border-b-4  border-primary-one md:p-4">
                 <a href="{{ route('services.show', 'term-papers') }}">
-                    <h5 class="text-primary-two font-bold text-xl md:text-2xl pb-3 pt-2">Term Paper Writing</h5>
+                    <h5 class="text-primary-two font-bold text-xl md:text-2xl pb-3 pt-2">Business Intelligence:</h5>
                 </a>
 
                 <p class="text-gray-900 text-base mb-4">
-                    Don’t know how to research and structure a term paper? Ask our experts and they would help
-                    you elevate your academic progress.
+                    Business Intelligence deals with the study that gathers and examines the data by tools, methods, and
+                    technologies to support organizational decision-making. In Business intelligence, the raw data is turned
+                    into insightful knowledge to improve the company's overall performance.
                 </p>
             </div>
 
             <div class=" border-0 px-9  border-b-4   md:border-r-4  border-primary-one md:p-4">
                 <a href="{{ route('services.show', 'assignment-writing') }}">
-                    <h5 class="text-primary-two font-bold text-xl md:text-2xl pb-3  pt-2">Assignment Writing </h5>
+                    <h5 class="text-primary-two font-bold text-xl md:text-2xl pb-3  pt-2">Business Management: </h5>
                 </a>
 
                 <p class="text-gray-900 text-base mb-4">
-                    No need to stress about the nerve wracking deadlines, our online essay helps cater to your
-                    assignment requests on all subjects.
+                    Business Management deals with the study of planning, organizing, controlling, and leading the resources
+                    and activities of a business to fulfil its goals. It also involves strategic planning, organizing
+                    activities, and managing other elements of the company.
                 </p>
                 <div
-                    class="invisible lg:visible absolute -ml-8 w-5 h-6 p-4 lg:p-8 xl:p-8 lg:-ml-12 bg-white rounded-full  ">
+                    class="invisible lg:visible absolute mt-[-1rem] -ml-8 w-5 h-6 p-4 lg:p-8 xl:p-8 lg:-ml-12 bg-white rounded-full  ">
                 </div>
             </div>
 
             <div class=" border-0 px-9  sm:px-14 border-b-4  border-primary-one md:p-4">
                 <a href="{{ route('services.show', 'coursework-writing') }}">
-                    <h5 class="text-primary-two font-bold text-xl md:text-2xl pb-3 pt-2">Coursework Writing </h5>
+                    <h5 class="text-primary-two font-bold text-xl md:text-2xl pb-3 pt-2">Business Environment: </h5>
                 </a>
                 <p class="text-gray-900 text-base mb-4">
-                    Do you have coursework pending for a long time and have no motivation to start? Our experts
-                    can help you ace it with perfection.
+                    Business Environment deals with the study of external sources that can affect the planning and decisions
+                    of a company. It includes a broad range of factors that might impact a company’s overall progress and
+                    operations.
                 </p>
                 <div
                     class="invisible lg:visible absolute -ml-8 w-5 h-6 p-4 lg:p-8 xl:p-8 lg:-ml-12 bg-white rounded-full  ">
@@ -708,72 +710,80 @@
 
             <div class=" border-0 px-9  sm:px-14 md:border-r-4 border-b-4  border-primary-one md:p-4">
                 <a href="{{ route('services.show', 'dissertation-writing') }}">
-                    <h5 class="text-primary-two font-bold text-xl md:text-2xl pb-3 lg:pt-6 pt-2 xl:pt-2">Dissertation
-                        Writing </h5>
+                    <h5 class="text-primary-two font-bold text-xl md:text-2xl pb-3 lg:pt-6 pt-2 xl:pt-2">Business
+                        Communication: </h5>
                 </a>
                 <p class="text-gray-900 text-base mb-4">
-                    Is your final year hanging because of the dissertation? Our PhD dissertation writer can help
-                    you overcome the writing challenges.
+                    Business Communication deals with the study of professional interchange of knowledge, ideas,
+                    communications, and feedback, either among the departments, teams, and groups of the company or within
+                    the organizations.
                 </p>
             </div>
 
             <div class=" border-0 px-9  sm:px-14 md:border-r-4 border-b-4  border-primary-one md:p-4">
                 <a href="{{ route('services.show', 'homework-writing') }}">
-                    <h5 class="text-primary-two font-bold text-xl md:text-2xl pb-3 lg:pt-6 pt-2 xl:pt-2">Homework Writing
+                    <h5 class="text-primary-two font-bold text-xl md:text-2xl pb-3 lg:pt-6 pt-2 xl:pt-2">Business
+                        Administration:
                     </h5>
                 </a>
                 <p class="text-gray-900 text-base mb-4">
-                    Dedicate your time on the subjects that are grade-winning and let your homework be pending
-                    on us.
+                    Business Administration deals with the study of managing, planning, organizing, and leading various
+                    business operations to fulfil its goals and objectives. Business Administration is essential to ensure
+                    that the company operates effectively and efficiently.
                 </p>
                 <div
-                    class="invisible lg:visible absolute -ml-8 w-5 h-6 p-4 md:p-8 xl:p-8 md:-ml-12 bg-white rounded-full  ">
+                    class="invisible lg:visible absolute  mt-[-1rem] -ml-8 w-5 h-6 p-4 md:p-8 xl:p-8 md:-ml-12 bg-white rounded-full  ">
                 </div>
             </div>
 
             <div class=" border-0 px-9  sm:px-14 border-b-4  border-primary-one md:p-4">
                 <a href="{{ route('services.show', 'presentation-designing') }}">
-                    <h5 class="text-primary-two font-bold text-xl md:text-2xl pb-3  lg:pt-6 pt-2 xl:pt-2">PowerPoint
-                        Presentation </h5>
+                    <h5 class="text-primary-two font-bold text-xl md:text-2xl pb-3  lg:pt-6 pt-2 xl:pt-2">Marketing:</h5>
                 </a>
                 <p class="text-gray-900 text-base mb-4">
-                    Learn how to impress your audience with a flawless presentation from our writers. It’s time
-                    to get your grades flowing.
+                    Marketing deals with the study of strategies, activities, and planning businesses use to promote their
+                    products and services. Marketing engages the customers with the brand by raising its awareness, helps
+                    increase sales, and enhances the relationship between customer and brand.
                 </p>
                 <div
-                    class="invisible lg:visible absolute -ml-8 w-5 h-6 p-4 md:p-8 xl:p-8 lg:-ml-12 bg-white rounded-full  ">
+                    class="invisible lg:visible absolute mt-[-1rem] -ml-8 w-5 h-6 p-4 md:p-8 xl:p-8 lg:-ml-12 bg-white rounded-full  ">
                 </div>
             </div>
 
             <div class=" border-0 px-9 border-b-4 sm:px-14 md:border-b-0 md:border-r-4 md:p-4 border-primary-one">
                 <a href="{{ route('services.show', 'research-paper') }}">
-                    <h5 class="text-primary-two font-bold text-xl md:text-2xl pb-3 lg:pt-6 pt-2 xl:pt-2">Research Paper
+                    <h5 class="text-primary-two font-bold text-xl md:text-2xl pb-3 lg:pt-6 pt-2 xl:pt-2">Finance:
                     </h5>
                 </a>
                 <p class="text-gray-900 text-base mb-4">
-                    Our essay writing company lets you connect with the hub of resources to get the best
-                    facts for your research.
+                    Finance deals with the study of the management of money, investments, resources, and other financial
+                    assets within the company or between organizations. It achieves the financial goals and objectives of
+                    the company by making informed decisions about acquisition, distribution, and investments.
                 </p>
             </div>
 
             <div class="border-0 px-9 border-b-4 sm:px-14 md:border-b-0 md:border-r-4 border-primary-one md:p-4">
                 <a href="{{ route('services.show', 'admission-essay-writing') }}">
-                    <h5 class="text-primary-two font-bold text-xl md:text-2xl py-3 lg:pt-6 pt-2 xl:pt-2">Admission Essay
+                    <h5 class="text-primary-two font-bold text-xl md:text-2xl py-3 lg:pt-6 pt-2 xl:pt-2">Human Resource
+                        Management:
                     </h5>
                 </a>
                 <p class="text-gray-900 text-base mb-4">
-                    Know how to write an admission essay that helps you get an instant seat in your dream college.
+                    Human Resource Management is a study that deals with multiple tasks like recruitment, development,
+                    maintaining, organizing, planning, controlling, and engaging employees to achieve the goals of a
+                    business.
                 </p>
             </div>
 
             <div class=" border-0 px-9 sm:px-14 md:p-4">
                 <a href="{{ route('services.show', 'case-study') }}">
-                    <h5 class="text-primary-two font-bold text-xl md:text-2xl py-3 lg:pt-6 pt-2 xl:pt-2">Case Study Writing
+                    <h5 class="text-primary-two font-bold text-xl md:text-2xl py-3 lg:pt-6 pt-2 xl:pt-2">Customer
+                        Relationship Management:
                     </h5>
                 </a>
                 <p class="text-gray-900 text-base mb-4">
-                    We let you build the finest case study to make it ahead of the crowd. If you want to shine,
-                    we’re just an order away.
+                    CRM is the study that deals with maintaining contacts and relationships with customers by comprehending
+                    their demands, preferences, and actions to achieve their satisfaction.
                 </p>
             </div>
 
@@ -791,9 +801,15 @@
     <!-- Guarantee -->
     <section class="container mx-auto  xl:w-[85%] my-10">
         <h4 class="heading-primary pb-10 text-center">
-            Here’s What We Guarantee
+            Enjoy the Perks of Hiring an Online MBA Assignment Service and make Your Assignment Game Strong
         </h4>
-
+        <p class="text-left md:text-center my-6  mx-10 primary-para">
+            You know you are already packed with a lot of stuff, including academic assignments and projects that bind you
+            and resist you from resting. However, assisting in this situation would be an excellent idea as your brain also
+            needs some rest to function correctly. It is not possible to attempt to complete all the tasks at the same time,
+            so take a bold step and approach an expert’s help. At this platform, you are ensured to be given an astounding
+            experience that you will never forget. So, here are the perks of hiring our qualified assignment writers:
+        </p>
         <div class="grid grid-cols-1 xl:grid-cols-2 gap-x-20 gap-y-8 mx-2">
             <div class="space-y-4 md:space-y-8 my-auto mx-auto ">
 
@@ -826,8 +842,7 @@
                     <div target-data="3"
                         class="divbutton cursor-pointer border-black border-2 bg-primary-next2 w-[95%] md:w-[50%] px-8 lg:px-4 py-4 rounded-xl flex flex-row ">
                         <img alt="img" src="../imgs/checklist.png" class="h-14">
-                        <p class="text-black text-sm md:text-[15px]  ml-2 font-semibold ">Dedication to a Friendly
-                            Environment</p>
+                        <p class="text-black text-sm md:text-[15px]  ml-2 font-semibold ">24/7 Customer Assistance</p>
                     </div>
 
                 </div>
@@ -844,8 +859,7 @@
                     <div target-data="5"
                         class="divbutton cursor-pointer border-black border-2 bg-primary-next4 w-[95%] md:w-[50%]  px-8 lg:px-2 py-4 rounded-xl flex flex-row ">
                         <img alt="img" src="../imgs/settings.png" class="h-14">
-                        <p class="text-black text-sm md:text-[15px] ml-2 font-semibold  cursor-pointer">24/7 Customer
-                            Assistance</p>
+                        <p class="text-black text-sm md:text-[15px] ml-2 font-semibold  cursor-pointer">Dedication to a Friendly Environment</p>
                     </div>
                 </div>
             </div>
@@ -870,7 +884,7 @@
     <!-- Form -->
     <section class="container mx-auto w-[80%] md:w-full px-2 xl:px-2 my-20">
         <h4 class="heading-primary text-center">
-            What Are You Waiting For? Our Cheap Paper Writing Service is 24/7 Available for You
+            Do Not Waste More Time and Reap the Benefit of Our 24/7 Attentive Customer Service
         </h4>
         <div id="msg-bag"></div>
         <div class="flex flex-col md:px-2 w-full mt-12">
@@ -878,7 +892,7 @@
                 @csrf
                 <div class="flex flex-wrap ">
                     <div class=" px-3 md:px-1 w-full md:w-1/2 lg:w-1/4  mb-3">
-                        <label class="text-red-500 text-sm lg:text-base ml-3 block">I Need</label>
+                        <label class="text-red-500 text-sm lg:text-base ml-3 block">My Topic</label>
                         <select name="paper_type"
                             class="@error('paper_type')  @enderror  placeholder-black w-full text-gray-700 shadow-xl rounded-full border-2 border-primary-three bg-white  focus:border-blue-600 focus:ring-2 focus:ring-purple-200 text-base h-10 outline-none  px-3 leading-8 transition-colors duration-200 ease-in-out"
                             value="{{ old('paper_type', '') }}">
@@ -951,8 +965,8 @@
 
     <!-- Testimonial -->
     <section class=" px-2 my-5">
-        <p class="heading-primary text-center">MBA Assignments Help Reviews</p>
-        <p class="text-center my-6 primary-para">This is how our customers remember us.</p>
+        <p class="heading-primary text-center">MBA Assignment Help Service Reviews</p>
+        {{-- <p class="text-center my-6 primary-para">This is how our customers remember us.</p> --}}
         <!-- Swiper -->
         <div class="w-[85%]  container mx-auto mt-2 swiper mySwiper">
             <div class="mb-5 swiper-wrapper ">
@@ -960,18 +974,17 @@
                     <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three ">
                         <div class="mb-2">
                             <ul class="my-6 space-y-5 text-sm text-black ">
-                                <li class="space-x-3"><span>Order: #17770851</span> <span class=" float-right">Pages:
-                                        12</span></li>
+                                <li class="space-x-3"><span>Order: #2474528</span> <span class=" float-right">Pages:
+                                        17</span></li>
                             </ul>
                             <p class="mb-2 text-center text-sm text-black italic">
-                                "They helped me when I was running short of time and had no access to any essay writer.
-                                Splendid job I must say."
+                                "Incredibly glad that I avail the MBA assignment help. I received my completed assignment timely."
                             </p>
                             <div class="flex flex-col items-center justify-center ">
                                 {{-- <div class="w-12 h-12 overflow-hidden bg-white border-2 border-indigo-100 rounded-full">
                     <img src="https://cdn.pixabay.com/photo/2017/05/19/12/38/entrepreneur-2326419__340.jpg" alt="img" class="object-cover object-center w-full h-full" />
                   </div> --}}
-                                <p class="my-3 text-center text-sm text-black ">Discipline: Dissertation</p>
+                                <p class="my-3 text-center text-sm text-black ">Domain: Business Intelligence</p>
                             </div>
                         </div>
                     </div>
@@ -980,15 +993,13 @@
                     <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three ">
                         <div class="mb-2">
                             <ul class="my-6 space-y-5 text-sm text-black ">
-                                <li class="space-x-3"><span>Order: #17550851</span> <span class=" float-right">Pages:
-                                        60</span></li>
+                                <li class="space-x-3"><span>Order: #2748375</span> <span class=" float-right">Pages:
+                                        15</span></li>
                             </ul>
                             <p class="mb-2 text-center text-sm text-black italic ">
-                                "If you’re looking for the cheapest essay service in Chicago then talk to them, they are
-                                easily
-                                reachable." </p>
+                                "I really appreciate the work of assignment experts. Looking forward to availing their help in future as well." </p>
                             <div class="flex flex-col items-center justify-center ">
-                                <p class="my-3 text-center text-sm text-black ">Discipline: Dissertation</p>
+                                <p class="my-3 text-center text-sm text-black ">Domain: Marketing</p>
                             </div>
                         </div>
                     </div>
@@ -997,15 +1008,13 @@
                     <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three ">
                         <div class="mb-2">
                             <ul class="my-6 space-y-5 text-sm text-black ">
-                                <li class="space-x-3"><span>Order: #17770951</span> <span class=" float-right">Pages:
-                                        3</span></li>
+                                <li class="space-x-3"><span>Order: #2649832</span> <span class=" float-right">Pages:
+                                        23</span></li>
                             </ul>
                             <p class="mb-2 text-center text-sm text-black italic ">
-                                "I hired them for a short essay. At first I wasn’t sure about the quality because of the
-                                cheap
-                                prices they offer but later their work amazed me." </p>
+                                I was quite anxious about my assignment, but luckily I contacted this platform, and they provided me with such a fantastic service. Thank you!" </p>
                             <div class="flex flex-col items-center justify-center ">
-                                <p class="my-1 text-center text-sm text-black ">Discipline: Essay</p>
+                                <p class="my-1 text-center text-sm text-black ">Domain: Business Management</p>
                             </div>
                         </div>
                     </div>
@@ -1014,15 +1023,15 @@
                     <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three ">
                         <div class="mb-2">
                             <ul class="my-6 space-y-5 text-sm text-black ">
-                                <li class="space-x-3"><span>Order: #96770851</span> <span class=" float-right">Pages:
-                                        5</span></li>
+                                <li class="space-x-3"><span>Order: #2638392</span> <span class=" float-right">Pages:
+                                        8</span></li>
                             </ul>
                             <p class="mb-2 text-center text-sm text-black italic">
-                                "I’d love to hire them again for online essay writing. They have very creative writers."
+                                "I am genuinely grateful for the mind-blowing work this platform’s experts delivered. Highly recommended."
                             </p>
                             <div class="flex flex-col items-center justify-center ">
 
-                                <p class="my-6 text-center text-sm text-black ">Discipline: Essay</p>
+                                <p class="my-6 text-center text-sm text-black ">Domain: Human Resource Management</p>
                             </div>
                         </div>
                     </div>
@@ -1031,15 +1040,14 @@
                     <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three ">
                         <div class="mb-2">
                             <ul class="my-6 space-y-5 text-sm text-black ">
-                                <li class="space-x-3"><span>Order: #17770851</span> <span class=" float-right">Pages:
-                                        12</span></li>
+                                <li class="space-x-3"><span>Order: #2648439</span> <span class=" float-right">Pages:
+                                        20</span></li>
                             </ul>
                             <p class="mb-2 text-center text-sm text-black italic ">
-                                "They helped me when I was running short of time and had no access to
-                                any essay writer. Splendid job I must say."
+                                "What an excellent platform for students. The experts are very well-trained and deliver their best work within the deadlines. Highly appreciated!"
                             </p>
                             <div class="flex flex-col items-center justify-center ">
-                                <p class="my-4 text-center text-sm text-black ">Discipline: Essay writing</p>
+                                <p class="my-4 text-center text-sm text-black ">Domain: Business Communication</p>
                             </div>
                         </div>
                     </div>
@@ -1048,14 +1056,14 @@
                     <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three ">
                         <div class="mb-2">
                             <ul class="my-6 space-y-5 text-sm text-black ">
-                                <li class="space-x-3"><span>Order: #17550851</span> <span class=" float-right">Pages:
-                                        60</span></li>
+                                <li class="space-x-3"><span>Order: #2548439</span> <span class=" float-right">Pages:
+                                        27</span></li>
                             </ul>
                             <p class="mb-2 text-center text-sm text-black italic ">
-                                "I’d love to hire them again for online essay writing. They have very creative writers."
+                                "Fully satisfied with the brilliant work of the experts. I received my completed assignment with up-to-the-mark quality."
                             </p>
                             <div class="flex flex-col items-center justify-center ">
-                                <p class="my-6 text-center text-sm text-black ">Discipline: Dissertation</p>
+                                <p class="my-6 text-center text-sm text-black ">Domain: Business administration</p>
                             </div>
                         </div>
                     </div>
@@ -1064,16 +1072,14 @@
                     <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three ">
                         <div class="mb-2">
                             <ul class="my-6 space-y-5 text-sm text-black ">
-                                <li class="space-x-3"><span>Order: #17770951</span> <span class=" float-right">Pages:
-                                        3</span></li>
+                                <li class="space-x-3"><span>Order: #2389390</span> <span class=" float-right">Pages:
+                                        23</span></li>
                             </ul>
                             <p class="mb-2 text-center text-sm text-black ">
-                                "I hired them for a short essay. At first I wasn’t sure about the quality because of the
-                                cheap
-                                prices they offer but later their work amazed me."
+                                "I was worried about my assignment, but then I explored this platform. It is still hard for me to believe that the experts completed my assignment at such cheap prices."
                             </p>
                             <div class="flex flex-col items-center justify-center ">
-                                <p class="my-1 text-center text-sm text-black ">Discipline: Essay</p>
+                                <p class="my-1 text-center text-sm text-black ">Domain: Customer Relationship Management</p>
                             </div>
                         </div>
                     </div>
@@ -1082,14 +1088,14 @@
                     <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three ">
                         <div class="mb-2">
                             <ul class="my-6 space-y-5 text-sm text-black ">
-                                <li class="space-x-3"><span>Order: #96770851</span> <span class=" float-right">Pages:
-                                        5</span></li>
+                                <li class="space-x-3"><span>Order: #2763823</span> <span class=" float-right">Pages:
+                                        19</span></li>
                             </ul>
                             <p class="mb-2 text-center text-sm text-black ">
-                                "I’d love to hire them again for online essay writing. They have very creative writers."
+                                "My friend recommended this platform, and initially, I thought it was a scam. To my surprise, this platform delivers such genuine help, and every student must avail this opportunity."
                             </p>
                             <div class="flex flex-col items-center justify-center ">
-                                <p class="my-6 text-center text-sm text-black ">Discipline: Essay</p>
+                                <p class="my-6 text-center text-sm text-black ">Domain: Business Management</p>
                             </div>
                         </div>
                     </div>
@@ -1107,106 +1113,81 @@
 
     <!-- FAQ -->
     <section class=" w-[85%] md:w-full container mx-auto px-2 my-10">
-        <p class="heading-primary text-center py-8">Do You Have Questions? We have the Answers.</p>
+        <p class="heading-primary text-center py-8">We are here to Answer Your Queries</p>
 
         <div class=" px-2 space-y-5">
             <div class="content border-2 border-primary-three rounded" data-no="0">
                 <div class="questions cursor-pointer flex p-3 font-bold text-primary-one mb-1 active" data-no="0">
                     <div class="heading w-3/4">
-                        <p class=" md:text-xl text-base md:font-semibold">Is MBA Assignments Help a reliable company?</p>
+                        <p class=" md:text-xl text-base md:font-semibold"> How can I trust this platform?</p>
                     </div>
                     <div class="icons text-right w-1/4">
                         <i class="fa fa-minus-square text-2xl"></i>
                     </div>
                 </div>
-                <p class="openSlide primary-para  pb-3 px-4" id="openSlide0">Yes, it’s! We’re a registered company in the
-                    US
-                    who works to provide legal academic papers to students. We have been working as a professional essay
-                    writing company for more than 5 years. And during the journey we have neither used our customers
-                    information for any other purpose nor we’ve mishandled any order. If you have any queries, don’t
-                    hesitate to drop it to our customer support services.</p>
+                <p class="openSlide primary-para  pb-3 px-4" id="openSlide0">It is a registered platform that guarantees feasibility to the students by doing their MBA paper writing assignments in better quality. Furthermore, your personal information and data will be confidential.</p>
             </div>
 
             <div class="content border-2 border-primary-three rounded" data-no="1">
                 <div class="questions cursor-pointer flex p-3 font-bold text-primary-one mb-1 active" data-no="1">
                     <div class="heading w-3/4 ">
-                        <p class=" md:text-xl text-base md:font-semibold">Can I buy a cheap essay?</p>
+                        <p class=" md:text-xl text-base md:font-semibold">Can I avail myself of cheap MBA project writing services?</p>
                     </div>
                     <div class="icons w-1/4 text-right">
                         <i class="fa fa-plus-square text-2xl"></i>
                     </div>
                 </div>
-                <p class="openSlide primary-para pb-3 px-4" id="openSlide1" style="display: none;">We don’t sell general
-                    essays to everyone. Instead, we collect your order and create an essay from scratch tailored to your
-                    specific requirements. The lowest price of buying an essay from us is {{ addCurrency(4) }} and the
-                    price varies according
-                    to the additions in the order. So, definitely you can buy a cheap service or ask us to ‘write my paper’
-                    from us.</p>
+                <p class="openSlide primary-para pb-3 px-4" id="openSlide1" style="display: none;">Of course, you will find the MBA project writing service within your financial range. Our experts explore your entered data, and your charges are confirmed as per your requirements.</p>
             </div>
 
             <div class="content border-2 border-primary-three rounded" data-no="2">
                 <div class="questions cursor-pointer flex p-3 font-bold text-primary-one mb-1 active" data-no="2">
                     <div class="heading w-3/4 ">
-                        <p class=" md:text-xl text-base md:font-semibold">Can I have a discount?</p>
+                        <p class=" md:text-xl text-base md:font-semibold">Are the experts well-trained?</p>
                     </div>
                     <div class="icons w-1/4 text-right">
                         <i class="fa fa-plus-square text-2xl"></i>
                     </div>
                 </div>
-                <p class="openSlide primary-para pb-3 px-4" id="openSlide2" style="display: none;">At MBA Assignments
-                    Help, we
-                    already offer services at the cheapest cost. We have fixed rates for everyone and we don’t compare it
-                    with any other company. However, if you’re ordering papers in bulk from our website, we can think about
-                    the discount. But in general, we offer fixed and cheapest rates so every student can take benefit of our
-                    writing services.</p>
+                <p class="openSlide primary-para pb-3 px-4" id="openSlide2" style="display: none;">Yes, the experts are highly skilled in their respective domains to deliver quality MBA assignment help that reaches your demands.</p>
             </div>
 
             <div class="content border-2 border-primary-three rounded" data-no="3">
                 <div class="questions cursor-pointer flex p-3 font-bold text-primary-one mb-1 active" data-no="3">
                     <div class="heading w-3/4 ">
-                        <p class=" md:text-xl text-base md:font-semibold">Are your writers qualified enough?</p>
+                        <p class=" md:text-xl text-base md:font-semibold">Is the platform available in Dubai only?</p>
                     </div>
                     <div class="icons w-1/4 text-right">
                         <i class="fa fa-plus-square text-2xl"></i>
                     </div>
                 </div>
-                <p class="openSlide primary-para pb-3 px-4" id="openSlide3" style="display: none;">Every writer in our
-                    team
-                    is hired after a thorough evaluation. Each one of them have expertise and specialization in their niche.
-                    They are highly qualified and follow the international standard of writing to give students the best
-                    results. We assign your orders to the writers according to their experience on the topic. Besides that,
-                    before delivering the writers work our quality assurance department thoroughly analyzes the papers to
-                    make it error free.</p>
+                <p class="openSlide primary-para pb-3 px-4" id="openSlide3" style="display: none;">Our online MBA assignment help is spread all over the UAE. So, you can avail of the MBA project writing service anywhere in UAE.</p>
             </div>
 
             <div class="content border-2 border-primary-three rounded" data-no="4">
                 <div class="questions cursor-pointer flex p-3 font-bold text-primary-one mb-1 active" data-no="4">
                     <div class="heading w-3/4 ">
-                        <p class=" md:text-xl text-base md:font-semibold">Do you help only students from the UAE?</p>
+                        <p class=" md:text-xl text-base md:font-semibold">Are the experts trustworthy?</p>
                     </div>
                     <div class="icons w-1/4 text-right">
                         <i class="fa fa-plus-square text-2xl"></i>
                     </div>
                 </div>
                 <p class="openSlide primary-para pb-3 px-4" id="openSlide2" style="display: none;">
-                    Although we provide budget-friendly writing services UAE, we’re open to receive orders from every corner
-                    of the world. Since our aim is to help students so we make sure no one in the world remains deprived of
-                    this professional assistance.</p>
+                    Our MBA paper writing experts make sure to deliver their best work by maintaining the quality of it. It is certain that you will find your assignment per your expectations. So you can easily trust them.</p>
             </div>
 
             <div class="content border-2 border-primary-three rounded" data-no="5">
                 <div class="questions cursor-pointer flex p-3 font-bold text-primary-one mb-1 active" data-no="5">
                     <div class="heading w-3/4 ">
-                        <p class=" md:text-xl text-base md:font-semibold">Will the writer stick to my requirements?</p>
+                        <p class=" md:text-xl text-base md:font-semibold">Can I get a discount?</p>
                     </div>
                     <div class="icons w-1/4 text-right">
                         <i class="fa fa-plus-square text-2xl"></i>
                     </div>
                 </div>
                 <p class="openSlide primary-para pb-3 px-4" id="openSlide2" style="display: none;">
-                    Our writing process starts after we receive your order. Our writers thoroughly consider your
-                    requirements and write papers from scratch. So, you’d never find your order apart from your given
-                    requirements. We have a strict policy of following what we’re asked for.
+                    Our MBA assignment service is highly reasonable and comes under the students' range. However, you can also get a discount if you order your work in bulk.
                 </p>
             </div>
 
@@ -1410,7 +1391,7 @@
 
         var guarantee = [{
                 'title': 'Budget-Friendly Service',
-                'content': 'The demand of students for a cost-efficient service in this expensive era makes perfect sense to us, due to which our dedication to offering a phenomenal MBA assignment help service at a cost that is affordable for all remains constant. Our priorities are unmatchable, and customers’ financial satisfaction is one of them. So, gain the benefit of these services that are friendly to your wallet. ',
+                'content': 'The demand of students for a cost-efficient service in this expensive era makes perfect sense to us, due to which our dedication to offering a phenomenal MBA project writing service at a cost that is affordable for all remains constant. Our priorities are unmatchable, and customers’ financial satisfaction is one of them. So, gain the benefit of these MBA paper writing services that are friendly to your wallet.',
                 'color': 'bg-primary-next5',
                 'colordiv': '#f8fafc'
             },
@@ -1429,8 +1410,8 @@
 
             },
             {
-                'title': 'Dedication to a Friendly Environment',
-                'content': 'With a range of highly-skilled experts, a friendly environment is ensured to be maintained here. Every worker from the crew deals with the customer respectively and professionally. The reason for encouraging a healthy environment is to make sure the experts are doing their work in peace. MBA assignment writing is challenging work that needs a lot of mental work. Therefore, a serene environment is necessary for the experts in order to deliver quality work on time.',
+                'title': '24/7 Customer Assistance',
+                'content': 'Customer satisfaction is our first priority, for which we make sure to be responsive to their queries all the time. Due to this reason, we stay active 24/7 to assist our customers and provide them with a memorable experience. So, if you have any doubts, questions, or queries, do not hesitate to leave a text or make a call. Our customer service department will make sure to clear all your queries and guide you about our platform and its MBA paper writing services, ensuring you have a satisfactory experience.',
                 'color': 'bg-primary-next2',
                 'colordiv': '#f8fafc'
 
@@ -1443,8 +1424,8 @@
 
             },
             {
-                'title': '24/7 Customer Assistance',
-                'content': 'Customer satisfaction is our first priority, for which we make sure to be responsive to their queries all the time. Due to this reason, we stay active 24/7 to assist our customers and provide them with a memorable experience. So, if you have any doubts, questions, or queries, do not hesitate to leave a text or make a call. Our customer service department will make sure to clear all your queries and guide you about our platform and its services, ensuring you have a satisfactory experience.',
+                'title': 'Dedication to a Friendly Environment',
+                'content': 'With a range of highly-skilled experts, a friendly environment is ensured to be maintained here. Every worker from the crew deals with the customer respectively and professionally. The reason for encouraging a healthy environment is to make sure the experts are doing their work in peace. Assignment writing is challenging work that needs a lot of mental work. Therefore, a serene environment is necessary for the experts in order to deliver quality work on time.',
                 'color': 'bg-primary-next4',
                 'colordiv': '#f8fafc'
 

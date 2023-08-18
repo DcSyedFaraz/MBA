@@ -83,7 +83,7 @@
 
             <div class=" ">
                 <ul class="list-none   text-base pt-5">
-                    @if (!empty($services))
+                    {{-- @if (!empty($services))
                         @for ($i = 0; $i <= 10; $i++)
                             <li class="py-1">
                                 <a href="{{ route('services.show', $services[$i]->slug) }}"
@@ -91,13 +91,13 @@
                                     {{ $services[$i]->name }} </a>
                             </li>
                         @endfor
-                    @endif
+                    @endif --}}
                 </ul>
             </div>
 
             <div class=" ">
                 <ul class="list-none text-base  pt-5">
-                    @if (!empty($services))
+                    {{-- @if (!empty($services))
                         @for ($i = 11; $i <= 21; $i++)
                             <li class="py-1">
                                 <a href="{{ route('services.show', $services[$i]->slug) }}"
@@ -105,13 +105,13 @@
                                     {{ $services[$i]->name }} </a>
                             </li>
                         @endfor
-                    @endif
+                    @endif --}}
                 </ul>
             </div>
 
             <div class=" ">
                 <ul class="list-none text-base mb-10  pt-5">
-                    @if (!empty($services))
+                    {{-- @if (!empty($services))
                         @for ($i = 22; $i <= 30; $i++)
                             <li class="py-1">
                                 <a href="{{ route('services.show', $services[$i]->slug) }}"
@@ -119,7 +119,7 @@
                                     {{ $services[$i]->name }} </a>
                             </li>
                         @endfor
-                    @endif
+                    @endif --}}
                 </ul>
             </div>
 

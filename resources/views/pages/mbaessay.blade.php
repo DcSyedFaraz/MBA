@@ -1,9 +1,8 @@
 @extends('layouts.web')
 
-@section('title', 'Cheap Essay Writing Service at Quality Papers Online')
+@section('title', 'MBA Essay Help: Ace MBA Essay Writing Service in UAE')
 @section('description',
-    'MBA Assignments Help is the cheapest essay writing service in the UAE, which provides expert essay
-    writers help for the UAE students at 20% discount rates.')
+    'Looking for MBA essay writing help in Dubai, UAE? Get Assistance from team of expert MBA essay writers who can handle any MBA essay topic and level.')
 @section('canonical', config('app.app_url'))
 @section('content')
 
