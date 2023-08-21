@@ -9,7 +9,7 @@
 <section class="container py-6 px-4 mx-auto" x-data="datatables()" x-cloak>
     <h1 class="text-3xl font-semibold py-8 text-primary-one text-center">Pricing</h1>
 
-    <div class="bg-white border border-black shadow-lg"
+    <div class="bg-white border border-black shadow-lg overflow-x-auto"
         style="">
         <table class="border-collapse table-auto w-full whitespace-no-wrap table-striped ">
             <thead>

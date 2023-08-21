@@ -23,7 +23,7 @@
     <div>
 
         <div class="mx-auto border-8 rounded-full w-52 h-52 md:w-44 md:h-44 lg:w-52 lg:h-52 border-primary-one mt-8 md:mt-0">
-            <a href="https://goo.gl/maps/2pLdA5c3XPqidEXP6">
+            <a href="#">
             <img src="../imgs/4dollaressay-google-reviews.png" class="h-16 mx-auto mt-14 md:mt-10 lg:mt-14">
 
             <p class="font-semibold text-blue-600 text-sm text-center mx-4 "> 4.8</p>
@@ -34,7 +34,7 @@
 
         <div class="flex flex-col md:flex-row space-y-4 md:space-y-0">
           <div class="mx-auto border-8 rounded-full w-52 h-52 md:w-44 md:h-44 lg:w-52 lg:h-52 border-primary-one mt-8 md:mt-0">
-              <a href="https://www.trustpilot.com/review/4dollaressay.com">
+              <a href="#">
 
             <img src="../imgs/4dollaressay-trustpilot-review.png" class="h-16 mx-auto mt-14">
             <p class="font-semibold text-blue-600 text-sm text-center mx-4 "> 4.8</p>
@@ -43,7 +43,7 @@
 
 
         <div class=" mx-auto border-8 rounded-full w-52 h-52 md:w-44 md:h-44 lg:w-52 lg:h-52 border-primary-one mt-8 md:mt-0 ">
-            <a href="https://www.sitejabber.com/reviews/4dollaressay.com">
+            <a href="#">
             <img src="../imgs/4dollaressay-sitejabbar-reviews.png" class="h-16 mx-auto mt-14">
             <p class="font-semibold text-blue-600 text-sm text-center mx-4 "> 4.8</p>
              </a>
@@ -127,7 +127,7 @@
                     </li>
                 </ul>
                 <span class=" text-primary-one text-lg">
-                    Cleveland, Ohio
+                    Dubai City, Abu Dhabi
                 </span>
             </div>
         </div>
@@ -186,7 +186,7 @@
                     </li>
                 </ul>
                 <span class=" text-primary-one text-lg">
-                    Utica, New York
+                    Abu Dhabi City, Abu Dhabi
                 </span>
             </div>
         </div>
@@ -247,7 +247,7 @@
                     </li>
                 </ul>
                 <span class=" text-primary-one text-lg">
-                    Camden, New Jersey
+                    Sharjah City, Sharjah
                 </span>
             </div>
         </div>
@@ -258,7 +258,7 @@
             <span class="font-bold text-primary-two text-lg">
                 “
             </span>
-            My writer did not fully understand the concept I wanted to go for and completed a task which I was not satisfied with but when I asked for the revision and made things clear, they understood it and rewrote the essay which I was satisfied with.
+            My writer did not fully understand the concept I wanted to go for and completed a task which I was not satisfied with but when I asked for the revision and made things clear, they understood it and rewrote the assignments which I was satisfied with.
             <span class="font-bold text-primary-two text-lg">
                 ”
             </span>
@@ -309,7 +309,8 @@
                     </li>
                 </ul>
                 <span class=" text-primary-one text-lg">
-                    North Las Vegas, Nevada
+                    Ras Al Khaimah City, Ras Al Khaimah
+
                 </span>
             </div>
         </div>
@@ -371,7 +372,7 @@
                     </li>
                 </ul>
                 <span class=" text-primary-one text-lg">
-                    Fremont, Nebraska
+                    Ajman City, Ajman
                 </span>
             </div>
         </div>
@@ -433,7 +434,7 @@
                     </li>
                 </ul>
                 <span class=" text-primary-one text-lg">
-                    London, England
+                    Fujairah City, Fujairah
                 </span>
             </div>
         </div>
@@ -444,7 +445,7 @@
             <span class="font-bold text-primary-two text-lg">
                 “
             </span>
-            I have been with this service for over a year now and they have never delivered a flawed assignment. The wide variety of qualified writers is their USP which is why I have trusted them with the number of my assignments and essays for different courses.
+            I have been with this service for over a year now and they have never delivered a flawed assignment. The wide variety of qualified writers is their USP which is why I have trusted them with the number of my assignments and assignmentss for different courses.
             <span class="font-bold text-primary-two text-lg">
                 ”
             </span>
@@ -495,7 +496,7 @@
                     </li>
                 </ul>
                 <span class=" text-primary-one text-lg">
-                    Liverpool, England
+                    Umm Al Quwain City, Umm Al Quwain
                 </span>
             </div>
         </div>
@@ -555,7 +556,7 @@
                     </li>
                 </ul>
                 <span class=" text-primary-one text-lg">
-                    Poznan, Poland
+                    Al Ain City, Abu Dhabi
                 </span>
             </div>
         </div>
@@ -615,7 +616,7 @@
                     </li>
                 </ul>
                 <span class=" text-primary-one text-lg">
-                    Ankara, Turkey
+                    Khor Fakkan City, Sharjah
                 </span>
             </div>
         </div>
@@ -674,7 +675,7 @@
                     </li>
                 </ul>
                 <span class=" text-primary-one text-lg">
-                    Richmond, Kentucky
+                    Dibba Al-Fujairah City, Fujairah
                 </span>
             </div>
         </div>
@@ -736,7 +737,7 @@
                     </li>
                 </ul>
                 <span class=" text-primary-one text-lg">
-                    Boone, Iowa
+                    Dubai Marina, Dubai
                 </span>
             </div>
         </div>
@@ -798,7 +799,7 @@
                     </li>
                 </ul>
                 <span class=" text-primary-one text-lg">
-                    Chicago, Illinois
+                    Khalifa City, Abu Dhabi
                 </span>
             </div>
         </div>
@@ -860,7 +861,7 @@
                     </li>
                 </ul>
                 <span class=" text-primary-one text-lg">
-                    Brooklyn, New
+                    Jebel Ali, Dubai
                 </span>
             </div>
         </div>
@@ -922,7 +923,7 @@
                     </li>
                 </ul>
                 <span class=" text-primary-one text-lg">
-                    Duncan, Oklahoma
+                    Liwa Oasis, Abu Dhabi
                 </span>
             </div>
         </div>
@@ -984,7 +985,7 @@
                     </li>
                 </ul>
                 <span class=" text-primary-one text-lg">
-                    Cincinnati, Ohio
+                    Hatta, Dubai
                 </span>
             </div>
         </div>

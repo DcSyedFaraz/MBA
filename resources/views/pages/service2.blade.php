@@ -14,7 +14,7 @@
                <h4 class="text-primary-one text-left my-3 text-lg xl:text-xl font-semibold  lg:mt-10 md:-ml-5">Services</h4>
            <ul class="text-footer-color text-base text-left list-disc py-2 mx-2 px-2 leading-8">
 
-         <a href="{{route('services.show','admission-essay-writing')}}">
+         <a href="{{route('services.show','admission-assignments-writing')}}">
            <li> Admission Wrtiting</li>
         </a>
          <a href="{{route('services.show','article-writing')}}">
@@ -66,42 +66,42 @@
            <h4 class="text-primary-one text-left my-3 text-lg xl:text-xl lg:mt-10 font-semibold px-2 md:px-0">Some More Services</h4>
            <ul class="text-footer-color text-left text-base list-disc md:ml-10 mx-2 px-4 md:px-0 leading-8">
 
-                 <a href="{{route('services.show', 'argumentative-essays')}}">
-                 <li>Argumentative Essays</li></a>
+                 <a href="{{route('services.show', 'argumentative-assignmentss')}}">
+                 <li>Argumentative assignmentss</li></a>
 
-                 <a href="{{route('services.show', 'descriptive-essays')}}">
-                  <li>Descriptive Essays</li></a>
+                 <a href="{{route('services.show', 'descriptive-assignmentss')}}">
+                  <li>Descriptive assignmentss</li></a>
 
-                <a href="{{route('services.show', 'narrative-essays')}}">
-                  <li> Narative Essays </li></a>
+                <a href="{{route('services.show', 'narrative-assignmentss')}}">
+                  <li> Narative assignmentss </li></a>
 
-                  <a href="{{route('services.show', 'personal-statement-essay')}}">
-                  <li> Personal Statment Essays</li></a>
+                  <a href="{{route('services.show', 'personal-statement-assignments')}}">
+                  <li> Personal Statment assignmentss</li></a>
               </ul>
               <h4 class="text-primary-one mt-12 my-3 text-lg xl:text-xl text-left font-semibold px-2 md:px-0">Subject Based Services</h4>
               <ul class="text-footer-color text-left list-disc md:ml-10 mx-2 text-base px-4 md:px-0 leading-8">
 
-              <a href="{{route('services.show', 'business-essay')}}">
-                 <li> Business Essay Help</li></a>
-                <a href="{{'literature-essay'}}">
-                  <li>Literature Essay Help</li>
+              <a href="{{route('services.show', 'business-assignments')}}">
+                 <li> Business assignments Help</li></a>
+                <a href="{{'literature-assignments'}}">
+                  <li>Literature assignments Help</li>
                  </a>
 
-                 <a href="{{route('services.show', 'marketing-essay')}}">
-                  <li>Marketing Essay Help</li>
+                 <a href="{{route('services.show', 'marketing-assignments')}}">
+                  <li>Marketing assignments Help</li>
                 </a>
-                 <a href="{{route('services.show', 'nursing-essay')}}">
-                  <li>Nursing Essay</li>
-                </a>
-
-                <a href="{{route('services.show', 'political-science-essay')}}">
-
-                  <li>Political Science Essay</li>
+                 <a href="{{route('services.show', 'nursing-assignments')}}">
+                  <li>Nursing assignments</li>
                 </a>
 
-                <a href="{{route('services.show', 'sociology-essay')}}">
+                <a href="{{route('services.show', 'political-science-assignments')}}">
 
-                  <li>Sociology Essay</li>
+                  <li>Political Science assignments</li>
+                </a>
+
+                <a href="{{route('services.show', 'sociology-assignments')}}">
+
+                  <li>Sociology assignments</li>
                 </a>
               </ul>
        </div>
@@ -111,7 +111,7 @@
 
                <a href="{{route('services.show', 'cover-letter-writing')}}">
 
-                   <li> Cover Letter Writing</li></a>  
+                   <li> Cover Letter Writing</li></a>
 
              <a href="{{route('services.show', 'cv-editing')}}">
 

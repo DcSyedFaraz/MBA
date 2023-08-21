@@ -1,6 +1,6 @@
 @extends('layouts.web')
 
-@section('title', 'Sitemap- 4Dollar Essay')
+@section('title', 'Sitemap- MBA Assignments')
 @section('description', '')
 @section('canonical', config('app.app_url') . Request::path() )
 @section('content')
@@ -11,10 +11,10 @@
     <h4 class="text-black text-lg text-center mb-5 lg:mb-10 ">Don't just get lost find your way here!
        <div class="containr flex flex-col md:flex-row justify-center md:space-x-10 ">
            <div class=" px-4 xl:px-8">
-               <h4 class="text-primary-one text-left my-3 text-lg xl:text-2xl md:mt-8 lg:mt-10">4 DOLLARESSAY</h4>
+               <h4 class="text-primary-one text-left my-3 text-lg xl:text-2xl md:mt-8 lg:mt-10">MBA Assignmentsassignments</h4>
            <ul class="text-red-500 text-base xl:text-lg text-left list-disc md:ml-10 mx-2">
 
-         <a href="{{route('services.show','admission-essay-writing')}}">
+         <a href="{{route('services.show','admission-assignments-writing')}}">
            <li> Admission Wrtiting</li>
         </a>
          <a href="{{route('services.show','article-writing')}}">
@@ -65,17 +65,17 @@
        <h4 class="text-primary-one text-left my-3 text-lg xl:text-2xl lg:mt-10 ">Some More Services</h4>
        <ul class="text-red-500 text-left text-base xl:text-lg list-disc md:ml-10 mx-2">
 
-             <a href="{{route('services.show', 'argumentative-essays')}}">
-             <li>Argumentative Essays</li></a>
+             <a href="{{route('services.show', 'argumentative-assignmentss')}}">
+             <li>Argumentative assignmentss</li></a>
 
-             <a href="{{route('services.show', 'descriptive-essays')}}">
-              <li>Descriptive Essays</li></a>
+             <a href="{{route('services.show', 'descriptive-assignmentss')}}">
+              <li>Descriptive assignmentss</li></a>
 
-            <a href="{{route('services.show', 'narrative-essays')}}">
-              <li> Narative Essays </li></a>
+            <a href="{{route('services.show', 'narrative-assignmentss')}}">
+              <li> Narative assignmentss </li></a>
 
-              <a href="{{route('services.show', 'personal-statement-essay')}}">
-              <li> Personal Statment Essays</li></a>
+              <a href="{{route('services.show', 'personal-statement-assignments')}}">
+              <li> Personal Statment assignmentss</li></a>
           </ul>
        </div>
        <div class="px-4 xl:px-14">
@@ -84,25 +84,25 @@
             </h4>
               <ul class="text-red-500 text-left list-disc md:ml-10 mx-2">
 
-              <a href="{{route('services.show', 'business-essay')}}">
-                 <li> Business Essay Help</li></a>
-                <a href="{{'literature-essay'}}">
-                  <li>Literature Essay Help</li>
+              <a href="{{route('services.show', 'business-assignments')}}">
+                 <li> Business assignments Help</li></a>
+                <a href="{{'literature-assignments'}}">
+                  <li>Literature assignments Help</li>
                  </a>
 
-                 <a href="{{route('services.show', 'marketing-essay')}}">
-                  <li>Marketing Essay Help</li>
+                 <a href="{{route('services.show', 'marketing-assignments')}}">
+                  <li>Marketing assignments Help</li>
                 </a>
-                 <a href="{{route('services.show', 'nursing-essay')}}">
-                  <li>Nursing Essay</li>
-                </a>
-
-                <a href="{{route('services.show', 'political-science-essay')}}">
-                  <li>Political Science Essay</li>
+                 <a href="{{route('services.show', 'nursing-assignments')}}">
+                  <li>Nursing assignments</li>
                 </a>
 
-                <a href="{{route('services.show', 'sociology-essay')}}">
-                  <li>Sociology Essay</li>
+                <a href="{{route('services.show', 'political-science-assignments')}}">
+                  <li>Political Science assignments</li>
+                </a>
+
+                <a href="{{route('services.show', 'sociology-assignments')}}">
+                  <li>Sociology assignments</li>
                 </a>
               </ul>
               <h4 class="text-primary-one text-lg xl:text-2xl my-3 text-left mt-5m lg:mt-10 ">Resume Writing Services</h4>

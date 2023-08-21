@@ -23,7 +23,7 @@
             </div>
 
             <div class="space-y-4 mx-auto text-center">
-                <a href="{{ route('revision') }}" class=" text-base lg:text-xl font-semibold text-white">HTML
+                <a href="{{ route('sitemap') }}" class=" text-base lg:text-xl font-semibold text-white">HTML
                     Sitemap</a>
 
             </div>
@@ -33,7 +33,7 @@
         <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-auto md:py-0 md:pb-5">
 
             <div class=" mx-auto text-center ">
-                <img src="{{ asset('imgs/footer-logo.png') }}" class="h-16">
+                <img alt="{{config('app.name')}}" src="{{ asset('imgs/footer-logo.png') }}" class="h-16">
             </div>
 
             <div class="space-y-4 mx-auto text-center">
@@ -132,12 +132,15 @@
             <p class="mx-6 text-base text-center sm:mx-0 sm:text-left text-white">
                 ©{{ now()->year }} All Rights Reserved. {{ config('app.name') }}
             </p>
-            <a
-                href="https://www.dmca.com/Protection/Status.aspx?ID=bfad670d-608f-4b5b-8574-0c1f15f94dcd&refurl=https://www.4dollaressay.com/services/">
-                <img src="{{ asset('imgs/dmca_protected_sml_120c.png') }}" class="h-7">
+            <a class="flex space-x-2">
+                <img alt="{{config('app.name')}}" src="{{ asset('images/payments/card1.png') }}" class="h-7">
+                <img alt="{{config('app.name')}}" src="{{ asset('images/payments/card2.png') }}" class="h-7">
+                <img alt="{{config('app.name')}}" src="{{ asset('images/payments/card3.png') }}" class="h-7">
+                <img alt="{{config('app.name')}}" src="{{ asset('images/payments/card4.png') }}" class="h-6 ">
+                <img alt="{{config('app.name')}}" src="{{ asset('images/payments/card7.png') }}" class="h-6 ">
+                <img alt="{{config('app.name')}}" src="{{ asset('images/payments/card6.png') }}" class="h-6 ">
             </a>
-            <div class="mx-4 sm:mx-0">
-                <img src="{{ asset('imgs/payment-methods.png') }}" class="h-6 ">
+            <div class="mx-4 flex sm:mx-0">
             </div>
         </div>
     </div>

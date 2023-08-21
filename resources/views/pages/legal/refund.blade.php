@@ -8,7 +8,7 @@
 
     <div class="container mx-auto ">
         <div class="px-10 py-8">
-            <h4 class=" text-2xl lg:text-4xl font-semibold  text-primary-one py-5 ">Refund Policy At $4 Essay
+            <h4 class=" text-2xl lg:text-4xl font-semibold  text-primary-one py-5 ">Refund Policy At MBA Assignments
             </h4>
 
             <p class="page-p text-sm md:text-lg">
@@ -39,7 +39,7 @@
             <li class="text-sm md:text-lg">
                 We always ensure that our students never fail in any of the subject or get failing marks. But due to some
                 reasons if it happens we do refund the 60% back, but for this authentic university report should be shared
-                with $4 essay.
+                with MBA Assignments.
 
             </li>
             <li class="text-sm md:text-lg">

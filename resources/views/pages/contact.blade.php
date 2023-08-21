@@ -12,7 +12,7 @@
             <a href="mailto:{{ $web_setting->email }}">
             <div class="bg-primary-one px-2  py-4 rounded-xl flex flex-row space-x-4 xl:space-x-1 ">
                 <img src="../imgs/email.png" class="h-14 ">
-                <span href="mailto:{{ $web_setting->email }}" class="text-white text-sm font-semibold my-auto xl:px-4 ">{{ $web_setting->email }}</span>
+                <span href="mailto:{{ $web_setting->email }}" class="text-white text-sm font-semibold my-auto ">{{ $web_setting->email }}</span>
             </div>
         </a>
         <a href="{{ $web_setting->contact }}">
@@ -22,10 +22,10 @@
             </div>
         </a>
 
-        <a href="{{ $web_setting->whatsapp_no }}">
+        <a href="https://api.whatsapp.com/send/?phone={{ $web_setting->whatsapp_no }}">
             <div class="bg-primary-one px-2 py-4 rounded-xl flex flex-row space-x-3">
                 <img src="../imgs/whatsapp.png" class="h-14 px-2">
-                <span href="{{ $web_setting->whatsapp_no }}" class="text-white text-base font-semibold my-auto">{{ $web_setting->contact }}</span>
+                <span href="{{ $web_setting->whatsapp_no }}" class="text-white text-base font-semibold my-auto">{{ $web_setting->whatsapp_no }}</span>
             </div>
         </a>
         </div>

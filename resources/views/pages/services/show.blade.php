@@ -120,7 +120,7 @@
 
        <div class="mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 sm:gap-x-[11rem] md:gap-x-[1rem] xl:gap-x-4 gap-y-5  my-8 w-full md:w-full  ">
            <div class="shadow-md shadow-primary-one md:mx-auto rounded-xl pr-[2rem] pl-2 md:pl-3 md:pr-3 lg:pr-[1rem]   2xl:pr-[1rem]  xl:pl-2">
-                 <a href="https://www.sitejabber.com/reviews/4dollaressay.com ">
+                 <a href="https://www.sitejabber.com/reviews/MBAAssignments.com ">
                <div class="flex items-center mt-2 sm:mt-4">
                    <img alt="profile" src="../imgs/sitejabbarimg.svg"
                        class="mx-2 sm:mx-auto rounded-full w-10 sm:w-8 md:w-10 mb-2 2xl:w-10 ">
@@ -186,7 +186,7 @@
            </div>
 
            <div class="shadow-md shadow-primary-one md:mx-auto rounded-xl pr-[3rem] pl-2 md:pl-3 md:pr-3 lg:pr-[1rem]  2xl:pr-[1rem] xl:pl-2 gap-5">
-                 <a href="https://www.trustpilot.com/review/4dollaressay.com">
+                 <a href="https://www.trustpilot.com/review/MBAAssignments.com">
                <div class="flex items-center mt-4">
                    <img alt="profil" src="../imgs/trustpilot.png"
                        class="mx-2 sm:mx-auto rounded-full w-10 sm:w-8 md:w-10 mb-2 2xl:w-10">
@@ -253,7 +253,7 @@
 
 
            <div class="shadow-md shadow-primary-one md:mx-auto rounded-xl pr-[3rem] pl-2 md:pl-3 md:pr-3 lg:pr-[1rem]  2xl:pr-[1rem] xl:pl-2 gap-5">
-               <a href="https://www.google.com/maps/place/4+Dollar+Essay/@29.7599004,-95.3661581,15z/data=!4m5!3m4!1s0x0:0xcfd30e0665a87a88!8m2!3d29.7599962!4d-95.3660717 ">
+               <a href="https://www.google.com/maps/place/4+Dollar+assignments/@29.7599004,-95.3661581,15z/data=!4m5!3m4!1s0x0:0xcfd30e0665a87a88!8m2!3d29.7599962!4d-95.3660717 ">
                <div class="flex items-center mt-4">
                    <img alt="profil" src="../imgs/google.png"
                        class="mx-2 sm:mx-auto rounded-full w-10 sm:w-8 md:w-10 mb-2 2xl:w-10">
@@ -320,7 +320,7 @@
            </div>
 
            <div  class="shadow-md shadow-primary-one md:mx-auto rounded-xl pr-[2rem] pl-2 md:pl-3 md:pr-3 lg:pl-2 lg:pr-2   2xl:pr-[1rem] xl:pl-2">
-            <a href="https://reviewsbank.org/cheap-essay-writing-services/ ">
+            <a href="https://reviewsbank.org/cheap-assignments-writing-services/ ">
            <div class="flex items-center mt-4 lg:mt-2">
                <img alt="profil" src="../imgs/bnkpic2.png"
                    class="mx-2 sm:mx-auto rounded-full w-12 sm:w-14 xl:w-16 2xl:w-16">

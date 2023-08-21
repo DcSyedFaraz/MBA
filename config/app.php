@@ -55,6 +55,7 @@ return [
 
     'url' => env('APP_URL', 'http://localhost'),
     'app_name' =>env('APP_NAME','Laravel') ,
+    'app_url' =>env('APP_URL'),
 
     'asset_url' => env('ASSET_URL', null),
     'mail_address' => env('MAIL_FROM_ADDRESS'),

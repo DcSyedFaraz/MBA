@@ -27,7 +27,8 @@
 
     <section class="container mx-auto xl:mt-14 ">
         @if (session('success'))
-            <div class="md:w-1/2 my-4 mx-auto bg-teal-100 border-t-4 border-teal-500 rounded-b text-teal-900 px-4 py-3 shadow-lg" role="alert">
+            <div class="md:w-1/2 my-4 mx-auto bg-teal-100 border-t-4 border-teal-500 rounded-b text-teal-900 px-4 py-3 shadow-lg"
+                role="alert">
                 <div class="flex">
                     <div class="py-1">
                         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
@@ -57,7 +58,8 @@
                             <select name="paper_type" id="paper_type"
                                 class="get-fare @error('paper_type') border-red-500 @enderror form-select mt-2 bg-white"
                                 onchange="copyDatad(this,'nspeakerVal')" value="{{ old('paper_type', '') }}">
-                                <option hidden="" value="0" disabled="" selected="">Select Type of Paper</option>
+                                <option hidden="" value="0" disabled="" selected="">Select Type of Paper
+                                </option>
                                 @foreach ($paper_types as $paper_type)
                                     <option {{ old('paper_type') == $paper_type->id ? 'selected' : '' }}
                                         value="{{ $paper_type->id }}">{{ $paper_type->name }}</option>
@@ -73,7 +75,8 @@
                             <div id="writer-level" class=" mt-2">
                                 <div class="btn-group grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5" role="group">
                                     @foreach ($academic_levels as $academic_level)
-                                        <button type="button" class="get-fare btn-group-item" onclick="copyData('{{ $academic_level->name }}', 'al');"
+                                        <button type="button" class="get-fare btn-group-item"
+                                            onclick="copyData('{{ $academic_level->name }}', 'al');"
                                             academic-level="{{ $academic_level->id }}">{{ $academic_level->name }}</button>
                                     @endforeach
                                 </div>
@@ -110,7 +113,8 @@
                                 <div class="btn-group grid grid-cols-1  md:grid-cols-3  xl:grid-cols-5  gap-2"
                                     role="group">
                                     @foreach ($reference_styles as $reference_style)
-                                        <button type="button" class="get-fare btn-group-item" onclick="copyData('{{ $reference_style->name }}', 'pf');"
+                                        <button type="button" class="get-fare btn-group-item"
+                                            onclick="copyData('{{ $reference_style->name }}', 'pf');"
                                             style="{{ $reference_style->name }}">{{ $reference_style->name }}</button>
                                     @endforeach
                                     <input type="hidden" name="reference_style" id="reference_style_id">
@@ -125,8 +129,9 @@
                             <div class="w-full">
                                 <label class="font-semibold text-base">Deadline*</label>
                                 <select id="deadline" name="deadline"
-                                    class="form-select  mt-2 get-fare @error('deadline') border-red-500 @enderror bg-white" >
-                                    <option hidden="" value="0" disabled="" selected="">Select Deadline</option>
+                                    class="form-select  mt-2 get-fare @error('deadline') border-red-500 @enderror bg-white">
+                                    <option hidden="" value="0" disabled="" selected="">Select Deadline
+                                    </option>
                                     @foreach ($deadlines as $deadline)
                                         <option {{ old('deadline') == $deadline->id ? 'selected' : '' }}
                                             value="{{ $deadline->id }}">{{ $deadline->name }}</option>
@@ -142,7 +147,8 @@
                                 <select name="number_of_pages" id="no_of_pages"
                                     class="get-fare @error('number_of_pages') border-red-500 @enderror form-select mt-2 bg-white"
                                     onchange="copyDatad(this,'nop');">
-                                    <option hidden="" value="0" disabled="" selected="">Select Number Of Pages</option>
+                                    <option hidden="" value="0" disabled="" selected="">Select Number Of
+                                        Pages</option>
                                     @for ($p = 1; $p <= 200; $p++)
                                         <option value="{{ $p }}"
                                             {{ old('number_of_pages') == $p ? 'selected' : '' }}>
@@ -155,16 +161,18 @@
                                 @enderror
                             </div>
 
-                             <div class="w-full">
+                            <div class="w-full">
                                 <label class="font-semibold text-base">Spacing*</label>
                                 <ul class=" grid grid-cols-2 gap-x-5 gap-y-4 mt-2 mx-auto">
                                     <li class=" relative">
-                                        <input class="sr-only peer" type="radio" name="answer" id="answer_1" value="Single" onclick="copyDatad(this,'sp');">
+                                        <input class="sr-only peer" type="radio" name="answer" id="answer_1"
+                                            value="Single" onclick="copyDatad(this,'sp');">
                                         <label class="form-radiobtn" for="answer_1">Single</label>
 
                                     </li>
                                     <li class="relative">
-                                        <input class="sr-only peer" type="radio" name="answer" id="answer_2" value="Double" onclick="copyDatad(this,'sp');">
+                                        <input class="sr-only peer" type="radio" name="answer" id="answer_2"
+                                            value="Double" onclick="copyDatad(this,'sp');">
                                         <label class="form-radiobtn" for="answer_2">Double</label>
 
                                     </li>
@@ -179,8 +187,7 @@
                                     <option hidden="" value="0" disabled="" selected="">No. of
                                         References</option>
                                     @for ($i = 1; $i <= 20; $i++)
-                                        <option value="{{ $i }}"
-                                            {{ old('style') == $i ? 'selected' : '' }}>
+                                        <option value="{{ $i }}" {{ old('style') == $i ? 'selected' : '' }}>
                                             {{ $i }} </option>
                                     @endfor
                                 </select>
@@ -252,7 +259,8 @@
 
                             <div class="justify-end text-center mt-4">
                                 <button class="mt-4">
-                                    <span id="btn-submit" class=" px-6 py-3 text-lg  text-white rounded-lg bg-primary-two ">
+                                    <span id="btn-submit"
+                                        class=" px-6 py-3 text-lg  text-white rounded-lg bg-primary-two ">
                                         Order Submit
                                     </span>
                                 </button>
@@ -336,8 +344,13 @@
                                                 0</span> AED</span></li></label>
                             </ul>
                         </div>
-                        <div class=" px-4 my-2 space-x-1 overflow-hidden ">
-                            <img class="h-10 mx-auto " src="../imgs/payments.png" alt="">
+                        <div class=" px-4 py-2 space-x-1 justify-between flex">
+                            <img src="{{ asset('images/payments/card1.png') }}" class="h-7">
+                            <img src="{{ asset('images/payments/card2.png') }}" class="h-7">
+                            <img src="{{ asset('images/payments/card3.png') }}" class="h-7">
+                            <img src="{{ asset('images/payments/card4.png') }}" class="h-6 ">
+                            <img src="{{ asset('images/payments/card7.png') }}" class="h-6 ">
+                            <img src="{{ asset('images/payments/card6.png') }}" class="h-6 sm:block hidden">
                         </div>
                     </div>
                 </div>
@@ -352,8 +365,6 @@
 
 @section('scripts')
     <script>
-
-
         $("#writer-level .btn-group[role='group'] button").on('click', function() {
             $(this).siblings().removeClass('btn-active')
             $(this).addClass('btn-active');
@@ -376,7 +387,7 @@
 
         function copyData(value, targ) {
 
-            console.log( value )
+            console.log(value)
 
             document.getElementById(targ).innerHTML = value
             document.getElementById(targ).parentElement.parentElement.parentElement.classList.remove("hidden");
@@ -386,7 +397,7 @@
         $(document).ready(function() {
             const phoneInputField = document.querySelector("#phone");
             const phoneInput = window.intlTelInput(phoneInputField, {
-                preferredCountries: ["us"],
+                preferredCountries: ["ae"],
                 utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
             });
 

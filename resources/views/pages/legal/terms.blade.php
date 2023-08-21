@@ -19,7 +19,7 @@
             </h4>
 
             <p class="page-p text-sm md:text-lg">
-                We sent your paper through email, so it is important an authentic and correct email address is provided to us. The time duration that will be given to $4 essay writing, the assignment will be provided on that particular date, it is requested to customers to show patience until then. It is requested to the customer that once they receive their paper or content they should go through it and reply back to us within 10 days for changes.
+                We sent your paper through email, so it is important an authentic and correct email address is provided to us. The time duration that will be given to MBA Assignments writing, the assignment will be provided on that particular date, it is requested to customers to show patience until then. It is requested to the customer that once they receive their paper or content they should go through it and reply back to us within 10 days for changes.
             </p>
 
             <h4 class=" text-2xl lg:text-4xl font-semibold  text-primary-one py-5 ">Quality Content & Copyrights
@@ -34,7 +34,7 @@
             </p>
 
             <p class="page-p text-sm md:text-lg">
-                At $4 Essay writing services our constant effort is to maintain the confidentiality of our customers. Our customers should be tension free about the privacy of their details and assignments as we are very strict on our rules.
+                At MBA Assignments writing services our constant effort is to maintain the confidentiality of our customers. Our customers should be tension free about the privacy of their details and assignments as we are very strict on our rules.
             </p>
 
 

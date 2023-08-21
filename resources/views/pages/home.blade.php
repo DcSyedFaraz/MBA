@@ -1,6 +1,6 @@
 @extends('layouts.web')
 
-@section('title', 'MBA Assignment Help UAE: MBA Project Writing Services Dubai')
+@section('title', 'MBA Assignment Help Dubai: MBA Project Writing Services UAE')
 @section('description',
     'Need MBA assignment Writing help in UAE? We offer the best MBA assignment writing services in
     Dubai by professional MBA Assignment writers.')
@@ -406,7 +406,7 @@
 
         <div
             class="mt-16 sm:mt-5 grid grid-cols-1 md:grid-cols-2 md:gap-x-10 lg:gap-x-32 gap-y-8 mx-[2rem] lg:mx-[6rem] xl:mx-[2rem] ">
-            <div class="bg-primary-three px-[0.5rem] md:px-8 py-[2rem] md:py-[2rem] lg:py-14 rounded-xl">
+            <div class="bg-primary-three border-black border px-[0.5rem] md:px-8 py-[2rem] md:py-[2rem] lg:py-14 rounded-xl">
                 <img alt="img" src="../imgs/Submit-Your-Requirements.png"
                     class=" bg-gradient-to-r from-[#cfe1f1] to-[#6ba5d3] rounded-xl h-[6rem] sm:h-[3.5rem] sm:mt-4 -mt-20 ml-[1rem] sm:-ml-[2rem] lg:h-28   md:mt-2   md:h-24 md:-ml-[4rem] lg:-ml-24 p-[0.5rem] md:p-6 absolute ">
                 <h4 class="text-black text-xl lg:text-2xl mb-2 mx-4 sm:ml-11 mt-10 sm:mt-0 ">Step # 1: Enter the Guidelines
@@ -414,10 +414,8 @@
                 <p class="text-black  text-sm xl:text-lg space-y-2 ml-11">To order an MBA assignment writing help, you must
                     fill out the form first, entering all the information about your assignments.</p>
             </div>
-            {{-- .-ml-12 {
-        margin-left: -3rem;
-      } --}}
-            <div class="mt-10 sm:mt-0 bg-primary-three px-[0.5rem] md:px-8 py-[2rem]  md:py-[2rem] lg:py-14  rounded-xl">
+
+            <div class="mt-10 sm:mt-0 bg-primary-three border-black border px-[0.5rem] md:px-8 py-[2rem]  md:py-[2rem] lg:py-14  rounded-xl">
                 <img alt="img" src="../imgs/Confirm-Order.png"
                     class=" bg-gradient-to-r from-[#d5ead7] to-[#76bd7e] rounded-xl h-[6rem] sm:h-[3.5rem] md:h-24 lg:h-28 -mt-16 sm:mt-4 md:mt-2 ml-[1rem] sm:-ml-[2rem] md:-ml-[4rem] lg:-ml-24 p-[0.5rem] md:p-6 absolute ">
                 <h4 class="text-black text-xl lg:text-2xl  mb-2  mx-4 sm:ml-11 mt-12 sm:mt-0">Step # 2: Click to Next</h4>
@@ -425,7 +423,7 @@
                     your order by clicking on “Next”. Your entered data will be explored, and an expert will be chosen.</p>
             </div>
 
-            <div class="mt-10 sm:mt-0 bg-primary-three px-[0.5rem] md:px-8 py-[2rem]  md:py-[2rem] lg:py-14  rounded-xl">
+            <div class="mt-10 sm:mt-0 bg-primary-three border-black border px-[0.5rem] md:px-8 py-[2rem]  md:py-[2rem] lg:py-14  rounded-xl">
                 <img alt="img" src="../imgs/Proceed-To-Payment.png"
                     class=" bg-gradient-to-r from-[#fbd4bf] to-[#f4935f] rounded-xl h-[6rem] sm:h-[3.5rem] md:h-24 lg:h-28 -mt-16 sm:mt-4 md:mt-2 ml-[1rem] sm:-ml-[2rem] md:-ml-[4rem] lg:-ml-24 p-[0.5rem] md:p-6 absolute  ">
                 <h4 class="text-black text-xl lg:text-2xl mb-2 mx-4 sm:ml-11 mt-12 sm:mt-0">Step # 3: Proceed to Payment
@@ -436,7 +434,7 @@
                 </p>
             </div>
 
-            <div class="mt-10 sm:mt-0 bg-primary-four px-[0.5rem] md:px-8 py-[2rem]  md:py-[2rem] lg:py-14  rounded-xl">
+            <div class="mt-10 sm:mt-0 bg-primary-three border-black border px-[0.5rem] md:px-8 py-[2rem]  md:py-[2rem] lg:py-14  rounded-xl">
                 <img alt="img" src="../imgs/Wait-For-Submission.png"
                     class=" bg-gradient-to-r from-[#eed1e6] to-[#ce7cb7] rounded-xl h-[6rem] sm:h-[3.5rem] md:h-24 lg:h-28 -mt-16 sm:mt-4 md:mt-2 ml-[1rem] sm:-ml-[2rem] md:-ml-[4rem] lg:-ml-24 p-[0.5rem] md:p-6 absolute  ">
                 <h4 class="text-black text-xl lg:text-2xl  mx-4 sm:ml-11 mt-12 sm:mt-0">Step # 4: Work in Process</h4>
@@ -489,7 +487,7 @@
             </div>
 
             <div class=" w-full sm:w-[75%] md:w-[50%] lg:w-[45%] xl:w-[35%] ">
-                <div class="py-2 px-9 border-4 rounded-xl border-primary-three bg-primary-box  md:p-4 ">
+                <div class="py-2 px-9 border-4 rounded-xl bg-primary-box  border-black md:p-4 ">
                     <p class="text-black text-2xl font-semibold text-center">Free Features</p>
 
                     <ul class="my-3 space-y-1 ">
@@ -668,7 +666,7 @@
 
         <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 xl:grid-cols-3 gap-0 mt-5">
             <div class=" border-0 px-9 md:border-r-4 pr-2 border-b-4  border-primary-one md:p-4">
-                <a href="{{ route('services.show', 'term-papers') }}">
+                <a href="#">
                     <h5 class="text-primary-two font-bold text-xl md:text-2xl pb-3 pt-2">Business Intelligence:</h5>
                 </a>
 
@@ -680,7 +678,7 @@
             </div>
 
             <div class=" border-0 px-9  border-b-4   md:border-r-4  border-primary-one md:p-4">
-                <a href="{{ route('services.show', 'assignment-writing') }}">
+                <a href="#">
                     <h5 class="text-primary-two font-bold text-xl md:text-2xl pb-3  pt-2">Business Management: </h5>
                 </a>
 
@@ -695,7 +693,7 @@
             </div>
 
             <div class=" border-0 px-9  sm:px-14 border-b-4  border-primary-one md:p-4">
-                <a href="{{ route('services.show', 'coursework-writing') }}">
+                <a href="#">
                     <h5 class="text-primary-two font-bold text-xl md:text-2xl pb-3 pt-2">Business Environment: </h5>
                 </a>
                 <p class="text-gray-900 text-base mb-4">
@@ -709,7 +707,7 @@
             </div>
 
             <div class=" border-0 px-9  sm:px-14 md:border-r-4 border-b-4  border-primary-one md:p-4">
-                <a href="{{ route('services.show', 'dissertation-writing') }}">
+                <a href="#">
                     <h5 class="text-primary-two font-bold text-xl md:text-2xl pb-3 lg:pt-6 pt-2 xl:pt-2">Business
                         Communication: </h5>
                 </a>
@@ -721,7 +719,7 @@
             </div>
 
             <div class=" border-0 px-9  sm:px-14 md:border-r-4 border-b-4  border-primary-one md:p-4">
-                <a href="{{ route('services.show', 'homework-writing') }}">
+                <a href="#">
                     <h5 class="text-primary-two font-bold text-xl md:text-2xl pb-3 lg:pt-6 pt-2 xl:pt-2">Business
                         Administration:
                     </h5>
@@ -737,7 +735,7 @@
             </div>
 
             <div class=" border-0 px-9  sm:px-14 border-b-4  border-primary-one md:p-4">
-                <a href="{{ route('services.show', 'presentation-designing') }}">
+                <a href="#">
                     <h5 class="text-primary-two font-bold text-xl md:text-2xl pb-3  lg:pt-6 pt-2 xl:pt-2">Marketing:</h5>
                 </a>
                 <p class="text-gray-900 text-base mb-4">
@@ -751,7 +749,7 @@
             </div>
 
             <div class=" border-0 px-9 border-b-4 sm:px-14 md:border-b-0 md:border-r-4 md:p-4 border-primary-one">
-                <a href="{{ route('services.show', 'research-paper') }}">
+                <a href="#">
                     <h5 class="text-primary-two font-bold text-xl md:text-2xl pb-3 lg:pt-6 pt-2 xl:pt-2">Finance:
                     </h5>
                 </a>
@@ -763,7 +761,7 @@
             </div>
 
             <div class="border-0 px-9 border-b-4 sm:px-14 md:border-b-0 md:border-r-4 border-primary-one md:p-4">
-                <a href="{{ route('services.show', 'admission-essay-writing') }}">
+                <a href="#">
                     <h5 class="text-primary-two font-bold text-xl md:text-2xl py-3 lg:pt-6 pt-2 xl:pt-2">Human Resource
                         Management:
                     </h5>
@@ -776,7 +774,7 @@
             </div>
 
             <div class=" border-0 px-9 sm:px-14 md:p-4">
-                <a href="{{ route('services.show', 'case-study') }}">
+                <a href="#">
                     <h5 class="text-primary-two font-bold text-xl md:text-2xl py-3 lg:pt-6 pt-2 xl:pt-2">Customer
                         Relationship Management:
                     </h5>
@@ -788,11 +786,11 @@
             </div>
 
         </div>
-        <div class="flex justify-center items-center mt-5">
+        {{-- <div class="flex justify-center items-center mt-5">
             <a href={{ route('reviews') }} class="btn bg-primary-one">
                 View all Reviews
             </a>
-        </div>
+        </div> --}}
     </section>
 
 
@@ -859,12 +857,13 @@
                     <div target-data="5"
                         class="divbutton cursor-pointer border-black border-2 bg-primary-next4 w-[95%] md:w-[50%]  px-8 lg:px-2 py-4 rounded-xl flex flex-row ">
                         <img alt="img" src="../imgs/settings.png" class="h-14">
-                        <p class="text-black text-sm md:text-[15px] ml-2 font-semibold  cursor-pointer">Dedication to a Friendly Environment</p>
+                        <p class="text-black text-sm md:text-[15px] ml-2 font-semibold  cursor-pointer">Dedication to a
+                            Friendly Environment</p>
                     </div>
                 </div>
             </div>
             <div id='colors'
-                class="px-8 py-2 border-black border-2 h-[100%] rounded-xl my-auto w-[87%] sm:w-[75%] md:w-[75%] lg:w-[50%] xl:w-full mx-auto ">
+                class="px-8 py-2 border-black border-2 h-[35rem] rounded-xl my-auto w-[87%] sm:w-[75%] md:w-[75%] lg:w-[50%] xl:w-full mx-auto ">
                 <h4 id='title' class="text-black text-center text-xl lg:text-3xl font-semibold py-4">
                 </h4>
                 <p id='content' class="text-black text-center md:text-primary text-base xl:text-lg"></p>
@@ -894,7 +893,7 @@
                     <div class=" px-3 md:px-1 w-full md:w-1/2 lg:w-1/4  mb-3">
                         <label class="text-red-500 text-sm lg:text-base ml-3 block">My Topic</label>
                         <select name="paper_type"
-                            class="@error('paper_type')  @enderror  placeholder-black w-full text-gray-700 shadow-xl rounded-full border-2 border-primary-three bg-white  focus:border-blue-600 focus:ring-2 focus:ring-purple-200 text-base h-10 outline-none  px-3 leading-8 transition-colors duration-200 ease-in-out"
+                            class="@error('paper_type')  @enderror  placeholder-black w-full text-gray-700 shadow-xl rounded-full border-2 border-black bg-white  focus:border-blue-600 focus:ring-2 focus:ring-purple-200 text-base h-10 outline-none  px-3 leading-8 transition-colors duration-200 ease-in-out"
                             value="{{ old('paper_type', '') }}">
                             @foreach ($paper_types as $paper_type)
                                 <option {{ old('paper_type') == $paper_type->id ? 'selected' : '' }}
@@ -907,14 +906,14 @@
                     <div class="px-3 md:px-1 w-full md:w-1/2 lg:w-1/4  mb-3">
                         <label class="text-red-500 text-sm lg:text-base ml-3  block">My Email</label>
                         <input type="text"
-                            class=" @error('email')  @enderror placeholder-black w-full text-gray-700 shadow-xl rounded-full border-2 border-primary-three bg-white  focus:border-blue-600 focus:ring-2 focus:ring-purple-200 text-base h-10 outline-none py-2 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                            class=" @error('email')  @enderror placeholder-black w-full text-gray-700 shadow-xl rounded-full border-2 border-black bg-white  focus:border-blue-600 focus:ring-2 focus:ring-purple-200 text-base h-10 outline-none py-2 px-3 leading-8 transition-colors duration-200 ease-in-out"
                             name="email" placeholder="Example@gmail.com" value="{{ old('email') }}">
                     </div>
 
                     <div class="px-3 md:px-1 w-full md:w-1/2 lg:w-1/4  mb-3">
                         <label class="text-red-500 text-sm lg:text-base ml-3  block">My Number</label>
                         <input type="tel" name="Phone" id="phone" type="tel"
-                            class="@error('phone')  @enderror  placeholder-black w-full text-gray-700 shadow-xl rounded-full border-2 border-primary-three bg-white focus:border-blue-600
+                            class="@error('phone')  @enderror  placeholder-black w-full text-gray-700 shadow-xl rounded-full border-2 border-black bg-white focus:border-blue-600
                             focus:ring-2 focus:ring-purple-200 text-base h-10 outline-none py-2 px-3 leading-8 transition-colors duration-200 ease-in-out"
                             placeholder="Contact Number" value="{{ old('phone') }}"
                             oninput="this.value=this.value.replace(/[^0-9\+]/g,'');" autocomplete="off"
@@ -971,14 +970,15 @@
         <div class="w-[85%]  container mx-auto mt-2 swiper mySwiper">
             <div class="mb-5 swiper-wrapper ">
                 <div class="swiper-slide ">
-                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three ">
+                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three border-black border ">
                         <div class="mb-2">
                             <ul class="my-6 space-y-5 text-sm text-black ">
                                 <li class="space-x-3"><span>Order: #2474528</span> <span class=" float-right">Pages:
                                         17</span></li>
                             </ul>
                             <p class="mb-2 text-center text-sm text-black italic">
-                                "Incredibly glad that I avail the MBA assignment help. I received my completed assignment timely."
+                                "Incredibly glad that I avail the MBA assignment help. I received my completed assignment
+                                timely."
                             </p>
                             <div class="flex flex-col items-center justify-center ">
                                 {{-- <div class="w-12 h-12 overflow-hidden bg-white border-2 border-indigo-100 rounded-full">
@@ -990,14 +990,15 @@
                     </div>
                 </div>
                 <div class="swiper-slide ">
-                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three ">
+                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three border-black border ">
                         <div class="mb-2">
                             <ul class="my-6 space-y-5 text-sm text-black ">
                                 <li class="space-x-3"><span>Order: #2748375</span> <span class=" float-right">Pages:
                                         15</span></li>
                             </ul>
                             <p class="mb-2 text-center text-sm text-black italic ">
-                                "I really appreciate the work of assignment experts. Looking forward to availing their help in future as well." </p>
+                                "I really appreciate the work of assignment experts. Looking forward to availing their help
+                                in future as well." </p>
                             <div class="flex flex-col items-center justify-center ">
                                 <p class="my-3 text-center text-sm text-black ">Domain: Marketing</p>
                             </div>
@@ -1005,14 +1006,15 @@
                     </div>
                 </div>
                 <div class="swiper-slide ">
-                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three ">
+                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three border-black border ">
                         <div class="mb-2">
                             <ul class="my-6 space-y-5 text-sm text-black ">
                                 <li class="space-x-3"><span>Order: #2649832</span> <span class=" float-right">Pages:
                                         23</span></li>
                             </ul>
                             <p class="mb-2 text-center text-sm text-black italic ">
-                                I was quite anxious about my assignment, but luckily I contacted this platform, and they provided me with such a fantastic service. Thank you!" </p>
+                                I was quite anxious about my assignment, but luckily I contacted this platform, and they
+                                provided me with such a fantastic service. Thank you!" </p>
                             <div class="flex flex-col items-center justify-center ">
                                 <p class="my-1 text-center text-sm text-black ">Domain: Business Management</p>
                             </div>
@@ -1020,14 +1022,15 @@
                     </div>
                 </div>
                 <div class="swiper-slide ">
-                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three ">
+                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three border-black border ">
                         <div class="mb-2">
                             <ul class="my-6 space-y-5 text-sm text-black ">
                                 <li class="space-x-3"><span>Order: #2638392</span> <span class=" float-right">Pages:
                                         8</span></li>
                             </ul>
                             <p class="mb-2 text-center text-sm text-black italic">
-                                "I am genuinely grateful for the mind-blowing work this platform’s experts delivered. Highly recommended."
+                                "I am genuinely grateful for the mind-blowing work this platform’s experts delivered. Highly
+                                recommended."
                             </p>
                             <div class="flex flex-col items-center justify-center ">
 
@@ -1037,14 +1040,15 @@
                     </div>
                 </div>
                 <div class="swiper-slide ">
-                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three ">
+                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three border-black border ">
                         <div class="mb-2">
                             <ul class="my-6 space-y-5 text-sm text-black ">
                                 <li class="space-x-3"><span>Order: #2648439</span> <span class=" float-right">Pages:
                                         20</span></li>
                             </ul>
                             <p class="mb-2 text-center text-sm text-black italic ">
-                                "What an excellent platform for students. The experts are very well-trained and deliver their best work within the deadlines. Highly appreciated!"
+                                "What an excellent platform for students. The experts are very well-trained and deliver
+                                their best work within the deadlines. Highly appreciated!"
                             </p>
                             <div class="flex flex-col items-center justify-center ">
                                 <p class="my-4 text-center text-sm text-black ">Domain: Business Communication</p>
@@ -1053,14 +1057,15 @@
                     </div>
                 </div>
                 <div class="swiper-slide ">
-                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three ">
+                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three border-black border ">
                         <div class="mb-2">
                             <ul class="my-6 space-y-5 text-sm text-black ">
                                 <li class="space-x-3"><span>Order: #2548439</span> <span class=" float-right">Pages:
                                         27</span></li>
                             </ul>
                             <p class="mb-2 text-center text-sm text-black italic ">
-                                "Fully satisfied with the brilliant work of the experts. I received my completed assignment with up-to-the-mark quality."
+                                "Fully satisfied with the brilliant work of the experts. I received my completed assignment
+                                with up-to-the-mark quality."
                             </p>
                             <div class="flex flex-col items-center justify-center ">
                                 <p class="my-6 text-center text-sm text-black ">Domain: Business administration</p>
@@ -1069,30 +1074,34 @@
                     </div>
                 </div>
                 <div class="swiper-slide ">
-                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three ">
+                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three border-black border ">
                         <div class="mb-2">
                             <ul class="my-6 space-y-5 text-sm text-black ">
                                 <li class="space-x-3"><span>Order: #2389390</span> <span class=" float-right">Pages:
                                         23</span></li>
                             </ul>
                             <p class="mb-2 text-center text-sm text-black ">
-                                "I was worried about my assignment, but then I explored this platform. It is still hard for me to believe that the experts completed my assignment at such cheap prices."
+                                "I was worried about my assignment, but then I explored this platform. It is still hard for
+                                me to believe that the experts completed my assignment at such cheap prices."
                             </p>
                             <div class="flex flex-col items-center justify-center ">
-                                <p class="my-1 text-center text-sm text-black ">Domain: Customer Relationship Management</p>
+                                <p class="my-1 text-center text-sm text-black ">Domain: Customer Relationship Management
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide ">
-                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three ">
+                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three border-black border ">
                         <div class="mb-2">
                             <ul class="my-6 space-y-5 text-sm text-black ">
                                 <li class="space-x-3"><span>Order: #2763823</span> <span class=" float-right">Pages:
                                         19</span></li>
                             </ul>
                             <p class="mb-2 text-center text-sm text-black ">
-                                "My friend recommended this platform, and initially, I thought it was a scam. To my surprise, this platform delivers such genuine help, and every student must avail this opportunity."
+                                "My friend recommended this platform, and initially, I thought it was a scam. To my
+                                surprise, this platform delivers such genuine help, and every student must avail this
+                                opportunity."
                             </p>
                             <div class="flex flex-col items-center justify-center ">
                                 <p class="my-6 text-center text-sm text-black ">Domain: Business Management</p>
@@ -1116,7 +1125,7 @@
         <p class="heading-primary text-center py-8">We are here to Answer Your Queries</p>
 
         <div class=" px-2 space-y-5">
-            <div class="content border-2 border-primary-three rounded" data-no="0">
+            <div class="content border-2 border-black rounded" data-no="0">
                 <div class="questions cursor-pointer flex p-3 font-bold text-primary-one mb-1 active" data-no="0">
                     <div class="heading w-3/4">
                         <p class=" md:text-xl text-base md:font-semibold"> How can I trust this platform?</p>
@@ -1125,22 +1134,27 @@
                         <i class="fa fa-minus-square text-2xl"></i>
                     </div>
                 </div>
-                <p class="openSlide primary-para  pb-3 px-4" id="openSlide0">It is a registered platform that guarantees feasibility to the students by doing their MBA paper writing assignments in better quality. Furthermore, your personal information and data will be confidential.</p>
+                <p class="openSlide primary-para  pb-3 px-4" id="openSlide0">It is a registered platform that guarantees
+                    feasibility to the students by doing their MBA paper writing assignments in better quality. Furthermore,
+                    your personal information and data will be confidential.</p>
             </div>
 
-            <div class="content border-2 border-primary-three rounded" data-no="1">
+            <div class="content border-2 border-black rounded" data-no="1">
                 <div class="questions cursor-pointer flex p-3 font-bold text-primary-one mb-1 active" data-no="1">
                     <div class="heading w-3/4 ">
-                        <p class=" md:text-xl text-base md:font-semibold">Can I avail myself of cheap MBA project writing services?</p>
+                        <p class=" md:text-xl text-base md:font-semibold">Can I avail myself of cheap MBA project writing
+                            services?</p>
                     </div>
                     <div class="icons w-1/4 text-right">
                         <i class="fa fa-plus-square text-2xl"></i>
                     </div>
                 </div>
-                <p class="openSlide primary-para pb-3 px-4" id="openSlide1" style="display: none;">Of course, you will find the MBA project writing service within your financial range. Our experts explore your entered data, and your charges are confirmed as per your requirements.</p>
+                <p class="openSlide primary-para pb-3 px-4" id="openSlide1" style="display: none;">Of course, you will
+                    find the MBA project writing service within your financial range. Our experts explore your entered data,
+                    and your charges are confirmed as per your requirements.</p>
             </div>
 
-            <div class="content border-2 border-primary-three rounded" data-no="2">
+            <div class="content border-2 border-black rounded" data-no="2">
                 <div class="questions cursor-pointer flex p-3 font-bold text-primary-one mb-1 active" data-no="2">
                     <div class="heading w-3/4 ">
                         <p class=" md:text-xl text-base md:font-semibold">Are the experts well-trained?</p>
@@ -1149,10 +1163,12 @@
                         <i class="fa fa-plus-square text-2xl"></i>
                     </div>
                 </div>
-                <p class="openSlide primary-para pb-3 px-4" id="openSlide2" style="display: none;">Yes, the experts are highly skilled in their respective domains to deliver quality MBA assignment help that reaches your demands.</p>
+                <p class="openSlide primary-para pb-3 px-4" id="openSlide2" style="display: none;">Yes, the experts are
+                    highly skilled in their respective domains to deliver quality MBA assignment help that reaches your
+                    demands.</p>
             </div>
 
-            <div class="content border-2 border-primary-three rounded" data-no="3">
+            <div class="content border-2 border-black rounded" data-no="3">
                 <div class="questions cursor-pointer flex p-3 font-bold text-primary-one mb-1 active" data-no="3">
                     <div class="heading w-3/4 ">
                         <p class=" md:text-xl text-base md:font-semibold">Is the platform available in Dubai only?</p>
@@ -1161,10 +1177,12 @@
                         <i class="fa fa-plus-square text-2xl"></i>
                     </div>
                 </div>
-                <p class="openSlide primary-para pb-3 px-4" id="openSlide3" style="display: none;">Our online MBA assignment help is spread all over the UAE. So, you can avail of the MBA project writing service anywhere in UAE.</p>
+                <p class="openSlide primary-para pb-3 px-4" id="openSlide3" style="display: none;">Our online MBA
+                    assignment help is spread all over the UAE. So, you can avail of the MBA project writing service
+                    anywhere in UAE.</p>
             </div>
 
-            <div class="content border-2 border-primary-three rounded" data-no="4">
+            <div class="content border-2 border-black rounded" data-no="4">
                 <div class="questions cursor-pointer flex p-3 font-bold text-primary-one mb-1 active" data-no="4">
                     <div class="heading w-3/4 ">
                         <p class=" md:text-xl text-base md:font-semibold">Are the experts trustworthy?</p>
@@ -1174,10 +1192,11 @@
                     </div>
                 </div>
                 <p class="openSlide primary-para pb-3 px-4" id="openSlide2" style="display: none;">
-                    Our MBA paper writing experts make sure to deliver their best work by maintaining the quality of it. It is certain that you will find your assignment per your expectations. So you can easily trust them.</p>
+                    Our MBA paper writing experts make sure to deliver their best work by maintaining the quality of it. It
+                    is certain that you will find your assignment per your expectations. So you can easily trust them.</p>
             </div>
 
-            <div class="content border-2 border-primary-three rounded" data-no="5">
+            <div class="content border-2 border-black rounded" data-no="5">
                 <div class="questions cursor-pointer flex p-3 font-bold text-primary-one mb-1 active" data-no="5">
                     <div class="heading w-3/4 ">
                         <p class=" md:text-xl text-base md:font-semibold">Can I get a discount?</p>
@@ -1187,7 +1206,8 @@
                     </div>
                 </div>
                 <p class="openSlide primary-para pb-3 px-4" id="openSlide2" style="display: none;">
-                    Our MBA assignment service is highly reasonable and comes under the students' range. However, you can also get a discount if you order your work in bulk.
+                    Our MBA assignment service is highly reasonable and comes under the students' range. However, you can
+                    also get a discount if you order your work in bulk.
                 </p>
             </div>
 

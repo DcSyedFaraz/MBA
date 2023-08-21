@@ -9,11 +9,11 @@
 
         <div class="container mx-auto ">
             <div class="px-2 py-8">
-                <h1 class=" text-xl lg:text-3xl font-semibold  text-primary-one py-5 ">Providing Custom Essay Services At Best Prices
+                <h1 class=" text-xl lg:text-3xl font-semibold  text-primary-one py-5 ">Providing Custom assignments Services At Best Prices
                 </h1>
 
                 <p class="page-p text-base ">
-                    We at $4 Essay Writing service making the life easy of students since years. We have a team of writers who have passion for writing. We provide the broad range of writing services from basic essay writing to dissertation writing services. We cover it all for you. Our writers are native English speaker, having knowledge in varieties of topic.
+                    We at MBA Assignments Writing service making the life easy of students since years. We have a team of writers who have passion for writing. We provide the broad range of writing services from basic assignments writing to dissertation writing services. We cover it all for you. Our writers are native English speaker, having knowledge in varieties of topic.
                 </p>
 
                     <h1 class=" text-xl lg:text-3xl font-semibold  text-primary-one py-5 ">Objectives
@@ -24,7 +24,7 @@
                     </li>
 
                   </ul>
-                        <h1 class=" text-xl lg:text-3xl  font-semibold  text-primary-one py-5 ">$4 Essay A Trusted Company
+                        <h1 class=" text-xl lg:text-3xl  font-semibold  text-primary-one py-5 ">MBA Assignments A Trusted Company
                         </h1>
                         <ul class="list-disc page-p px-5 text-base">
                             <li>
