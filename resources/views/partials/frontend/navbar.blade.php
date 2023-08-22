@@ -129,13 +129,13 @@
             class="flex-col flex-grow pb-4 lg:pb-0 hidden lg:flex lg:justify-center lg:flex-row">
             <a href="{{ route('home') }}"
                 class="block font-semibold text-base hover:text-primary-two py-2 px-1 lg:px-2 xl:px-2">Home</a>
-                <a href="{{ route('about') }}"
+            <a href="{{ route('about') }}"
                 class="block font-semibold text-base hover:text-primary-two py-2 px-1 lg:px-2 ">About us</a>
             <ul class="flex toggleable  md:block">
                 <li
                     class="md:block hidden group dropdown mt-[0.5rem] text-black hover:text-green-500  cursor-pointer font-bold text-base  tracking-wide">
 
-                    <a href="#" class="  md:mx-2 lg:mx-0 xl:mx-2 " for="toggle-one">Services</a>
+                    {{-- <a href="#" class="  md:mx-2 lg:mx-0 xl:mx-2 " for="toggle-one">Services</a>
                     <div class="group-hover:block dropdown-menu  hidden bg-green-500  ">
                         <div role="toggle"
                             class="toggle-input group-hover:block hidden hover:text-white mega-menu z-10 sm:mb-0  bg-primary-two ">
@@ -177,17 +177,16 @@
                                                 Papers</a>
                                         </li>
                                     </ul> --}}
-                                </div>
+                                {{-- </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}} 
                 </li>
             </ul>
 
             @if (!empty($services))
-                <div @click.away="open = false" class="block md:hidden relative" x-data="{ open: false }">
-                    <button @click="open = !open"
-                        class="block font-semibold py-2 hover:text-primary-one ">
+                <div @click.away="open = false" class=" relative" x-data="{ open: false }">
+                    <button @click="open = !open" class="block font-semibold py-2 hover:text-primary-one ">
                         <span>Services</span>
                         <svg fill="currentColor" viewBox="0 0 20 20" :class="{ 'rotate-180': open, 'rotate-0': !open }"
                             class="inline w-4 h-4 transition-transform duration-200 transform rotate-0">
@@ -206,9 +205,9 @@
                         :class="{ 'hidden': !open }" style="display: none;">
                         <div class="px-2 py-2 bg-primary-one rounded-md shadow">
 
-                                <a href="{{ route('essay') }}"
-                                    class="block px-4 py-2 mt-2 text-sm text-white font-semibold bg-transparent rounded-lg md:mt-0 hover:text-gray-200 focus:text-gray-300 ">MBA
-                                    Essay</a>
+                            <a href="{{ route('essay') }}"
+                                class="block px-4 py-2 mt-2 text-sm text-white font-semibold bg-transparent rounded-lg md:mt-0 hover:text-gray-200 focus:text-gray-300 ">MBA
+                                Essay</a>
 
                             @foreach ($services as $service)
                                 <a class="block px-4 py-2 mt-2 text-sm text-white font-semibold bg-transparent rounded-lg md:mt-0 hover:text-gray-200 focus:text-gray-300 "

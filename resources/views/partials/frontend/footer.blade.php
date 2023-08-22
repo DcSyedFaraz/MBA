@@ -45,7 +45,7 @@
                             class="fa fa-instagram text-white"></i></a>
                     <a href="{{ $web_setting->twitter_link }}" class="text-4xl"><i
                             class="fa fa-twitter text-white"></i></a>
-                    <a href="{{ $web_setting->whatsapp_no }}" class="text-4xl"><i
+                    <a href="https://api.whatsapp.com/send/?phone={{ $web_setting->whatsapp_no }}" class="text-4xl"><i
                             class="fa fa-whatsapp text-white"></i></a>
                 </div>
             </div>
@@ -159,7 +159,7 @@
             }
         </style>
         <div title="WhatsApp us" style="display:flex;justify-content:center;align-items:center;">
-            <a href="{{ $web_setting->whatsapp_no }}" target="_blank">
+            <a href="https://api.whatsapp.com/send/?phone={{ $web_setting->whatsapp_no }}" target="_blank">
                 <div class="ctc-analytics ht_ctc_padding"
                     style="background-color: #25D366;padding: 6px;border-radius: 50%;box-shadow: 0px 0px 11px rgba(0,0,0,.5);">
                     <svg style="pointer-events:none; display:block; height:40px; width:40px;" width="40px"
