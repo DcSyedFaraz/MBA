@@ -667,7 +667,7 @@
         <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 xl:grid-cols-3 gap-0 mt-5">
             <div class=" border-0 px-9 md:border-r-4 pr-2 border-b-4  border-primary-one md:p-4">
                 <a href="#">
-                    <h5 class="text-primary-two font-bold text-xl md:text-2xl pb-3 pt-2">Business Intelligence:</h5>
+                    <h5 class="text-blue-600 font-bold text-xl md:text-2xl pb-3 pt-2">Business Intelligence:</h5>
                 </a>
 
                 <p class="text-gray-900 text-base mb-4">
@@ -679,7 +679,7 @@
 
             <div class=" border-0 px-9  border-b-4   md:border-r-4  border-primary-one md:p-4">
                 <a href="#">
-                    <h5 class="text-primary-two font-bold text-xl md:text-2xl pb-3  pt-2">Business Management: </h5>
+                    <h5 class="text-blue-600 font-bold text-xl md:text-2xl pb-3  pt-2">Business Management: </h5>
                 </a>
 
                 <p class="text-gray-900 text-base mb-4">
@@ -694,7 +694,7 @@
 
             <div class=" border-0 px-9  sm:px-14 border-b-4  border-primary-one md:p-4">
                 <a href="#">
-                    <h5 class="text-primary-two font-bold text-xl md:text-2xl pb-3 pt-2">Business Environment: </h5>
+                    <h5 class="text-blue-600 font-bold text-xl md:text-2xl pb-3 pt-2">Business Environment: </h5>
                 </a>
                 <p class="text-gray-900 text-base mb-4">
                     Business Environment deals with the study of external sources that can affect the planning and decisions
@@ -708,7 +708,7 @@
 
             <div class=" border-0 px-9  sm:px-14 md:border-r-4 border-b-4  border-primary-one md:p-4">
                 <a href="#">
-                    <h5 class="text-primary-two font-bold text-xl md:text-2xl pb-3 lg:pt-6 pt-2 xl:pt-2">Business
+                    <h5 class="text-blue-600 font-bold text-xl md:text-2xl pb-3 lg:pt-6 pt-2 xl:pt-2">Business
                         Communication: </h5>
                 </a>
                 <p class="text-gray-900 text-base mb-4">
@@ -720,7 +720,7 @@
 
             <div class=" border-0 px-9  sm:px-14 md:border-r-4 border-b-4  border-primary-one md:p-4">
                 <a href="#">
-                    <h5 class="text-primary-two font-bold text-xl md:text-2xl pb-3 lg:pt-6 pt-2 xl:pt-2">Business
+                    <h5 class="text-blue-600 font-bold text-xl md:text-2xl pb-3 lg:pt-6 pt-2 xl:pt-2">Business
                         Administration:
                     </h5>
                 </a>
@@ -736,7 +736,7 @@
 
             <div class=" border-0 px-9  sm:px-14 border-b-4  border-primary-one md:p-4">
                 <a href="#">
-                    <h5 class="text-primary-two font-bold text-xl md:text-2xl pb-3  lg:pt-6 pt-2 xl:pt-2">Marketing:</h5>
+                    <h5 class="text-blue-600 font-bold text-xl md:text-2xl pb-3  lg:pt-6 pt-2 xl:pt-2">Marketing:</h5>
                 </a>
                 <p class="text-gray-900 text-base mb-4">
                     Marketing deals with the study of strategies, activities, and planning businesses use to promote their
@@ -750,7 +750,7 @@
 
             <div class=" border-0 px-9 border-b-4 sm:px-14 md:border-b-0 md:border-r-4 md:p-4 border-primary-one">
                 <a href="#">
-                    <h5 class="text-primary-two font-bold text-xl md:text-2xl pb-3 lg:pt-6 pt-2 xl:pt-2">Finance:
+                    <h5 class="text-blue-600 font-bold text-xl md:text-2xl pb-3 lg:pt-6 pt-2 xl:pt-2">Finance:
                     </h5>
                 </a>
                 <p class="text-gray-900 text-base mb-4">
@@ -762,7 +762,7 @@
 
             <div class="border-0 px-9 border-b-4 sm:px-14 md:border-b-0 md:border-r-4 border-primary-one md:p-4">
                 <a href="#">
-                    <h5 class="text-primary-two font-bold text-xl md:text-2xl py-3 lg:pt-6 pt-2 xl:pt-2">Human Resource
+                    <h5 class="text-blue-600 font-bold text-xl md:text-2xl py-3 lg:pt-6 pt-2 xl:pt-2">Human Resource
                         Management:
                     </h5>
                 </a>
@@ -775,7 +775,7 @@
 
             <div class=" border-0 px-9 sm:px-14 md:p-4">
                 <a href="#">
-                    <h5 class="text-primary-two font-bold text-xl md:text-2xl py-3 lg:pt-6 pt-2 xl:pt-2">Customer
+                    <h5 class="text-blue-600 font-bold text-xl md:text-2xl py-3 lg:pt-6 pt-2 xl:pt-2">Customer
                         Relationship Management:
                     </h5>
                 </a>
@@ -863,7 +863,7 @@
                 </div>
             </div>
             <div id='colors'
-                class="px-8 py-2 border-black border-2 h-[35rem] rounded-xl my-auto w-[87%] sm:w-[75%] md:w-[75%] lg:w-[50%] xl:w-full mx-auto ">
+                class="px-8 py-2 border-black border-2 sm:h-[35rem] rounded-xl my-auto w-[87%] sm:w-[75%] md:w-[75%] lg:w-[50%] xl:w-full mx-auto ">
                 <h4 id='title' class="text-black text-center text-xl lg:text-3xl font-semibold py-4">
                 </h4>
                 <p id='content' class="text-black text-center md:text-primary text-base xl:text-lg"></p>

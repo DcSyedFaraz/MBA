@@ -756,6 +756,16 @@ video {
   margin-bottom: auto;
 }
 
+.my-\[5rem\] {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.my-\[3rem\] {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
 .-ml-12 {
   margin-left: -3rem;
 }
@@ -1014,6 +1024,10 @@ video {
   height: 32rem;
 }
 
+.h-\[35rem\] {
+  height: 35rem;
+}
+
 .h-\[4\.5rem\] {
   height: 4.5rem;
 }
@@ -1028,14 +1042,6 @@ video {
 
 .h-full {
   height: 100%;
-}
-
-.h-\[2rem\] {
-  height: 2rem;
-}
-
-.h-\[35rem\] {
-  height: 35rem;
 }
 
 .max-h-full {
@@ -1140,11 +1146,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-fit {
-  width: -moz-fit-content;
-  width: fit-content;
 }
 
 .min-w-full {
@@ -1787,11 +1788,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
 .bg-gradient-to-l {
   background-image: linear-gradient(to left, var(--tw-gradient-stops));
 }
@@ -2304,6 +2300,11 @@ video {
 .text-yellow-500 {
   --tw-text-opacity: 1;
   color: rgb(234 179 8 / var(--tw-text-opacity));
+}
+
+.text-blue-500 {
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity));
 }
 
 .placeholder-black::-moz-placeholder {
@@ -3025,6 +3026,10 @@ video {
 
   .sm\:h-\[3\.5rem\] {
     height: 3.5rem;
+  }
+
+  .sm\:h-\[35rem\] {
+    height: 35rem;
   }
 
   .sm\:w-14 {

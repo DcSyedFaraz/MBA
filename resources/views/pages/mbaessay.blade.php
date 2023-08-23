@@ -3,7 +3,7 @@
 @section('title', 'MBA Essay Help: Ace MBA Essay Writing Service in UAE')
 @section('description',
     'Looking for MBA essay writing help in Dubai, UAE? Get Assistance from team of expert MBA essay writers who can handle any MBA essay topic and level.')
-@section('canonical', config('app.app_url'))
+@section('canonical', config('app.app_url') . Request::path())
 @section('content')
 
 
@@ -403,7 +403,7 @@
 
         <div
             class="mt-16 sm:mt-5 grid grid-cols-1 md:grid-cols-2 md:gap-x-10 lg:gap-x-32 gap-y-8 mx-[2rem] lg:mx-[6rem] xl:mx-[2rem] ">
-            <div class="bg-primary-three px-[0.5rem] md:px-8 py-[2rem] md:py-[2rem] lg:py-14 rounded-xl">
+            <div class="bg-primary-three border-black border px-[0.5rem] md:px-8 py-[2rem] md:py-[2rem] lg:py-14 rounded-xl">
                 <img alt="img" src="../imgs/Submit-Your-Requirements.png"
                     class=" bg-gradient-to-r from-[#cfe1f1] to-[#6ba5d3] rounded-xl h-[6rem] sm:h-[3.5rem] sm:mt-4 -mt-20 ml-[1rem] sm:-ml-[2rem] lg:h-28   md:mt-2   md:h-24 md:-ml-[4rem] lg:-ml-24 p-[0.5rem] md:p-6 absolute ">
                 <h4 class="text-black text-xl lg:text-2xl mb-2 mx-4 sm:ml-11 mt-10 sm:mt-0 ">Step # 1: Fill out the form
@@ -415,7 +415,7 @@
             {{-- .-ml-12 {
         margin-left: -3rem;
       } --}}
-            <div class="mt-10 sm:mt-0 bg-primary-three px-[0.5rem] md:px-8 py-[2rem]  md:py-[2rem] lg:py-14  rounded-xl">
+            <div class="mt-10 sm:mt-0 bg-primary-three border-black border px-[0.5rem] md:px-8 py-[2rem]  md:py-[2rem] lg:py-14  rounded-xl">
                 <img alt="img" src="../imgs/Confirm-Order.png"
                     class=" bg-gradient-to-r from-[#d5ead7] to-[#76bd7e] rounded-xl h-[6rem] sm:h-[3.5rem] md:h-24 lg:h-28 -mt-16 sm:mt-4 md:mt-2 ml-[1rem] sm:-ml-[2rem] md:-ml-[4rem] lg:-ml-24 p-[0.5rem] md:p-6 absolute ">
                 <h4 class="text-black text-xl lg:text-2xl  mb-2  mx-4 sm:ml-11 mt-12 sm:mt-0">Step # 2: Confirm the order
@@ -425,7 +425,7 @@
                     your requirements.</p>
             </div>
 
-            <div class="mt-10 sm:mt-0 bg-primary-three px-[0.5rem] md:px-8 py-[2rem]  md:py-[2rem] lg:py-14  rounded-xl">
+            <div class="mt-10 sm:mt-0 bg-primary-three border-black border px-[0.5rem] md:px-8 py-[2rem]  md:py-[2rem] lg:py-14  rounded-xl">
                 <img alt="img" src="../imgs/Proceed-To-Payment.png"
                     class=" bg-gradient-to-r from-[#fbd4bf] to-[#f4935f] rounded-xl h-[6rem] sm:h-[3.5rem] md:h-24 lg:h-28 -mt-16 sm:mt-4 md:mt-2 ml-[1rem] sm:-ml-[2rem] md:-ml-[4rem] lg:-ml-24 p-[0.5rem] md:p-6 absolute  ">
                 <h4 class="text-black text-xl lg:text-2xl mb-2 mx-4 sm:ml-11 mt-12 sm:mt-0">Step # 3: Proceed to Payment
@@ -436,7 +436,7 @@
                 </p>
             </div>
 
-            <div class="mt-10 sm:mt-0 bg-primary-four px-[0.5rem] md:px-8 py-[2rem]  md:py-[2rem] lg:py-14  rounded-xl">
+            <div class="mt-10 sm:mt-0 bg-primary-three border-black border px-[0.5rem] md:px-8 py-[2rem]  md:py-[2rem] lg:py-14  rounded-xl">
                 <img alt="img" src="../imgs/Wait-For-Submission.png"
                     class=" bg-gradient-to-r from-[#eed1e6] to-[#ce7cb7] rounded-xl h-[6rem] sm:h-[3.5rem] md:h-24 lg:h-28 -mt-16 sm:mt-4 md:mt-2 ml-[1rem] sm:-ml-[2rem] md:-ml-[4rem] lg:-ml-24 p-[0.5rem] md:p-6 absolute  ">
                 <h4 class="text-black text-xl lg:text-2xl  mx-4 sm:ml-11 mt-12 sm:mt-0">Step # 4: Sit Back and Relax</h4>
@@ -488,7 +488,7 @@
             </div>
 
             <div class=" w-full sm:w-[75%] md:w-[50%] lg:w-[45%] xl:w-[35%] ">
-                <div class="py-2 px-9 border-4 rounded-xl border-primary-three bg-primary-box  md:p-4 ">
+                <div class="py-2 px-9 rounded-xl border-black border bg-primary-box  md:p-4 ">
                     <p class="text-black text-2xl font-semibold text-center">Free Features</p>
 
                     <ul class="my-3 space-y-1 ">
@@ -666,8 +666,8 @@
 
         <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 xl:grid-cols-3 gap-0 mt-5">
             <div class=" border-0 px-9 md:border-r-4 pr-2 border-b-4  border-primary-one md:p-4">
-                <a href="">
-                    <h5 class="text-primary-two font-bold text-xl md:text-2xl pb-3 pt-2">Narrative Essay</h5>
+                <a href="#">
+                    <h5 class="text-blue-600 font-bold text-xl md:text-2xl pb-3 pt-2">Narrative Essay</h5>
                 </a>
 
                 <p class="text-gray-900 text-base mb-4">
@@ -677,8 +677,8 @@
             </div>
 
             <div class=" border-0 px-9  border-b-4   md:border-r-4  border-primary-one md:p-4">
-                <a href="">
-                    <h5 class="text-primary-two font-bold text-xl md:text-2xl pb-3  pt-2">Persuasive Essay</h5>
+                <a href="#">
+                    <h5 class="text-blue-600 font-bold text-xl md:text-2xl pb-3  pt-2">Persuasive Essay</h5>
                 </a>
 
                 <p class="text-gray-900 text-base mb-4">
@@ -691,8 +691,8 @@
             </div>
 
             <div class=" border-0 px-9  sm:px-14 border-b-4  border-primary-one md:p-4">
-                <a href="{{ route('services.show', 'coursework-writing') }}">
-                    <h5 class="text-primary-two font-bold text-xl md:text-2xl pb-3 pt-2">Compare and Contrast Essay</h5>
+                <a href="#">
+                    <h5 class="text-blue-600 font-bold text-xl md:text-2xl pb-3 pt-2">Compare and Contrast Essay</h5>
                 </a>
                 <p class="text-gray-900 text-base mb-4">
                     No need to stress about the compare and contrast essay anymore, as our essay writing professionals are
@@ -705,8 +705,8 @@
             </div>
 
             <div class=" border-0 px-9  sm:px-14 md:border-r-4 border-b-4  border-primary-one md:p-4">
-                <a href="{{ route('services.show', 'dissertation-writing') }}">
-                    <h5 class="text-primary-two font-bold text-xl md:text-2xl pb-3 lg:pt-6 pt-2 xl:pt-2">Descriptive Essay
+                <a href="#">
+                    <h5 class="text-blue-600 font-bold text-xl md:text-2xl pb-3 lg:pt-6 pt-2 xl:pt-2">Descriptive Essay
                     </h5>
                 </a>
                 <p class="text-gray-900 text-base mb-4">
@@ -717,8 +717,8 @@
             </div>
 
             <div class=" border-0 px-9  sm:px-14 md:border-r-4 border-b-4  border-primary-one md:p-4">
-                <a href="{{ route('services.show', 'homework-writing') }}">
-                    <h5 class="text-primary-two font-bold text-xl md:text-2xl pb-3 lg:pt-6 pt-2 xl:pt-2">Argumentative
+                <a href="#">
+                    <h5 class="text-blue-600 font-bold text-xl md:text-2xl pb-3 lg:pt-6 pt-2 xl:pt-2">Argumentative
                         Essay
                     </h5>
                 </a>
@@ -732,8 +732,8 @@
             </div>
 
             <div class=" border-0 px-9  sm:px-14 border-b-4  border-primary-one md:p-4">
-                <a href="{{ route('services.show', 'presentation-designing') }}">
-                    <h5 class="text-primary-two font-bold text-xl md:text-2xl pb-3  lg:pt-6 pt-2 xl:pt-2">Critical Essay
+                <a href="#">
+                    <h5 class="text-blue-600 font-bold text-xl md:text-2xl pb-3  lg:pt-6 pt-2 xl:pt-2">Critical Essay
                     </h5>
                 </a>
                 <p class="text-gray-900 text-base mb-4">
@@ -746,8 +746,8 @@
             </div>
 
             <div class=" border-0 px-9 border-b-4 sm:px-14 md:border-b-0 md:border-r-4 md:p-4 border-primary-one">
-                <a href="{{ route('services.show', 'research-paper') }}">
-                    <h5 class="text-primary-two font-bold text-xl md:text-2xl pb-3 lg:pt-6 pt-2 xl:pt-2">Definition Essay
+                <a href="#">
+                    <h5 class="text-blue-600 font-bold text-xl md:text-2xl pb-3 lg:pt-6 pt-2 xl:pt-2">Definition Essay
                     </h5>
                 </a>
                 <p class="text-gray-900 text-base mb-4">
@@ -757,8 +757,8 @@
             </div>
 
             <div class="border-0 px-9 border-b-4 sm:px-14 md:border-b-0 md:border-r-4 border-primary-one md:p-4">
-                <a href="{{ route('services.show', 'admission-essay-writing') }}">
-                    <h5 class="text-primary-two font-bold text-xl md:text-2xl py-3 lg:pt-6 pt-2 xl:pt-2">Humorous Essay
+                <a href="#">
+                    <h5 class="text-blue-600 font-bold text-xl md:text-2xl py-3 lg:pt-6 pt-2 xl:pt-2">Humorous Essay
                     </h5>
                 </a>
                 <p class="text-gray-900 text-base mb-4">
@@ -769,8 +769,8 @@
             </div>
 
             <div class=" border-0 px-9 sm:px-14 md:p-4">
-                <a href="{{ route('services.show', 'case-study') }}">
-                    <h5 class="text-primary-two font-bold text-xl md:text-2xl py-3 lg:pt-6 pt-2 xl:pt-2">Expository Essay
+                <a href="#">
+                    <h5 class="text-blue-600 font-bold text-xl md:text-2xl py-3 lg:pt-6 pt-2 xl:pt-2">Expository Essay
                     </h5>
                 </a>
                 <p class="text-gray-900 text-base mb-4">
@@ -781,11 +781,11 @@
             </div>
 
         </div>
-        <div class="flex justify-center items-center mt-5">
+        {{-- <div class="flex justify-center items-center mt-5">
             <a href={{ route('reviews') }} class="btn bg-primary-one">
                 View all Reviews
             </a>
-        </div>
+        </div> --}}
     </section>
 
 
@@ -879,7 +879,7 @@
                     <div class=" px-3 md:px-1 w-full md:w-1/2 lg:w-1/4  mb-3">
                         <label class="text-red-500 text-sm lg:text-base ml-3 block">My Topic</label>
                         <select name="paper_type"
-                            class="@error('paper_type')  @enderror  placeholder-black w-full text-gray-700 shadow-xl rounded-full border-2 border-primary-three bg-white  focus:border-blue-600 focus:ring-2 focus:ring-purple-200 text-base h-10 outline-none  px-3 leading-8 transition-colors duration-200 ease-in-out"
+                            class="@error('paper_type')  @enderror  placeholder-black w-full text-gray-700 shadow-xl rounded-full border-2 border-black bg-white  focus:border-blue-600 focus:ring-2 focus:ring-purple-200 text-base h-10 outline-none  px-3 leading-8 transition-colors duration-200 ease-in-out"
                             value="{{ old('paper_type', '') }}">
                             @foreach ($paper_types as $paper_type)
                                 <option {{ old('paper_type') == $paper_type->id ? 'selected' : '' }}
@@ -892,14 +892,14 @@
                     <div class="px-3 md:px-1 w-full md:w-1/2 lg:w-1/4  mb-3">
                         <label class="text-red-500 text-sm lg:text-base ml-3  block">My Email</label>
                         <input type="text"
-                            class=" @error('email')  @enderror placeholder-black w-full text-gray-700 shadow-xl rounded-full border-2 border-primary-three bg-white  focus:border-blue-600 focus:ring-2 focus:ring-purple-200 text-base h-10 outline-none py-2 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                            class=" @error('email')  @enderror placeholder-black w-full text-gray-700 shadow-xl rounded-full border-2 border-black bg-white  focus:border-blue-600 focus:ring-2 focus:ring-purple-200 text-base h-10 outline-none py-2 px-3 leading-8 transition-colors duration-200 ease-in-out"
                             name="email" placeholder="Example@gmail.com" value="{{ old('email') }}">
                     </div>
 
                     <div class="px-3 md:px-1 w-full md:w-1/2 lg:w-1/4  mb-3">
                         <label class="text-red-500 text-sm lg:text-base ml-3  block">My Contact</label>
                         <input type="tel" name="Phone" id="phone" type="tel"
-                            class="@error('phone')  @enderror  placeholder-black w-full text-gray-700 shadow-xl rounded-full border-2 border-primary-three bg-white focus:border-blue-600
+                            class="@error('phone')  @enderror  placeholder-black w-full text-gray-700 shadow-xl rounded-full border-2 border-black bg-white focus:border-blue-600
                             focus:ring-2 focus:ring-purple-200 text-base h-10 outline-none py-2 px-3 leading-8 transition-colors duration-200 ease-in-out"
                             placeholder="Contact Number" value="{{ old('phone') }}"
                             oninput="this.value=this.value.replace(/[^0-9\+]/g,'');" autocomplete="off"
@@ -956,7 +956,7 @@
         <div class="w-[85%]  container mx-auto mt-2 swiper mySwiper">
             <div class="mb-5 swiper-wrapper ">
                 <div class="swiper-slide ">
-                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three ">
+                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three border border-black ">
                         <div class="mb-2">
                             <ul class="my-6 space-y-5 text-sm text-black ">
                                 <li class="space-x-3"><span>Order: #1584327</span> <span class=" float-right">Pages:
@@ -975,7 +975,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide ">
-                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three ">
+                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three border border-black ">
                         <div class="mb-2">
                             <ul class="my-6 space-y-5 text-sm text-black ">
                                 <li class="space-x-3"><span>Order: #1538437</span> <span class=" float-right">Pages:
@@ -990,7 +990,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide ">
-                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three ">
+                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three border border-black ">
                         <div class="mb-2">
                             <ul class="my-6 space-y-5 text-sm text-black ">
                                 <li class="space-x-3"><span>Order: #1638493</span> <span class=" float-right">Pages:
@@ -1005,7 +1005,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide ">
-                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three ">
+                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three border border-black ">
                         <div class="mb-2">
                             <ul class="my-6 space-y-5 text-sm text-black ">
                                 <li class="space-x-3"><span>Order: #1523749</span> <span class=" float-right">Pages:
@@ -1022,7 +1022,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide ">
-                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three ">
+                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three border border-black ">
                         <div class="mb-2">
                             <ul class="my-6 space-y-5 text-sm text-black ">
                                 <li class="space-x-3"><span>Order: #1523700</span> <span class=" float-right">Pages:
@@ -1038,7 +1038,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide ">
-                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three ">
+                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three border border-black ">
                         <div class="mb-2">
                             <ul class="my-6 space-y-5 text-sm text-black ">
                                 <li class="space-x-3"><span>Order: #1632833</span> <span class=" float-right">Pages:
@@ -1054,7 +1054,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide ">
-                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three ">
+                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three border border-black ">
                         <div class="mb-2">
                             <ul class="my-6 space-y-5 text-sm text-black ">
                                 <li class="space-x-3"><span>Order: #1627382</span> <span class=" float-right">Pages:
@@ -1070,7 +1070,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide ">
-                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three ">
+                    <div class="p-4 text-gray-800 rounded-2xl shadow-md bg-primary-three border border-black ">
                         <div class="mb-2">
                             <ul class="my-6 space-y-5 text-sm text-black ">
                                 <li class="space-x-3"><span>Order: #1525387</span> <span class=" float-right">Pages:
@@ -1101,7 +1101,7 @@
         <p class="heading-primary text-center py-8">Feel Free to ask any Question. We are here to Answer</p>
 
         <div class=" px-2 space-y-5">
-            <div class="content border-2 border-primary-three rounded" data-no="0">
+            <div class="content border-2 border-black rounded" data-no="0">
                 <div class="questions cursor-pointer flex p-3 font-bold text-primary-one mb-1 active" data-no="0">
                     <div class="heading w-3/4">
                         <p class=" md:text-xl text-base md:font-semibold">1. Can I trust this platform?</p>
@@ -1113,7 +1113,7 @@
                 <p class="openSlide primary-para  pb-3 px-4" id="openSlide0">Yes! It is a registered online platform, especially launched for students to get rid of the overwhelming burden of assigned essays. It is our responsibility to keep customers’ information confidential.</p>
             </div>
 
-            <div class="content border-2 border-primary-three rounded" data-no="1">
+            <div class="content border-2 border-black rounded" data-no="1">
                 <div class="questions cursor-pointer flex p-3 font-bold text-primary-one mb-1 active" data-no="1">
                     <div class="heading w-3/4 ">
                         <p class=" md:text-xl text-base md:font-semibold">2. How can I avail the cheap essay service?</p>
@@ -1125,7 +1125,7 @@
                 <p class="openSlide primary-para pb-3 px-4" id="openSlide1" style="display: none;">You will be served with pocket-friendly essay help by ordering from our essay expert. When you enter the guidelines of your essay in the form, our experts will go through that information and inform you of the cost according to your required data.</p>
             </div>
 
-            <div class="content border-2 border-primary-three rounded" data-no="2">
+            <div class="content border-2 border-black rounded" data-no="2">
                 <div class="questions cursor-pointer flex p-3 font-bold text-primary-one mb-1 active" data-no="2">
                     <div class="heading w-3/4 ">
                         <p class=" md:text-xl text-base md:font-semibold">3. Are the experts qualified enough?</p>
@@ -1137,7 +1137,7 @@
                 <p class="openSlide primary-para pb-3 px-4" id="openSlide2" style="display: none;">Yes! We hire skilled experts to ensure a satisfying and quality service to our students. Therefore, you can trust them with your essays.</p>
             </div>
 
-            <div class="content border-2 border-primary-three rounded" data-no="3">
+            <div class="content border-2 border-black rounded" data-no="3">
                 <div class="questions cursor-pointer flex p-3 font-bold text-primary-one mb-1 active" data-no="3">
                     <div class="heading w-3/4 ">
                         <p class=" md:text-xl text-base md:font-semibold">4. Do you take orders from Dubai only?</p>
@@ -1149,7 +1149,7 @@
                 <p class="openSlide primary-para pb-3 px-4" id="openSlide3" style="display: none;">Our online service is open to all students worldwide. We believe all the students should have some rest from the overwhelming assignments.</p>
             </div>
 
-            <div class="content border-2 border-primary-three rounded" data-no="4">
+            <div class="content border-2 border-black rounded" data-no="4">
                 <div class="questions cursor-pointer flex p-3 font-bold text-primary-one mb-1 active" data-no="4">
                     <div class="heading w-3/4 ">
                         <p class=" md:text-xl text-base md:font-semibold">5. Can I rely on the expert for my essay requirements?</p>
@@ -1162,7 +1162,7 @@
                     Of course! The fulfilment of your requirements is our priority, and the experts are proficient enough in their craft to fulfil all your requirements in the given time.</p>
             </div>
 
-            <div class="content border-2 border-primary-three rounded" data-no="5">
+            <div class="content border-2 border-black rounded" data-no="5">
                 <div class="questions cursor-pointer flex p-3 font-bold text-primary-one mb-1 active" data-no="5">
                     <div class="heading w-3/4 ">
                         <p class=" md:text-xl text-base md:font-semibold">6. Do you offer a discount?</p>
@@ -1275,7 +1275,7 @@
                     },
                     success: function(res) {
 
-                        console.log(res)
+                        // console.log(res)
 
                         $('#msg-bag').empty();
 
@@ -1440,7 +1440,7 @@
         });
 
         var divButtons = document.getElementsByClassName('divbutton');
-        console.log(divButtons);
+        // console.log(divButtons);
 
         for (let i = 0; i < divButtons.length; i++) {
             let colordiv;
@@ -1453,7 +1453,7 @@
 
 
             var tabInfo = this == window ? 0 : this.getAttribute('target-data');
-            console.log(tabInfo);
+            // console.log(tabInfo);
             document.getElementById("title").innerHTML = guarantee[tabInfo].title;
             document.getElementById("content").innerHTML = guarantee[tabInfo].content;
             document.getElementById('colors').style.backgroundColor = guarantee[tabInfo].colordiv;
